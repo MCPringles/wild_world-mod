@@ -1,0 +1,27 @@
+{
+  "_fv": 6,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "topaz_pickaxe",
+    "customModelName": "Normal",
+    "name": "Topaz Pickaxe",
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 3,
+    "efficiency": 8.0,
+    "attackSpeed": 1.2,
+    "enchantability": 10,
+    "damageVsEntity": 3.5,
+    "usageCount": 1561,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:TopazItem"
+      }
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "_fv": 6,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "starmor_head",
+    "enableBody": true,
+    "textureBody": "starmor_body",
+    "enableLeggings": true,
+    "textureLeggings": "starmor_leggings",
+    "enableBoots": true,
+    "textureBoots": "starmor_boots",
+    "onHelmetTick": {
+      "name": "DiamondStarmorHelmetTickEvent"
+    },
+    "onBodyTick": {
+      "name": "DiamondStarmorBodyTickEvent"
+    },
+    "onLeggingsTick": {
+      "name": "DiamondStarmorLeggingsTickEvent"
+    },
+    "onBootsTick": {
+      "name": "DiamondStarmorBootsTickEvent"
+    },
+    "creativeTab": {
+      "value": "CUSTOM:StarTechnology"
+    },
+    "armorTextureFile": "starmor",
+    "helmetName": "Stellar Diamond Helmet",
+    "bodyName": "Stellar Diamond Chestplate",
+    "leggingsName": "Stellar Diamond Leggings",
+    "bootsName": "Stellar Diamond Boots",
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 40,
+    "damageValueHelmet": 8,
+    "damageValueBody": 24,
+    "damageValueLeggings": 20,
+    "damageValueBoots": 8,
+    "enchantability": 9,
+    "toughness": 3.9999999999999996,
+    "equipSound": {
+      "value": "block.beacon.activate"
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:StarDiamond"
+      }
+    ]
+  }
+}

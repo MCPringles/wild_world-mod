@@ -1,0 +1,17 @@
+{
+  "_fv": 6,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "diskricochet",
+    "name": "Music Disc",
+    "description": "C418 - Droopy Likes Ricochet",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "music": {
+      "value": "CUSTOM:records.droopyricochet"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

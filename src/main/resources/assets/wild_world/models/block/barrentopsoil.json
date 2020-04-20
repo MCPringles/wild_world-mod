@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "wild_world:blocks/barrendirt",
+    "up": "wild_world:blocks/barrentopsoiltop",
+    "north": "wild_world:blocks/barrentopsoil",
+    "east": "wild_world:blocks/barrentopsoil",
+    "south": "wild_world:blocks/barrentopsoil",
+    "west": "wild_world:blocks/barrentopsoil",
+    "particle": "wild_world:blocks/barrendirt"
+  }
+}

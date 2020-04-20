@@ -1,0 +1,16 @@
+{
+  "group": "wild_world",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "wild_world:rubyblock"
+    }
+  },
+  "result": {
+    "item": "wild_world:rubyitem",
+    "count": 9
+  }
+}

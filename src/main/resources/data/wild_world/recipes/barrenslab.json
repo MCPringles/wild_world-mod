@@ -1,0 +1,22 @@
+{
+  "group": "wild_world",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "wild_world:barrenbrick"
+    },
+    "1": {
+      "item": "wild_world:barrenbrick"
+    },
+    "2": {
+      "item": "wild_world:barrenbrick"
+    }
+  },
+  "result": {
+    "item": "wild_world:barrenbrickslab",
+    "count": 6
+  }
+}

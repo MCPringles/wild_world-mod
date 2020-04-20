@@ -1,0 +1,9 @@
+{
+  "parent": "wild_world:custom/waterfoliage2",
+  "textures": {
+    "all": "wild_world:blocks/waterfoliage3",
+    "particle": "wild_world:blocks/waterfoliage3",
+    "2": "wild_world:blocks/waterfoliage3",
+    "3": "wild_world:blocks/waterfoliage2"
+  }
+}

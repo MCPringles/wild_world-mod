@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "wild_world:block/smoothrichstoneslab"
+    },
+    "type=top": {
+      "model": "wild_world:block/smoothrichstoneslab_top"
+    },
+    "type=double": {
+      "model": "wild_world:block/smoothrichstoneslab_full"
+    }
+  }
+}

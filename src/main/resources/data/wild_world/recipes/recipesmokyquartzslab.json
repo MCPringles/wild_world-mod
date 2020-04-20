@@ -1,0 +1,22 @@
+{
+  "group": "wild_world",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "wild_world:smokeyquartzblock"
+    },
+    "1": {
+      "item": "wild_world:smokeyquartzblock"
+    },
+    "2": {
+      "item": "wild_world:smokeyquartzblock"
+    }
+  },
+  "result": {
+    "item": "wild_world:smokeyquartzslab",
+    "count": 6
+  }
+}

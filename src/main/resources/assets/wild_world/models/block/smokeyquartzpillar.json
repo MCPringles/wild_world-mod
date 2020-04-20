@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "wild_world:blocks/smokeypillartop",
+    "up": "wild_world:blocks/smokeypillartop",
+    "north": "wild_world:blocks/smokypillarside",
+    "east": "wild_world:blocks/smokypillarside",
+    "south": "wild_world:blocks/smokypillarside",
+    "west": "wild_world:blocks/smokypillarside",
+    "particle": "wild_world:blocks/smokeypillartop"
+  }
+}

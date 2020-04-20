@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "wild_world:blocks/starpillartop",
+    "up": "wild_world:blocks/starpillartop",
+    "north": "wild_world:blocks/starpillar",
+    "east": "wild_world:blocks/starpillar",
+    "south": "wild_world:blocks/starpillar",
+    "west": "wild_world:blocks/starpillar",
+    "particle": "wild_world:blocks/starpillartop"
+  }
+}

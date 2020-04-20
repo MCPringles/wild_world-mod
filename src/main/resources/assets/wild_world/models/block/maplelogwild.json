@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "wild_world:blocks/maplelogtop",
+    "up": "wild_world:blocks/maplelogtop",
+    "north": "wild_world:blocks/maplewild",
+    "east": "wild_world:blocks/maplewild",
+    "south": "wild_world:blocks/maplewild",
+    "west": "wild_world:blocks/maplewild",
+    "particle": "wild_world:blocks/maplelogtop"
+  }
+}

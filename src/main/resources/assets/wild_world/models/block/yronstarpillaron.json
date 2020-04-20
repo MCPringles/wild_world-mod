@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "wild_world:blocks/yronstarpillaron3",
+    "up": "wild_world:blocks/yronstarpillaron4",
+    "north": "wild_world:blocks/yronstarpillartopon",
+    "east": "wild_world:blocks/yronstarboxsideon2",
+    "south": "wild_world:blocks/yronstarpillartopon",
+    "west": "wild_world:blocks/yronstarpillarsideon",
+    "particle": "wild_world:blocks/yronstarpillaron3"
+  }
+}

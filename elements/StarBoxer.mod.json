@@ -1,0 +1,105 @@
+{
+  "_fv": 6,
+  "_type": "mob",
+  "definition": {
+    "mobName": "Star Boxer",
+    "mobLabel": "",
+    "mobModelTexture": "starboxer.png",
+    "mobModelName": "modelcustom_model",
+    "modelWidth": 0.5,
+    "modelHeight": 0.6,
+    "modelShadowSize": 0.2,
+    "armorBaseValue": 0.0,
+    "hasSpawnEgg": true,
+    "spawnEggBaseColor": {
+      "value": -5131855,
+      "falpha": 0.0
+    },
+    "spawnEggDotColor": {
+      "value": -16769025,
+      "falpha": 0.0
+    },
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "isBoss": false,
+    "bossBarColor": "PINK",
+    "bossBarType": "PROGRESS",
+    "equipmentMainHand": {
+      "value": ""
+    },
+    "equipmentOffHand": {
+      "value": ""
+    },
+    "equipmentHelmet": {
+      "value": ""
+    },
+    "equipmentBody": {
+      "value": ""
+    },
+    "equipmentLeggings": {
+      "value": ""
+    },
+    "equipmentBoots": {
+      "value": ""
+    },
+    "mobBehaviourType": "Mob",
+    "mobCreatureType": "UNDEFINED",
+    "attackStrength": 2,
+    "movementSpeed": 0.3,
+    "trackingRange": 64,
+    "health": 8,
+    "xpAmount": 3,
+    "waterMob": false,
+    "flyingMob": false,
+    "disableCollisions": false,
+    "ridable": false,
+    "canControlForward": false,
+    "canControlStrafe": false,
+    "immuneToFire": false,
+    "immuneToArrows": false,
+    "immuneToFallDamage": true,
+    "immuneToCactus": false,
+    "immuneToDrowning": false,
+    "immuneToLightning": true,
+    "immuneToPotions": true,
+    "immuneToPlayer": false,
+    "mobDrop": {
+      "value": "CUSTOM:BluestoneItem"
+    },
+    "livingSound": {
+      "value": ""
+    },
+    "hurtSound": {
+      "value": ""
+    },
+    "deathSound": {
+      "value": "block.anvil.land"
+    },
+    "spawnParticles": true,
+    "particleToSpawn": {
+      "value": "FIREWORKS_SPARK"
+    },
+    "particleSpawningShape": "Top",
+    "particleSpawningRadious": 0.20000000149011612,
+    "particleAmount": 3,
+    "particleSpawningCondition": "ALWAYS",
+    "hasAI": true,
+    "aiBase": "Blaze",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"follow_item_in_hands\"><field name=\"speed\">1</field><field name=\"scared\">FALSE</field><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:BluestoneItem</field></block></value><next><block type=\"attack_entity\"><field name=\"insight\">FALSE</field><field name=\"nearby\">TRUE</field><field name=\"entity\">EntityPlayerMP</field><next><block type=\"attack_entity\"><field name=\"insight\">FALSE</field><field name=\"nearby\">TRUE</field><field name=\"entity\">EntityPlayer</field><next><block type=\"attack_action\"><field name=\"callhelp\">TRUE</field><next><block type=\"wander\"><field name=\"speed\">1</field><next><block type=\"look_around\"/></next></block></next></block></next></block></next></block></next></block></next></block></xml>",
+    "breedable": false,
+    "breedTriggerItems": [],
+    "ranged": false,
+    "rangedAttackItem": {
+      "value": ""
+    },
+    "spawnThisMob": false,
+    "doesDespawnWhenIdle": true,
+    "spawningProbability": 20,
+    "mobSpawningType": "monster",
+    "minNumberOfMobsPerGroup": 3,
+    "maxNumberOfMobsPerGroup": 30,
+    "restrictionBiomes": [],
+    "spawnInDungeons": false
+  }
+}

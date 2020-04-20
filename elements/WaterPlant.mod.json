@@ -1,0 +1,67 @@
+{
+  "_fv": 6,
+  "_type": "plant",
+  "definition": {
+    "renderType": 12,
+    "texture": "waterfoliage2",
+    "customModelName": "Cross model",
+    "plantType": "normal",
+    "growapableSpawnType": "Water",
+    "growapableMaxHeight": 3,
+    "name": "Water Foliage",
+    "creativeTab": {
+      "value": "DECORATIONS"
+    },
+    "hardness": 0.0,
+    "resistance": 0.0,
+    "luminance": 0.0,
+    "unbreakable": false,
+    "soundOnStep": {
+      "value": "PLANT"
+    },
+    "customDrop": {
+      "value": ""
+    },
+    "dropAmount": 1,
+    "isReplaceable": false,
+    "colorOnMap": "FOLIAGE",
+    "creativePickItem": {
+      "value": ""
+    },
+    "flammability": 1,
+    "fireSpreadSpeed": 0,
+    "frequencyOnChunks": 9,
+    "spawnWorldTypes": [
+      "Surface"
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:TropicalFlatBeach"
+      },
+      {
+        "value": "CUSTOM:TropicalIslands"
+      },
+      {
+        "value": "CUSTOM:TropicalLowlands"
+      },
+      {
+        "value": "CUSTOM:TropicalMidlands"
+      },
+      {
+        "value": "CUSTOM:TropicalHighlands"
+      }
+    ],
+    "onNeighbourBlockChanges": {
+      "name": "WaterFoliageSpawnerBlockAdded"
+    },
+    "onTickUpdate": {
+      "name": "WaterFoliageSpawnerBlockAdded"
+    },
+    "onEntityCollides": {
+      "name": "WaterFoliageSpawnerBlockAdded"
+    },
+    "onRightClicked": {
+      "name": "WaterFoliageSpawnerBlockAdded"
+    }
+  }
+}

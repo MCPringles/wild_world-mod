@@ -1,0 +1,25 @@
+{
+  "criteria": {
+    "pineconefuelt": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "wild_world:pinecone",
+            "count": {
+              "min": 1,
+              "max": 6400
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "wild_world:pineconetosapling"
+    ]
+  },
+  "parent": "wild_world:wildworldadvancements"
+}

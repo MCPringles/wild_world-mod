@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "wild_world:block/richstoneslab"
+    },
+    "type=top": {
+      "model": "wild_world:block/richstoneslab_top"
+    },
+    "type=double": {
+      "model": "wild_world:block/richstoneslab_full"
+    }
+  }
+}

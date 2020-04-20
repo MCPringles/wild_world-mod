@@ -1,0 +1,92 @@
+{
+  "_fv": 6,
+  "_type": "block",
+  "definition": {
+    "texture": "waterfoliage2",
+    "textureTop": "",
+    "textureLeft": "",
+    "textureFront": "",
+    "textureRight": "",
+    "textureBack": "",
+    "renderType": 2,
+    "customModelName": "waterfoliage1:default",
+    "rotationMode": 0,
+    "hasTransparency": true,
+    "transparencyType": "SOLID",
+    "mx": 0.05,
+    "my": 0.0,
+    "mz": 0.05,
+    "Mx": 0.95,
+    "My": 0.08,
+    "Mz": 0.95,
+    "faceShape": "SOLID",
+    "name": "Water Foliage",
+    "specialInfo": [],
+    "hardness": 0.01,
+    "resistance": 0.0,
+    "hasGravity": false,
+    "creativeTab": {
+      "value": "DECORATIONS"
+    },
+    "destroyTool": "Not specified",
+    "affectedBySilkTouch": false,
+    "customDrop": {
+      "value": "CUSTOM:WaterPlant"
+    },
+    "dropAmount": 1,
+    "isBeaconBase": false,
+    "enchantPowerBonus": 0.0,
+    "plantsGrowOn": false,
+    "canProvidePower": false,
+    "lightOpacity": 0,
+    "material": {
+      "value": "PLANTS"
+    },
+    "tickRate": 0,
+    "tickRandomly": false,
+    "isReplaceable": false,
+    "colorOnMap": "FOLIAGE",
+    "creativePickItem": {
+      "value": "CUSTOM:WaterPlant"
+    },
+    "flammability": 1,
+    "fireSpreadSpeed": 0,
+    "isLadder": false,
+    "slipperiness": 0.6,
+    "reactionToPushing": "NORMAL",
+    "isNotColidable": false,
+    "soundOnStep": {
+      "value": "PLANT"
+    },
+    "luminance": 0.0,
+    "unbreakable": false,
+    "breakHarvestLevel": -1,
+    "spawnParticles": false,
+    "particleToSpawn": {
+      "value": "EXPLOSION_NORMAL"
+    },
+    "particleSpawningShape": "Spread",
+    "particleSpawningRadious": 0.5,
+    "particleAmount": 4,
+    "particleSpawningCondition": "ALWAYS",
+    "hasInventory": false,
+    "guiBoundTo": "<NONE>",
+    "openGUIOnRightClick": false,
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "inventoryDropWhenDestroyed": true,
+    "inventoryComparatorPower": true,
+    "inventoryOutSlotIDs": [],
+    "spawnWorldTypes": [],
+    "restrictionBiomes": [],
+    "blocksToReplace": [
+      {
+        "value": "Blocks.STONE"
+      }
+    ],
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 16,
+    "minGenerateHeight": 0,
+    "maxGenerateHeight": 64
+  }
+}

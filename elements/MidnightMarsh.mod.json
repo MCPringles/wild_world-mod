@@ -1,0 +1,77 @@
+{
+  "_fv": 6,
+  "_type": "biome",
+  "definition": {
+    "name": "Midnight Marsh",
+    "groundBlock": {
+      "value": "CUSTOM:MarshGrass"
+    },
+    "undergroundBlock": {
+      "value": "CUSTOM:MarshDirt"
+    },
+    "generateLakes": true,
+    "treeType": 1,
+    "vanillaTreeType": "Default",
+    "minHeight": 5,
+    "spawnVines": true,
+    "treeVines": {
+      "value": "CUSTOM:MarshVine"
+    },
+    "treeStem": {
+      "value": "CUSTOM:MarshWoodLog"
+    },
+    "treeBranch": {
+      "value": "CUSTOM:MarshLeaves"
+    },
+    "treeFruits": {
+      "value": "Blocks.AIR"
+    },
+    "customColors": true,
+    "airColor": {
+      "value": -16766942,
+      "falpha": 0.0
+    },
+    "grassColor": {
+      "value": -16737946,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -14202561,
+      "falpha": 0.0
+    },
+    "treesPerChunk": 2,
+    "grassPerChunk": 4,
+    "flowersPerChunk": 1,
+    "mushroomsPerChunk": 3,
+    "bigMushroomsChunk": 1,
+    "sandPathcesPerChunk": 2,
+    "gravelPatchesPerChunk": 2,
+    "reedsPerChunk": 1,
+    "cactiPerChunk": 0,
+    "deadBushesPerChunk": 0,
+    "rainingPossibility": 1.0,
+    "temperature": 0.24000000000000002,
+    "baseHeight": 0.0,
+    "heightVariation": 0.01,
+    "spawnBiome": false,
+    "biomeWeight": 1,
+    "biomeType": "WARM",
+    "biomeCategory": "SWAMP",
+    "parent": {
+      "value": "No parent"
+    },
+    "biomeDictionaryTypes": [
+      "SWAMP",
+      "WET",
+      "SPOOKY",
+      "MUSHROOM",
+      "MAGICAL",
+      "WATER"
+    ],
+    "spawnList": [
+      {
+        "value": "CUSTOM:Axolotl"
+      }
+    ]
+  }
+}

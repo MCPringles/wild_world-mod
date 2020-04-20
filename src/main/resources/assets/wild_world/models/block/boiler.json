@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "wild_world:blocks/boilerbottom",
+    "up": "wild_world:blocks/boileractive",
+    "north": "wild_world:blocks/boilerside",
+    "east": "wild_world:blocks/boilerside",
+    "south": "wild_world:blocks/boilerside",
+    "west": "wild_world:blocks/boilerside",
+    "particle": "wild_world:blocks/boilerbottom"
+  }
+}

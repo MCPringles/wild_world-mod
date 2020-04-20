@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "wild_world:block/yronstarpillaroff"
+    },
+    "facing=east": {
+      "model": "wild_world:block/yronstarpillaroff",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "wild_world:block/yronstarpillaroff",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "wild_world:block/yronstarpillaroff",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "wild_world:block/yronstarpillaroff",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "wild_world:block/yronstarpillaroff",
+      "x": 90
+    }
+  }
+}

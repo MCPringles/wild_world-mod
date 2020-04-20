@@ -1,0 +1,11 @@
+{
+  "group": "wild_world",
+  "type": "minecraft:smelting",
+  "experience": 0,
+  "ingredient": {
+    "item": "wild_world:yronore"
+  },
+  "result": {
+    "item": "wild_world:yroningot"
+  }
+}

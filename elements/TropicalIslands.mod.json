@@ -1,0 +1,87 @@
+{
+  "_fv": 6,
+  "_type": "biome",
+  "definition": {
+    "name": "Tropical Islands",
+    "groundBlock": {
+      "value": "Blocks.SAND#0"
+    },
+    "undergroundBlock": {
+      "value": "Blocks.SANDSTONE#0"
+    },
+    "generateLakes": false,
+    "treeType": 0,
+    "vanillaTreeType": "Default",
+    "minHeight": 5,
+    "spawnVines": false,
+    "treeVines": {
+      "value": "Blocks.AIR"
+    },
+    "treeStem": {
+      "value": "Blocks.LOG#3"
+    },
+    "treeBranch": {
+      "value": "Blocks.LEAVES#3"
+    },
+    "treeFruits": {
+      "value": "Blocks.AIR"
+    },
+    "customColors": true,
+    "airColor": {
+      "value": -5916161,
+      "falpha": 0.0
+    },
+    "grassColor": {
+      "value": -13261999,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -12331538,
+      "falpha": 0.0
+    },
+    "treesPerChunk": 0,
+    "grassPerChunk": 1,
+    "flowersPerChunk": 0,
+    "mushroomsPerChunk": 0,
+    "bigMushroomsChunk": 0,
+    "sandPathcesPerChunk": 16,
+    "gravelPatchesPerChunk": 8,
+    "reedsPerChunk": 2,
+    "cactiPerChunk": 0,
+    "deadBushesPerChunk": 0,
+    "rainingPossibility": 1.0,
+    "temperature": 0.5,
+    "baseHeight": -0.38,
+    "heightVariation": 0.39,
+    "spawnBiome": true,
+    "biomeWeight": 3,
+    "biomeType": "WARM",
+    "biomeCategory": "OCEAN",
+    "parent": {
+      "value": "deep_warm_ocean"
+    },
+    "biomeDictionaryTypes": [
+      "SANDY",
+      "BEACH",
+      "LUSH",
+      "WATER"
+    ],
+    "spawnList": [
+      {
+        "value": "EntityTropicalFish"
+      },
+      {
+        "value": "EntityTurtle"
+      },
+      {
+        "value": "CUSTOM:Crab"
+      },
+      {
+        "value": "CUSTOM:DriftwoodDweller"
+      },
+      {
+        "value": "EntityAmbientCreature"
+      }
+    ]
+  }
+}

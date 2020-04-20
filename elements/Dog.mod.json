@@ -1,0 +1,17 @@
+{
+  "_fv": 6,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "diskdog",
+    "name": "Music Disc",
+    "description": "C418 - Dog",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "music": {
+      "value": "CUSTOM:records.dog"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

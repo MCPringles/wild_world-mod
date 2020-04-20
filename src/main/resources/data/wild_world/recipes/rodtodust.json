@@ -1,0 +1,13 @@
+{
+  "group": "wild_world",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wild_world:bluestonerod"
+    }
+  ],
+  "result": {
+    "item": "wild_world:bluestoneitem",
+    "count": 2
+  }
+}

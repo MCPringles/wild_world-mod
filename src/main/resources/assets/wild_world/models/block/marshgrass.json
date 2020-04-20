@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "wild_world:blocks/marshdirt",
+    "up": "wild_world:blocks/marshgrasstop",
+    "north": "wild_world:blocks/marshgrassside",
+    "east": "wild_world:blocks/marshgrassside",
+    "south": "wild_world:blocks/marshgrassside",
+    "west": "wild_world:blocks/marshgrassside",
+    "particle": "wild_world:blocks/marshdirt"
+  }
+}

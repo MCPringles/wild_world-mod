@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "item": "wild_world:pineleaves"
+    },
+    "title": {
+      "translate": "advancements.pineforestadv.title"
+    },
+    "description": {
+      "translate": "advancements.pineforestadv.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "pineforestadv": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "wild_world:drygrassland"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "wild_world:pineconetosapling",
+      "wild_world:pinerecipe",
+      "wild_world:pinetearecipe"
+    ]
+  },
+  "parent": "wild_world:wildworldadvancements"
+}

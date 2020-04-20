@@ -1,0 +1,8 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "wild_world:blocks/mapleplanks",
+    "top": "wild_world:blocks/mapleplanks",
+    "side": "wild_world:blocks/mapleplanks"
+  }
+}

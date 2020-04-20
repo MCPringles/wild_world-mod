@@ -1,0 +1,73 @@
+{
+  "_fv": 6,
+  "_type": "biome",
+  "definition": {
+    "name": "Wooded Dry Mountain",
+    "groundBlock": {
+      "value": "CUSTOM:BarrenTopsoil"
+    },
+    "undergroundBlock": {
+      "value": "CUSTOM:BarrenDirt"
+    },
+    "generateLakes": true,
+    "treeType": 2,
+    "vanillaTreeType": "Default",
+    "minHeight": 7,
+    "spawnVines": false,
+    "treeVines": {
+      "value": ""
+    },
+    "treeStem": {
+      "value": ""
+    },
+    "treeBranch": {
+      "value": ""
+    },
+    "treeFruits": {
+      "value": ""
+    },
+    "customColors": true,
+    "airColor": {
+      "value": -5916161,
+      "falpha": 0.0
+    },
+    "grassColor": {
+      "value": -2504554,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -14329397,
+      "falpha": 0.0
+    },
+    "treesPerChunk": 10,
+    "grassPerChunk": 20,
+    "flowersPerChunk": 2,
+    "mushroomsPerChunk": 0,
+    "bigMushroomsChunk": 0,
+    "sandPathcesPerChunk": 0,
+    "gravelPatchesPerChunk": 0,
+    "reedsPerChunk": 0,
+    "cactiPerChunk": 0,
+    "deadBushesPerChunk": 0,
+    "rainingPossibility": 0.30000000000000004,
+    "temperature": 1.0,
+    "baseHeight": 0.45,
+    "heightVariation": 0.4,
+    "spawnBiome": true,
+    "biomeWeight": 2,
+    "biomeType": "DESERT",
+    "biomeCategory": "NONE",
+    "parent": {
+      "value": "CUSTOM:DryMountain"
+    },
+    "biomeDictionaryTypes": [
+      "FOREST",
+      "MOUNTAIN",
+      "HOT",
+      "DRY",
+      "SPARSE",
+      "DENSE"
+    ],
+    "spawnList": []
+  }
+}

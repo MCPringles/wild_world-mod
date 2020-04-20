@@ -1,0 +1,42 @@
+{
+  "_fv": 6,
+  "_type": "structure",
+  "definition": {
+    "structure": "treehousebase",
+    "randomlyRotateStructure": true,
+    "surfaceDetectionType": "First motion blocking block",
+    "spawnProbability": 10000,
+    "minCountPerChunk": 1,
+    "maxCountPerChunk": 1,
+    "spawnLocation": "Ground",
+    "spawnHeightOffset": -2,
+    "spawnWorldTypes": [
+      "Surface"
+    ],
+    "restrictionBlocks": [
+      {
+        "value": "Blocks.GRASS"
+      },
+      {
+        "value": "Blocks.DIRT"
+      },
+      {
+        "value": "Blocks.STONE"
+      }
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:MapleForest"
+      },
+      {
+        "value": "CUSTOM:MapleHills"
+      },
+      {
+        "value": "CUSTOM:MapleForestCold"
+      },
+      {
+        "value": "CUSTOM:MapleHillsCold"
+      }
+    ]
+  }
+}

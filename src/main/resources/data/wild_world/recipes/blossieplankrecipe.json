@@ -1,0 +1,13 @@
+{
+  "group": "wild_world",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wild_world:blossielog"
+    }
+  ],
+  "result": {
+    "item": "wild_world:blossieplanks",
+    "count": 4
+  }
+}

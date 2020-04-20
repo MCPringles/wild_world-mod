@@ -1,0 +1,50 @@
+{
+  "_fv": 6,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "recipeRetstackSize": 8,
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:SmokeyQuartz"
+      },
+      {
+        "value": "CUSTOM:Amethyst"
+      },
+      {
+        "value": "CUSTOM:SmokeyQuartz"
+      },
+      {
+        "value": "CUSTOM:Amethyst"
+      },
+      {
+        "value": "CUSTOM:Amethyst"
+      },
+      {
+        "value": "CUSTOM:Amethyst"
+      },
+      {
+        "value": "CUSTOM:SmokeyQuartz"
+      },
+      {
+        "value": "CUSTOM:Amethyst"
+      },
+      {
+        "value": "CUSTOM:SmokeyQuartz"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:AmethystTile"
+    },
+    "smeltingInputStack": {
+      "value": "CUSTOM:AmethystBlock"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:AmethystTile"
+    },
+    "name": "amethysttilerecipe",
+    "namespace": "mod"
+  }
+}

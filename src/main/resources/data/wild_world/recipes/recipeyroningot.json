@@ -1,0 +1,42 @@
+{
+  "group": "wild_world",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "wild_world:yronnugget"
+    },
+    "1": {
+      "item": "wild_world:yronnugget"
+    },
+    "2": {
+      "item": "wild_world:yronnugget"
+    },
+    "3": {
+      "item": "wild_world:yronnugget"
+    },
+    "4": {
+      "item": "wild_world:yronnugget"
+    },
+    "5": {
+      "item": "wild_world:yronnugget"
+    },
+    "6": {
+      "item": "wild_world:yronnugget"
+    },
+    "7": {
+      "item": "wild_world:yronnugget"
+    },
+    "8": {
+      "item": "wild_world:yronnugget"
+    }
+  },
+  "result": {
+    "item": "wild_world:yroningot",
+    "count": 1
+  }
+}

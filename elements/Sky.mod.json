@@ -1,0 +1,65 @@
+{
+  "_fv": 6,
+  "_type": "dimension",
+  "definition": {
+    "portalFrame": {
+      "value": "CUSTOM:SkyronBlock"
+    },
+    "portalParticles": {
+      "value": "CLOUD"
+    },
+    "portalLuminance": 1.0,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "igniterName": "Smokey Quartz",
+    "igniterTab": {
+      "value": "MISC"
+    },
+    "texture": "quiver",
+    "portalTexture": "skyportalworking",
+    "enablePortal": false,
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:SkyPlains"
+      },
+      {
+        "value": "CUSTOM:SkyForest"
+      },
+      {
+        "value": "CUSTOM:SkyJungle"
+      },
+      {
+        "value": "CUSTOM:CrystalFields"
+      }
+    ],
+    "worldGenType": "End like gen",
+    "mainFillerBlock": {
+      "value": "Blocks.STONE#0"
+    },
+    "secondaryFillerBlock": {
+      "value": "Blocks.GRASS"
+    },
+    "tertiaryFillerBlock": {
+      "value": "Blocks.DIRT#0"
+    },
+    "fluidBlock": {
+      "value": "Blocks.FLOWING_WATER"
+    },
+    "airColor": {
+      "value": -1,
+      "falpha": 0.0
+    },
+    "canRespawnHere": false,
+    "hasFog": false,
+    "hasWeather": true,
+    "isDark": true,
+    "doesWaterVaporize": false,
+    "sleepResult": "DENY",
+    "hasSkyLight": true,
+    "imitateOverworldBehaviour": true,
+    "dimensionMusic": {
+      "value": "CUSTOM:music.sky2"
+    }
+  }
+}

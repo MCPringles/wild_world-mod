@@ -1,0 +1,26 @@
+{
+  "group": "wild_world",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3  "
+  ],
+  "key": {
+    "0": {
+      "item": "wild_world:yroningot"
+    },
+    "1": {
+      "item": "wild_world:yroningot"
+    },
+    "2": {
+      "item": "wild_world:yroningot"
+    },
+    "3": {
+      "item": "wild_world:yronnugget"
+    }
+  },
+  "result": {
+    "item": "wild_world:tapyron",
+    "count": 1
+  }
+}

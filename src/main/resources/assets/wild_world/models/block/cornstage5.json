@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "wild_world:blocks/cornstalktop1",
+    "particle": "wild_world:blocks/cornstalktop1"
+  }
+}

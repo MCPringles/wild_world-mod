@@ -1,0 +1,13 @@
+{
+  "group": "wild_world",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wild_world:coconutitem"
+    }
+  ],
+  "result": {
+    "item": "wild_world:halvedcoconut",
+    "count": 2
+  }
+}

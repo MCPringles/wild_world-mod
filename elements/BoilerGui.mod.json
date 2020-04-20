@@ -1,0 +1,138 @@
+{
+  "_fv": 6,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 352,
+    "height": 332,
+    "renderBgLayer": true,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "text": "Boil",
+          "onClick": {
+            "name": "BoilerGuiActivated"
+          },
+          "width": 68,
+          "height": 40,
+          "name": "Boil",
+          "x": 390,
+          "y": 168
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "name": "Slot #0",
+          "x": 318,
+          "y": 96
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 1,
+          "name": "Slot #1",
+          "x": 318,
+          "y": 132
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 2,
+          "name": "Slot #2",
+          "x": 318,
+          "y": 168
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 3,
+          "name": "Slot #3",
+          "x": 498,
+          "y": 96
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 4,
+          "name": "Slot #4",
+          "x": 498,
+          "y": 132
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 5,
+          "name": "Slot #5",
+          "x": 498,
+          "y": 168
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "  Boiler",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "  Boiler",
+          "x": 390,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "bucketgui.png",
+          "name": "bucketgui.png",
+          "x": 552,
+          "y": 132
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "bucketsymbolgui.png",
+          "name": "bucketsymbolgui.png",
+          "x": 552,
+          "y": 132
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "bucketgui.png",
+          "name": "bucketgui.png",
+          "x": 264,
+          "y": 132
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "sapsymbolgui.png",
+          "name": "sapsymbolgui.png",
+          "x": 264,
+          "y": 132
+        }
+      }
+    ]
+  }
+}

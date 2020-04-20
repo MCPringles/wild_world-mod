@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "wild_world:tapwood"
+    },
+    "title": {
+      "translate": "advancements.treetapadvancement.title"
+    },
+    "description": {
+      "translate": "advancements.treetapadvancement.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "treetapadvancement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "wild_world:boilerrecipe",
+      "wild_world:syrupbottlerecipe",
+      "wild_world:irontap",
+      "wild_world:goldtap",
+      "wild_world:yrontaprecipe"
+    ]
+  },
+  "parent": "wild_world:wildworldadvancements"
+}

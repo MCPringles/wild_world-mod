@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "item": "wild_world:blossieleaves"
+    },
+    "title": {
+      "translate": "advancements.blossieforestadv.title"
+    },
+    "description": {
+      "translate": "advancements.blossieforestadv.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "blossieforestadv": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "wild_world:skyforest"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "wild_world:pineconetosapling",
+      "wild_world:pinerecipe",
+      "wild_world:pinetearecipe"
+    ]
+  },
+  "parent": "wild_world:skyadv"
+}

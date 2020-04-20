@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "wild_world:block/bambooslab"
+    },
+    "type=top": {
+      "model": "wild_world:block/bambooslab_top"
+    },
+    "type=double": {
+      "model": "wild_world:block/bambooslab_full"
+    }
+  }
+}

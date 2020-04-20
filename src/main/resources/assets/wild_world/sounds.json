@@ -1,0 +1,83 @@
+{
+  "records.droopyface": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "wild_world:droopylikesyourface",
+        "stream": true
+      }
+    ]
+  },
+  "records.eleven": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "wild_world:eleven",
+        "stream": true
+      }
+    ]
+  },
+  "music.sky4": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "wild_world:equinox",
+        "stream": true
+      }
+    ]
+  },
+  "music.sky1": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "wild_world:excuse",
+        "stream": true
+      }
+    ]
+  },
+  "records.ki": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "wild_world:ki",
+        "stream": true
+      }
+    ]
+  },
+  "music.sky3": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "wild_world:moogcity",
+        "stream": true
+      }
+    ]
+  },
+  "records.dog": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "wild_world:dog",
+        "stream": true
+      }
+    ]
+  },
+  "records.droopyricochet": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "wild_world:droopylikesricochet",
+        "stream": true
+      }
+    ]
+  },
+  "music.sky2": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "wild_world:kyoto",
+        "stream": true
+      }
+    ]
+  }
+}

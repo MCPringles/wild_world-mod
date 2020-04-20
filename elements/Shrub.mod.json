@@ -1,0 +1,85 @@
+{
+  "_fv": 6,
+  "_type": "plant",
+  "definition": {
+    "renderType": 12,
+    "texture": "shrub",
+    "customModelName": "Cross model",
+    "plantType": "normal",
+    "growapableSpawnType": "Desert",
+    "growapableMaxHeight": 3,
+    "name": "Shrub",
+    "creativeTab": {
+      "value": "DECORATIONS"
+    },
+    "hardness": 0.01,
+    "resistance": 0.0,
+    "luminance": 0.0,
+    "unbreakable": false,
+    "soundOnStep": {
+      "value": "PLANT"
+    },
+    "customDrop": {
+      "value": "Items.STICK"
+    },
+    "dropAmount": 1,
+    "isReplaceable": true,
+    "colorOnMap": "FOLIAGE",
+    "creativePickItem": {
+      "value": ""
+    },
+    "flammability": 32,
+    "fireSpreadSpeed": 2,
+    "frequencyOnChunks": 7,
+    "spawnWorldTypes": [
+      "Surface"
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "desert"
+      },
+      {
+        "value": "savanna"
+      },
+      {
+        "value": "savanna_rock"
+      },
+      {
+        "value": "mutated_savanna"
+      },
+      {
+        "value": "mutated_savanna_rock"
+      },
+      {
+        "value": "mutated_mesa"
+      },
+      {
+        "value": "mutated_mesa_rock"
+      },
+      {
+        "value": "mutated_mesa_clear_rock"
+      },
+      {
+        "value": "CUSTOM:DryGrassland"
+      },
+      {
+        "value": "CUSTOM:DryForestYoung"
+      },
+      {
+        "value": "CUSTOM:DryForestMiddle"
+      },
+      {
+        "value": "CUSTOM:DryForestOld"
+      },
+      {
+        "value": "CUSTOM:DryMountain"
+      },
+      {
+        "value": "CUSTOM:DryMountainForestMiddle"
+      },
+      {
+        "value": "CUSTOM:DryMountainForestOld"
+      }
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "group": "wild_world",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wild_world:yroningot"
+    }
+  ],
+  "result": {
+    "item": "wild_world:yronnugget",
+    "count": 9
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_post",
+  "textures": {
+    "texture": "wild_world:blocks/bambooplanks",
+    "particle": "wild_world:blocks/bambooplanks"
+  }
+}

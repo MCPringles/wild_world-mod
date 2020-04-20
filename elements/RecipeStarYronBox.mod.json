@@ -1,0 +1,44 @@
+{
+  "_fv": 6,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "recipeRetstackSize": 1,
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:YronIngot"
+      },
+      {
+        "value": "CUSTOM:BluestoneItem"
+      },
+      {
+        "value": "CUSTOM:YronIngot"
+      },
+      {
+        "value": "CUSTOM:BluestoneItem"
+      },
+      {
+        "value": "CUSTOM:BluestoneItem"
+      },
+      {
+        "value": "CUSTOM:BluestoneItem"
+      },
+      {
+        "value": "CUSTOM:YronIngot"
+      },
+      {
+        "value": "CUSTOM:BluestoneItem"
+      },
+      {
+        "value": "CUSTOM:YronIngot"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:YronStarBox"
+    },
+    "name": "recipestaryronbox",
+    "namespace": "mod"
+  }
+}

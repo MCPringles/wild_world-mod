@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "wild_world:pineplanks",
+    "wild_world:mapleplanks",
+    "wild_world:blossieplanks",
+    "wild_world:bamboowood",
+    "wild_world:palmplanks"
+  ]
+}

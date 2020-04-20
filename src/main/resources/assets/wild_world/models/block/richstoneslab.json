@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "wild_world:blocks/richstone",
+    "top": "wild_world:blocks/richstone",
+    "side": "wild_world:blocks/richstone"
+  }
+}

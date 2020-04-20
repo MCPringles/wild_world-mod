@@ -1,0 +1,27 @@
+{
+  "_fv": 6,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "birchsyrupbottle",
+    "customModelName": "Normal",
+    "name": "Bottle of Birch Syrup",
+    "creativeTab": {
+      "value": "FOOD"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 2,
+    "saturation": 0.30000001192092896,
+    "eatingSpeed": 40,
+    "forDogs": false,
+    "isAlwaysEdible": false,
+    "animation": "drink",
+    "hasGlow": false,
+    "onEaten": {
+      "name": "SyrupBottleDrank"
+    },
+    "onCrafted": {
+      "name": "SyrupBottleCrafted"
+    }
+  }
+}

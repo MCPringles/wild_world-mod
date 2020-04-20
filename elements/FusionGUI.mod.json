@@ -1,0 +1,85 @@
+{
+  "_fv": 6,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 352,
+    "height": 332,
+    "renderBgLayer": true,
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "name": "Slot #0",
+          "x": 336,
+          "y": 132
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:BluestoneItem"
+          },
+          "id": 1,
+          "name": "Slot #1",
+          "x": 408,
+          "y": 186
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "bucketgui.png",
+          "name": "bucketgui.png",
+          "x": 462,
+          "y": 186
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "stardusticon.png",
+          "name": "stardusticon.png",
+          "x": 462,
+          "y": 186
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 2,
+          "name": "Slot #2",
+          "x": 480,
+          "y": 132
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fusionarrow.png",
+          "name": "fusionarrow.png",
+          "x": 390,
+          "y": 114
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Fusion Forge",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Fusion Forge",
+          "x": 366,
+          "y": 80
+        }
+      }
+    ]
+  }
+}

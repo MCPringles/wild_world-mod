@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "item": "wild_world:mapleleaves"
+    },
+    "title": {
+      "translate": "advancements.mapleforestadv.title"
+    },
+    "description": {
+      "translate": "advancements.mapleforestadv.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "mapleforestadv": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "wild_world:mapleforest"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "wild_world:woodtap",
+      "wild_world:irontap",
+      "wild_world:goldtap",
+      "wild_world:yrontaprecipe"
+    ]
+  },
+  "parent": "wild_world:wildworldadvancements"
+}

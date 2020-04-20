@@ -1,0 +1,42 @@
+{
+  "group": "wild_world",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "tag": "cobblestone"
+    },
+    "1": {
+      "item": "minecraft:air"
+    },
+    "2": {
+      "tag": "cobblestone"
+    },
+    "3": {
+      "tag": "cobblestone"
+    },
+    "4": {
+      "item": "minecraft:cauldron"
+    },
+    "5": {
+      "tag": "cobblestone"
+    },
+    "6": {
+      "tag": "cobblestone"
+    },
+    "7": {
+      "item": "minecraft:coal_block"
+    },
+    "8": {
+      "tag": "cobblestone"
+    }
+  },
+  "result": {
+    "item": "wild_world:boiler",
+    "count": 1
+  }
+}

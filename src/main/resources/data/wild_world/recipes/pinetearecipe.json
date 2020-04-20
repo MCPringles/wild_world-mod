@@ -1,0 +1,37 @@
+{
+  "group": "wild_world",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wild_world:pineneedles"
+    },
+    {
+      "item": "wild_world:pineneedles"
+    },
+    {
+      "item": "wild_world:pineneedles"
+    },
+    {
+      "item": "wild_world:pineneedles"
+    },
+    {
+      "item": "wild_world:pineneedles"
+    },
+    {
+      "item": "wild_world:pineneedles"
+    },
+    {
+      "item": "wild_world:pineneedles"
+    },
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "item": "wild_world:pineneedles"
+    }
+  ],
+  "result": {
+    "item": "wild_world:pinetea",
+    "count": 1
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "_fv": 6,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "diskeleven",
+    "name": "Music Disc",
+    "description": "C418 - Eleven",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "music": {
+      "value": "CUSTOM:records.eleven"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "group": "wild_world",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "wild_world:topazblock"
+    }
+  },
+  "result": {
+    "item": "wild_world:topazitem",
+    "count": 9
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "_fv": 6,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "recipeRetstackSize": 1,
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Pancake"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Pancake"
+      },
+      {
+        "value": "CUSTOM:SyrupBottle"
+      },
+      {
+        "value": "CUSTOM:Pancake"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Pancake"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:PancakeWithSyrup4"
+    },
+    "name": "pws4",
+    "namespace": "mod"
+  }
+}

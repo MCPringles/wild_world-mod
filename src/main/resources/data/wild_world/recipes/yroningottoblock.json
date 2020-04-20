@@ -1,0 +1,42 @@
+{
+  "group": "wild_world",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "wild_world:yroningot"
+    },
+    "1": {
+      "item": "wild_world:yroningot"
+    },
+    "2": {
+      "item": "wild_world:yroningot"
+    },
+    "3": {
+      "item": "wild_world:yroningot"
+    },
+    "4": {
+      "item": "wild_world:yroningot"
+    },
+    "5": {
+      "item": "wild_world:yroningot"
+    },
+    "6": {
+      "item": "wild_world:yroningot"
+    },
+    "7": {
+      "item": "wild_world:yroningot"
+    },
+    "8": {
+      "item": "wild_world:yroningot"
+    }
+  },
+  "result": {
+    "item": "wild_world:skyronblock",
+    "count": 1
+  }
+}

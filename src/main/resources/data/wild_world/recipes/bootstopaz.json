@@ -1,0 +1,26 @@
+{
+  "group": "wild_world",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "wild_world:topazitem"
+    },
+    "2": {
+      "item": "wild_world:topazitem"
+    },
+    "3": {
+      "item": "wild_world:topazitem"
+    },
+    "5": {
+      "item": "wild_world:topazitem"
+    }
+  },
+  "result": {
+    "item": "wild_world:armortopazboots",
+    "count": 1
+  }
+}

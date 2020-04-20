@@ -1,0 +1,121 @@
+{
+  "_fv": 6,
+  "_type": "mob",
+  "definition": {
+    "mobName": "Driftwood Dweller",
+    "mobLabel": "",
+    "mobModelTexture": "silverfish.png",
+    "mobModelName": "Silverfish",
+    "modelWidth": 0.26,
+    "modelHeight": 0.25,
+    "modelShadowSize": 0.25,
+    "armorBaseValue": 0.0,
+    "hasSpawnEgg": true,
+    "spawnEggBaseColor": {
+      "value": -11847899,
+      "falpha": 0.0
+    },
+    "spawnEggDotColor": {
+      "value": -4995937,
+      "falpha": 0.0
+    },
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "isBoss": false,
+    "bossBarColor": "PINK",
+    "bossBarType": "PROGRESS",
+    "equipmentMainHand": {
+      "value": ""
+    },
+    "equipmentOffHand": {
+      "value": ""
+    },
+    "equipmentHelmet": {
+      "value": ""
+    },
+    "equipmentBody": {
+      "value": ""
+    },
+    "equipmentLeggings": {
+      "value": ""
+    },
+    "equipmentBoots": {
+      "value": ""
+    },
+    "mobBehaviourType": "Creature",
+    "mobCreatureType": "UNDEFINED",
+    "attackStrength": 1,
+    "movementSpeed": 0.30000000000000004,
+    "trackingRange": 64,
+    "health": 6,
+    "xpAmount": 1,
+    "waterMob": false,
+    "flyingMob": false,
+    "disableCollisions": false,
+    "ridable": false,
+    "canControlForward": false,
+    "canControlStrafe": false,
+    "immuneToFire": true,
+    "immuneToArrows": false,
+    "immuneToFallDamage": false,
+    "immuneToCactus": true,
+    "immuneToDrowning": false,
+    "immuneToLightning": false,
+    "immuneToPotions": false,
+    "immuneToPlayer": false,
+    "mobDrop": {
+      "value": ""
+    },
+    "livingSound": {
+      "value": "entity.silverfish.ambient"
+    },
+    "hurtSound": {
+      "value": "entity.silverfish.hurt"
+    },
+    "deathSound": {
+      "value": "entity.silverfish.death"
+    },
+    "spawnParticles": false,
+    "particleToSpawn": {
+      "value": "EXPLOSION_NORMAL"
+    },
+    "particleSpawningShape": "Spread",
+    "particleSpawningRadious": 0.5,
+    "particleAmount": 4,
+    "particleSpawningCondition": "ALWAYS",
+    "hasAI": true,
+    "aiBase": "(none)",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"attack_action\"><field name=\"callhelp\">TRUE</field><next><block type=\"attack_entity\"><field name=\"insight\">TRUE</field><field name=\"nearby\">TRUE</field><field name=\"entity\">CUSTOM:Crab</field><next><block type=\"watch_closest_entity\"><field name=\"radius\">6</field><field name=\"entity\">CUSTOM:AmbientEyes</field><next><block type=\"watch_closest_entity\"><field name=\"radius\">4</field><field name=\"entity\">EntityMob</field><next><block type=\"wander\"><field name=\"speed\">0.7</field><next><block type=\"look_around\"><next><block type=\"swim_in_water\"><next><block type=\"leap_at_target\"><field name=\"speed\">0.2</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>",
+    "breedable": false,
+    "breedTriggerItems": [],
+    "ranged": false,
+    "rangedAttackItem": {
+      "value": ""
+    },
+    "spawnThisMob": true,
+    "doesDespawnWhenIdle": false,
+    "spawningProbability": 3,
+    "mobSpawningType": "ambient",
+    "minNumberOfMobsPerGroup": 1,
+    "maxNumberOfMobsPerGroup": 4,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:TropicalFlatBeach"
+      },
+      {
+        "value": "CUSTOM:TropicalIslands"
+      },
+      {
+        "value": "CUSTOM:TropicalLowlands"
+      },
+      {
+        "value": "CUSTOM:TropicalHighlands"
+      },
+      {
+        "value": "beaches"
+      }
+    ],
+    "spawnInDungeons": false
+  }
+}

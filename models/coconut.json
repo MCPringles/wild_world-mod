@@ -1,0 +1,49 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"1": "wild_world:blocks/coconuttexturemap",
+		"particle": "wild_world:blocks/coconuttexturemap"
+	},
+	"elements": [
+		{
+			"name": "coconut",
+			"from": [4, 4, 8],
+			"to": [12, 12, 16],
+			"faces": {
+				"north": {"uv": [4, 4, 8, 8], "texture": "#1"},
+				"east": {"uv": [0, 4, 4, 8], "texture": "#1"},
+				"south": {"uv": [12, 4, 16, 8], "texture": "#1"},
+				"west": {"uv": [8, 4, 12, 8], "texture": "#1"},
+				"up": {"uv": [4, 0, 8, 4], "texture": "#1"},
+				"down": {"uv": [8, 0, 12, 4], "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [75, 315, 0],
+			"translation": [0, 2.5, 0],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 315, 0],
+			"translation": [0, 2.5, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"ground": {
+			"translation": [0, 3, 0],
+			"scale": [0.25, 0.25, 0.25]
+		},
+		"gui": {
+			"rotation": [30, 45, 0],
+			"scale": [0.625, 0.625, 0.625]
+		},
+		"head": {
+			"rotation": [0, 180, 0]
+		},
+		"fixed": {
+			"rotation": [0, 180, 0]
+		}
+	}
+}

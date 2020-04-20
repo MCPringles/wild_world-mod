@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "wild_world:block/yronstarpillaron"
+    },
+    "facing=east": {
+      "model": "wild_world:block/yronstarpillaron",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "wild_world:block/yronstarpillaron",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "wild_world:block/yronstarpillaron",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "wild_world:block/yronstarpillaron",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "wild_world:block/yronstarpillaron",
+      "x": 90
+    }
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "_fv": 6,
+  "_type": "block",
+  "definition": {
+    "texture": "coconut",
+    "textureTop": "palmlog",
+    "textureLeft": "palmlog",
+    "textureFront": "palmlog",
+    "textureRight": "palmlog",
+    "textureBack": "palmlog",
+    "renderType": 2,
+    "customModelName": "coconut:default",
+    "rotationMode": 3,
+    "hasTransparency": true,
+    "transparencyType": "SOLID",
+    "mx": 0.25,
+    "my": 0.25,
+    "mz": 0.5,
+    "Mx": 0.75,
+    "My": 0.75,
+    "Mz": 1.0,
+    "faceShape": "SOLID",
+    "name": "Coconut",
+    "specialInfo": [],
+    "hardness": 1.0999999999999999,
+    "resistance": 1.5,
+    "hasGravity": false,
+    "creativeTab": {
+      "value": "DECORATIONS"
+    },
+    "destroyTool": "Not specified",
+    "affectedBySilkTouch": false,
+    "customDrop": {
+      "value": "CUSTOM:CoconutItem"
+    },
+    "dropAmount": 1,
+    "isBeaconBase": false,
+    "enchantPowerBonus": 0.0,
+    "plantsGrowOn": false,
+    "canProvidePower": false,
+    "lightOpacity": 0,
+    "material": {
+      "value": "WOOD"
+    },
+    "tickRate": 1,
+    "tickRandomly": false,
+    "isReplaceable": false,
+    "colorOnMap": "AIR",
+    "creativePickItem": {
+      "value": "CUSTOM:CoconutItem"
+    },
+    "flammability": 1,
+    "fireSpreadSpeed": 0,
+    "isLadder": false,
+    "slipperiness": 0.6,
+    "reactionToPushing": "NORMAL",
+    "isNotColidable": false,
+    "soundOnStep": {
+      "value": "WOOD"
+    },
+    "luminance": 0.0,
+    "unbreakable": false,
+    "breakHarvestLevel": -1,
+    "spawnParticles": false,
+    "particleToSpawn": {
+      "value": "EXPLOSION_NORMAL"
+    },
+    "particleSpawningShape": "Spread",
+    "particleSpawningRadious": 0.5,
+    "particleAmount": 4,
+    "particleSpawningCondition": "ALWAYS",
+    "hasInventory": false,
+    "guiBoundTo": "<NONE>",
+    "openGUIOnRightClick": false,
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "inventoryDropWhenDestroyed": true,
+    "inventoryComparatorPower": true,
+    "inventoryOutSlotIDs": [],
+    "spawnWorldTypes": [],
+    "restrictionBiomes": [],
+    "blocksToReplace": [
+      {
+        "value": "Blocks.STONE"
+      }
+    ],
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 16,
+    "minGenerateHeight": 0,
+    "maxGenerateHeight": 64
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "_fv": 6,
+  "_type": "block",
+  "definition": {
+    "texture": "cornstalktop2",
+    "textureTop": "",
+    "textureLeft": "",
+    "textureFront": "",
+    "textureRight": "",
+    "textureBack": "",
+    "renderType": 12,
+    "customModelName": "Cross model",
+    "rotationMode": 0,
+    "hasTransparency": true,
+    "transparencyType": "CUTOUT",
+    "mx": 0.35,
+    "my": 0.0,
+    "mz": 0.35,
+    "Mx": 0.65,
+    "My": 1.0,
+    "Mz": 0.65,
+    "faceShape": "UNDEFINED",
+    "name": "Corn Stage0",
+    "specialInfo": [],
+    "hardness": 0.0,
+    "resistance": 0.0,
+    "hasGravity": false,
+    "creativeTab": {
+      "value": "No creative tab entry"
+    },
+    "destroyTool": "Not specified",
+    "affectedBySilkTouch": false,
+    "customDrop": {
+      "value": "CUSTOM:Corn"
+    },
+    "dropAmount": 1,
+    "isBeaconBase": false,
+    "enchantPowerBonus": 0.0,
+    "plantsGrowOn": false,
+    "canProvidePower": false,
+    "lightOpacity": 0,
+    "material": {
+      "value": "PLANTS"
+    },
+    "tickRate": 10,
+    "tickRandomly": false,
+    "isReplaceable": false,
+    "colorOnMap": "FOLIAGE",
+    "creativePickItem": {
+      "value": "CUSTOM:Corn"
+    },
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "isLadder": false,
+    "slipperiness": 0.6,
+    "reactionToPushing": "NORMAL",
+    "isNotColidable": true,
+    "soundOnStep": {
+      "value": "PLANT"
+    },
+    "luminance": 0.0,
+    "unbreakable": false,
+    "breakHarvestLevel": -1,
+    "spawnParticles": false,
+    "particleToSpawn": {
+      "value": "EXPLOSION_NORMAL"
+    },
+    "particleSpawningShape": "Spread",
+    "particleSpawningRadious": 0.5,
+    "particleAmount": 4,
+    "particleSpawningCondition": "ALWAYS",
+    "hasInventory": true,
+    "openGUIOnRightClick": false,
+    "inventorySize": 0,
+    "inventoryStackSize": 9,
+    "inventoryDropWhenDestroyed": false,
+    "inventoryComparatorPower": false,
+    "inventoryOutSlotIDs": [],
+    "onTickUpdate": {
+      "name": "CornStageUpdateTick"
+    },
+    "spawnWorldTypes": [],
+    "restrictionBiomes": [],
+    "blocksToReplace": [
+      {
+        "value": "Blocks.STONE"
+      }
+    ],
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 16,
+    "minGenerateHeight": 10,
+    "maxGenerateHeight": 110
+  }
+}

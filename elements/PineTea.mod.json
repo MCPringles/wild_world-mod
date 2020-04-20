@@ -1,0 +1,24 @@
+{
+  "_fv": 6,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "pineneedlesoup",
+    "customModelName": "Normal",
+    "name": "Pine Needle Tea",
+    "creativeTab": {
+      "value": "FOOD"
+    },
+    "stackSize": 1,
+    "nutritionalValue": 0,
+    "saturation": 20.0,
+    "eatingSpeed": 32,
+    "forDogs": false,
+    "isAlwaysEdible": false,
+    "animation": "drink",
+    "hasGlow": false,
+    "onEaten": {
+      "name": "PineTeaFoodHealEvent"
+    }
+  }
+}

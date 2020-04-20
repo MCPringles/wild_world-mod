@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "wild_world:block/coconutblock"
+    },
+    "facing=east": {
+      "model": "wild_world:block/coconutblock",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "wild_world:block/coconutblock",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "wild_world:block/coconutblock",
+      "y": 270
+    }
+  }
+}

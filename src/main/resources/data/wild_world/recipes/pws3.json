@@ -1,0 +1,22 @@
+{
+  "group": "wild_world",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wild_world:pancake"
+    },
+    {
+      "item": "wild_world:pancake"
+    },
+    {
+      "item": "wild_world:syrupbottle"
+    },
+    {
+      "item": "wild_world:pancake"
+    }
+  ],
+  "result": {
+    "item": "wild_world:pancakewithsyrup3",
+    "count": 1
+  }
+}

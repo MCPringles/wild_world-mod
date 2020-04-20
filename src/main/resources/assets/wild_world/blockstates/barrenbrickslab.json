@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "wild_world:block/barrenbrickslab"
+    },
+    "type=top": {
+      "model": "wild_world:block/barrenbrickslab_top"
+    },
+    "type=double": {
+      "model": "wild_world:block/barrenbrickslab_full"
+    }
+  }
+}

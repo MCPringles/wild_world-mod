@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "wild_world:palmleaves"
+    },
+    "title": {
+      "translate": "advancements.tropicalforestadv.title"
+    },
+    "description": {
+      "translate": "advancements.tropicalforestadv.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "tropicalforestadv": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "wild_world:tropicallowlands"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "wild_world:halvecoconut",
+      "wild_world:axethecoconut"
+    ]
+  },
+  "parent": "wild_world:wildworldadvancements"
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "wild_world:custom/crystal",
+  "textures": {
+    "all": "wild_world:blocks/maincrystaldiamond",
+    "particle": "wild_world:blocks/maincrystaldiamond",
+    "0": "wild_world:blocks/outercrystalsdiamond",
+    "1": "wild_world:blocks/maincrystaldiamond",
+    "missing": "wild_world:blocks/whatthe"
+  }
+}

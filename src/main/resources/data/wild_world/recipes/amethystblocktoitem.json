@@ -1,0 +1,13 @@
+{
+  "group": "wild_world",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wild_world:amethystblock"
+    }
+  ],
+  "result": {
+    "item": "wild_world:amethyst",
+    "count": 9
+  }
+}

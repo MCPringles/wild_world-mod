@@ -1,0 +1,116 @@
+{
+  "_fv": 6,
+  "_type": "block",
+  "definition": {
+    "texture": "ribdurt",
+    "textureTop": "richgrasstop",
+    "textureLeft": "richgrass",
+    "textureFront": "richgrass",
+    "textureRight": "richgrass",
+    "textureBack": "richgrass",
+    "renderType": 10,
+    "customModelName": "Normal",
+    "rotationMode": 0,
+    "hasTransparency": false,
+    "transparencyType": "SOLID",
+    "mx": 0.0,
+    "my": 0.0,
+    "mz": 0.0,
+    "Mx": 1.0,
+    "My": 1.0,
+    "Mz": 1.0,
+    "faceShape": "SOLID",
+    "name": "Rich Grass",
+    "specialInfo": [],
+    "hardness": 1.5,
+    "resistance": 3.5,
+    "hasGravity": false,
+    "creativeTab": {
+      "value": "BUILDING_BLOCKS"
+    },
+    "destroyTool": "shovel",
+    "affectedBySilkTouch": true,
+    "customDrop": {
+      "value": "CUSTOM:RichSoil"
+    },
+    "dropAmount": 1,
+    "isBeaconBase": false,
+    "enchantPowerBonus": 0.0,
+    "plantsGrowOn": true,
+    "canProvidePower": false,
+    "lightOpacity": 255,
+    "material": {
+      "value": "GRASS"
+    },
+    "tickRate": 10,
+    "tickRandomly": true,
+    "isReplaceable": false,
+    "colorOnMap": "GRASS",
+    "creativePickItem": {
+      "value": ""
+    },
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "isLadder": false,
+    "slipperiness": 0.6,
+    "reactionToPushing": "NORMAL",
+    "isNotColidable": false,
+    "soundOnStep": {
+      "value": "PLANT"
+    },
+    "luminance": 0.0,
+    "unbreakable": false,
+    "breakHarvestLevel": -1,
+    "spawnParticles": false,
+    "particleToSpawn": {
+      "value": "EXPLOSION_NORMAL"
+    },
+    "particleSpawningShape": "Spread",
+    "particleSpawningRadious": 0.5,
+    "particleAmount": 4,
+    "particleSpawningCondition": "ALWAYS",
+    "hasInventory": false,
+    "guiBoundTo": "<NONE>",
+    "openGUIOnRightClick": false,
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "inventoryDropWhenDestroyed": true,
+    "inventoryComparatorPower": true,
+    "inventoryOutSlotIDs": [],
+    "onTickUpdate": {
+      "name": "RandomEvent"
+    },
+    "onRandomUpdateEvent": {
+      "name": "Update"
+    },
+    "spawnWorldTypes": [
+      "Surface"
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "jungle"
+      },
+      {
+        "value": "jungle_hills"
+      },
+      {
+        "value": "jungle_edge"
+      },
+      {
+        "value": "mutated_jungle"
+      },
+      {
+        "value": "mutated_jungle_edge"
+      }
+    ],
+    "blocksToReplace": [
+      {
+        "value": "Blocks.GRASS"
+      }
+    ],
+    "frequencyPerChunks": 32,
+    "frequencyOnChunk": 32,
+    "minGenerateHeight": 40,
+    "maxGenerateHeight": 240
+  }
+}

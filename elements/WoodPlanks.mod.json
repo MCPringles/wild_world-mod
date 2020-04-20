@@ -1,0 +1,27 @@
+{
+  "_fv": 6,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:PinePlanks"
+      },
+      {
+        "value": "CUSTOM:MaplePlanks"
+      },
+      {
+        "value": "CUSTOM:BlossiePlanks"
+      },
+      {
+        "value": "CUSTOM:BambooWood"
+      },
+      {
+        "value": "CUSTOM:PalmPlanks"
+      }
+    ],
+    "name": "planks",
+    "namespace": "minecraft"
+  }
+}

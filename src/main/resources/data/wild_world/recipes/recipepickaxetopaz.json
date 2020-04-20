@@ -1,0 +1,30 @@
+{
+  "group": "wild_world",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "wild_world:topazitem"
+    },
+    "1": {
+      "item": "wild_world:topazitem"
+    },
+    "2": {
+      "item": "wild_world:topazitem"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "wild_world:pickaxetopaz",
+    "count": 1
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "_fv": 6,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "diskyourface",
+    "name": "Music Disc",
+    "description": "C418 - Droopy Likes Your Face",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "music": {
+      "value": "CUSTOM:records.droopyface"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_fv": 6,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Wooden Faucet",
+    "achievementDescription": "Craft a Wooden Tree Tap",
+    "achievementIcon": {
+      "value": "CUSTOM:TapWood"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [
+      "BoilerRecipe",
+      "SyrupBottleRecipe",
+      "IronTap",
+      "GoldTap",
+      "YronTapRecipe"
+    ],
+    "rewardFunction": "No function",
+    "rewardXP": 0,
+    "achievementType": "task",
+    "parent": {
+      "value": "CUSTOM:WildWorldAdvancements"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"custom_trigger\" x=\"30\" y=\"42\"><next><block type=\"advancement_trigger\" deletable=\"false\"/></next></block></xml>"
+  }
+}

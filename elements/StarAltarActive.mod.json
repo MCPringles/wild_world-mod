@@ -1,0 +1,93 @@
+{
+  "_fv": 6,
+  "_type": "block",
+  "definition": {
+    "texture": "staraltaractive",
+    "textureTop": "staraltaractive",
+    "textureLeft": "staraltaractive",
+    "textureFront": "staraltaractive",
+    "textureRight": "staraltaractive",
+    "textureBack": "staraltaractive",
+    "renderType": 11,
+    "customModelName": "Single texture",
+    "rotationMode": 0,
+    "hasTransparency": false,
+    "transparencyType": "SOLID",
+    "mx": 0.0,
+    "my": 0.0,
+    "mz": 0.0,
+    "Mx": 1.0,
+    "My": 1.0,
+    "Mz": 1.0,
+    "faceShape": "SOLID",
+    "name": "Fallen Star Core (Active)",
+    "specialInfo": [],
+    "hardness": 64000.0,
+    "resistance": 64000.0,
+    "hasGravity": false,
+    "creativeTab": {
+      "value": "No creative tab entry"
+    },
+    "destroyTool": "pickaxe",
+    "affectedBySilkTouch": true,
+    "customDrop": {
+      "value": "CUSTOM:FallenStarBox"
+    },
+    "dropAmount": 1,
+    "isBeaconBase": false,
+    "enchantPowerBonus": 0.0,
+    "plantsGrowOn": false,
+    "canProvidePower": false,
+    "lightOpacity": 255,
+    "material": {
+      "value": "IRON"
+    },
+    "tickRate": 10,
+    "tickRandomly": false,
+    "isReplaceable": false,
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "isLadder": false,
+    "slipperiness": 0.6,
+    "reactionToPushing": "NORMAL",
+    "isNotColidable": false,
+    "soundOnStep": {
+      "value": "METAL"
+    },
+    "luminance": 0.6,
+    "unbreakable": true,
+    "breakHarvestLevel": 100,
+    "spawnParticles": true,
+    "particleToSpawn": {
+      "value": "END_ROD"
+    },
+    "particleSpawningShape": "Spread",
+    "particleSpawningRadious": 0.6000000014901161,
+    "particleAmount": 5,
+    "particleSpawningCondition": "ALWAYS",
+    "hasInventory": false,
+    "openGUIOnRightClick": false,
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "inventoryDropWhenDestroyed": true,
+    "inventoryComparatorPower": true,
+    "inventoryOutSlotIDs": [],
+    "onTickUpdate": {
+      "name": "StarAltarTestForEvent"
+    },
+    "onRandomUpdateEvent": {
+      "name": "StarAltarUpdate"
+    },
+    "spawnWorldTypes": [],
+    "restrictionBiomes": [],
+    "blocksToReplace": [
+      {
+        "value": "Blocks.STONE"
+      }
+    ],
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 16,
+    "minGenerateHeight": 10,
+    "maxGenerateHeight": 110
+  }
+}

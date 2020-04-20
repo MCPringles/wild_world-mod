@@ -1,0 +1,23 @@
+{
+  "_fv": 6,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "topaz_sword",
+    "customModelName": "Normal",
+    "name": "Topaz Sword",
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 0,
+    "efficiency": 8.0,
+    "attackSpeed": 1.6,
+    "enchantability": 10,
+    "damageVsEntity": 6.0,
+    "usageCount": 1561,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": []
+  }
+}

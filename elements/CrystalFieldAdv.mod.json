@@ -1,0 +1,27 @@
+{
+  "_fv": 6,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "The Big Mine in the Sky",
+    "achievementDescription": "Find a Crystal Field biome.",
+    "achievementIcon": {
+      "value": "CUSTOM:AmethystBlock"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": true,
+    "rewardLoot": [],
+    "rewardRecipes": [
+      "BlossiePlankRecipe"
+    ],
+    "rewardFunction": "No function",
+    "rewardXP": 0,
+    "achievementType": "task",
+    "parent": {
+      "value": "CUSTOM:SkyAdv"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"biome_entered\" inline=\"false\" x=\"48\" y=\"55\"><field name=\"biome\">CUSTOM:CrystalFields</field><next><block type=\"advancement_trigger\" deletable=\"false\"/></next></block></xml>"
+  }
+}

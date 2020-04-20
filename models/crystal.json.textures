@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "outercrystalsdiamond",
+        "1": "maincrystaldiamond",
+        "missing": "whatthe"
+      },
+      "name": "default"
+    }
+  }
+}

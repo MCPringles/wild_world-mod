@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "facing=south": {
+      "model": "wild_world:block/palmlog"
+    },
+    "facing=north": {
+      "model": "wild_world:block/palmlog"
+    },
+    "facing=east": {
+      "model": "wild_world:block/palmlog",
+      "x": 90
+    },
+    "facing=west": {
+      "model": "wild_world:block/palmlog",
+      "x": 90
+    },
+    "facing=up": {
+      "model": "wild_world:block/palmlog",
+      "x": 90,
+      "y": 90
+    },
+    "facing=down": {
+      "model": "wild_world:block/palmlog",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

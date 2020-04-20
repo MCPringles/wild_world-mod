@@ -1,0 +1,24 @@
+{
+  "_fv": 6,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "maplecakestage1",
+    "customModelName": "Normal",
+    "name": "Pancakes",
+    "creativeTab": {
+      "value": "No creative tab entry"
+    },
+    "stackSize": 1,
+    "nutritionalValue": 4,
+    "saturation": 0.30000001192092896,
+    "eatingSpeed": 40,
+    "forDogs": false,
+    "isAlwaysEdible": false,
+    "animation": "eat",
+    "hasGlow": false,
+    "onCrafted": {
+      "name": "PancakeWithSyrupItemIsCraftedsmelted"
+    }
+  }
+}

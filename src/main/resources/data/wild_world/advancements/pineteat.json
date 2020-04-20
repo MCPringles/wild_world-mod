@@ -1,0 +1,25 @@
+{
+  "criteria": {
+    "pineteat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "wild_world:pineneedles",
+            "count": {
+              "min": 1,
+              "max": 6400
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "wild_world:pinetearecipe"
+    ]
+  },
+  "parent": "wild_world:wildworldadvancements"
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "bottom": "wild_world:blocks/pineplanks",
+    "top": "wild_world:blocks/pineplanks",
+    "side": "wild_world:blocks/pineplanks"
+  }
+}

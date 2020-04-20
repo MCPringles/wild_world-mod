@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+  	"down": "wild_world:blocks/cutrichstone",
+  	"up": "wild_world:blocks/cutrichstone",
+    "north": "wild_world:blocks/richstoneslab",
+    "east": "wild_world:blocks/richstoneslab",
+    "south": "wild_world:blocks/richstoneslab",
+    "west": "wild_world:blocks/richstoneslab",
+    "particle": "wild_world:blocks/richstoneslab"
+  }
+}

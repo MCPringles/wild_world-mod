@@ -1,0 +1,68 @@
+{
+  "_fv": 6,
+  "_type": "biome",
+  "definition": {
+    "name": "Maple Forest Hills",
+    "groundBlock": {
+      "value": "Blocks.GRASS"
+    },
+    "undergroundBlock": {
+      "value": "Blocks.DIRT#0"
+    },
+    "generateLakes": false,
+    "treeType": 1,
+    "vanillaTreeType": "Birch trees",
+    "minHeight": 6,
+    "spawnVines": false,
+    "treeVines": {
+      "value": "Blocks.AIR"
+    },
+    "treeStem": {
+      "value": "CUSTOM:MapleLogWild"
+    },
+    "treeBranch": {
+      "value": "CUSTOM:MapleLeaves"
+    },
+    "treeFruits": {
+      "value": "Blocks.AIR"
+    },
+    "customColors": true,
+    "airColor": {
+      "value": -10511873,
+      "falpha": 0.0
+    },
+    "grassColor": {
+      "value": -16750276,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -16761361,
+      "falpha": 0.0
+    },
+    "treesPerChunk": 8,
+    "grassPerChunk": 9,
+    "flowersPerChunk": 10,
+    "mushroomsPerChunk": 1,
+    "bigMushroomsChunk": 0,
+    "sandPathcesPerChunk": 0,
+    "gravelPatchesPerChunk": 0,
+    "reedsPerChunk": 0,
+    "cactiPerChunk": 0,
+    "deadBushesPerChunk": 0,
+    "rainingPossibility": 0.5,
+    "temperature": 0.2,
+    "baseHeight": 0.39999999999999997,
+    "heightVariation": 0.1,
+    "spawnBiome": true,
+    "biomeWeight": 3,
+    "biomeType": "ICY",
+    "biomeCategory": "NONE",
+    "biomeDictionaryTypes": [
+      "FOREST",
+      "HILLS",
+      "COLD",
+      "DENSE"
+    ],
+    "spawnList": []
+  }
+}
