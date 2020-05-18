@@ -1,9 +1,6 @@
 
 package net.mcreator.wild_world.entity;
 
-import net.minecraft.client.renderer.entity.EntityRendererManager;
-import com.mojang.blaze3d.platform.GlStateManager;
-
 import net.minecraftforge.registries.ObjectHolder;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.fml.network.NetworkHooks;
@@ -22,7 +19,6 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.DamageSource;
 import net.minecraft.pathfinding.FlyingPathNavigator;
-import net.minecraft.particles.ParticleTypes;
 import net.minecraft.particles.RedstoneParticleData;
 import net.minecraft.network.IPacket;
 import net.minecraft.item.SpawnEggItem;
@@ -31,9 +27,8 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.entity.projectile.PotionEntity;
 import net.minecraft.entity.projectile.AbstractArrowEntity;
-import net.minecraft.entity.player.ServerPlayerEntity;
 import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.entity.monster.BlazeEntity;
+import net.minecraft.entity.monster.MonsterEntity;
 import net.minecraft.entity.ai.goal.WaterAvoidingRandomWalkingGoal;
 import net.minecraft.entity.ai.goal.RangedAttackGoal;
 import net.minecraft.entity.ai.goal.RandomWalkingGoal;
@@ -48,14 +43,11 @@ import net.minecraft.entity.IRangedAttackMob;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.EntityClassification;
 import net.minecraft.entity.Entity;
-import net.minecraft.entity.monster.MonsterEntity;
 import net.minecraft.entity.CreatureAttribute;
-import net.minecraft.client.renderer.model.ModelBox;
-import net.minecraft.client.renderer.entity.model.RendererModel;
-import net.minecraft.client.renderer.entity.model.EntityModel;
 import net.minecraft.client.renderer.entity.model.BlazeModel;
 import net.minecraft.client.renderer.entity.SpriteRenderer;
 import net.minecraft.client.renderer.entity.MobRenderer;
+import net.minecraft.client.renderer.entity.EntityRendererManager;
 import net.minecraft.client.Minecraft;
 import net.minecraft.block.BlockState;
 
@@ -64,7 +56,8 @@ import net.mcreator.wild_world.item.BlueStoneRodItem;
 import net.mcreator.wild_world.WildWorldElements;
 
 import java.util.Random;
-import java.io.Console;
+
+import com.mojang.blaze3d.platform.GlStateManager;
 
 @WildWorldElements.ModElement.Tag
 public class DwarfStarGuardEntity extends WildWorldElements.ModElement {
@@ -116,12 +109,10 @@ public class DwarfStarGuardEntity extends WildWorldElements.ModElement {
 			this.navigator = new FlyingPathNavigator(this, this.world);
 		}
 
-		
 		public boolean HasTarget(CustomEntity wahfat) {
 			if (wahfat.getAttackTarget() == null) {
 				return false;
-			}
-			else {
+			} else {
 				return true;
 			}
 		}
@@ -213,7 +204,6 @@ public class DwarfStarGuardEntity extends WildWorldElements.ModElement {
 			double d3 = target.posZ - this.posZ;
 			entityarrow.shoot(d1, d0 - entityarrow.posY + (double) MathHelper.sqrt(d1 * d1 + d3 * d3) * 0.2F, d3, 1.6F, 12.0F);
 			world.addEntity(entityarrow);
-			
 		}
 
 		@Override
@@ -232,12 +222,13 @@ public class DwarfStarGuardEntity extends WildWorldElements.ModElement {
 			float j = (float) this.posY;
 			float k = (float) this.posZ;
 			Random random = this.rand;
-			if (this.getAttackTarget() == null) {
+			if (this.getAttackTarget() == null) {
 				for (int l = 0; l < 5; ++l) {
 					double d0 = (double) ((float) i + 0.5) + (double) (random.nextFloat() - 0.5) * 0.2599999985098839D;
 					double d1 = ((double) ((float) j + 0.7) + (double) (random.nextFloat() - 0.5) * 0.2599999985098839D) + 0.5;
 					double d2 = (double) ((float) k + 0.5) + (double) (random.nextFloat() - 0.5) * 0.2599999985098839D;
-					world.addParticle(new RedstoneParticleData(0.06f * (float) Math.random() + 0.03f, 0.06f * (float) Math.random() + 0.03f, 1f, 1f), d0, d1, d2, 0, 0, 0);
+					world.addParticle(new RedstoneParticleData(0.06f * (float) Math.random() + 0.03f, 0.06f * (float) Math.random() + 0.03f, 1f, 1f),
+							d0, d1, d2, 0, 0, 0);
 				}
 			} else {
 				for (int l = 0; l < 5; ++l) {
@@ -253,28 +244,26 @@ public class DwarfStarGuardEntity extends WildWorldElements.ModElement {
 	@OnlyIn(Dist.CLIENT)
 	public class DwarfStarRenderer extends MobRenderer<CustomEntity, BlazeModel<CustomEntity>> {
 		private final ResourceLocation DWARFSTAR_TEXTURES = new ResourceLocation("wild_world:textures/dwarfstardian.png");
-   		private final ResourceLocation DWARFSTAR_SHOOTING_TEXTURES = new ResourceLocation("wild_world:textures/dwarfstardianattacking.png");
+		private final ResourceLocation DWARFSTAR_SHOOTING_TEXTURES = new ResourceLocation("wild_world:textures/dwarfstardianattacking.png");
+		public DwarfStarRenderer(EntityRendererManager renderManagerIn) {
+			super(renderManagerIn, new BlazeModel<>(), 1.5F);
+		}
 
-   		public DwarfStarRenderer(EntityRendererManager renderManagerIn) {
-      		super(renderManagerIn, new BlazeModel<>(), 1.5F);
-   		}
+		protected ResourceLocation getEntityTexture(CustomEntity entity) {
+			if (entity.getAttackTarget() == null) {
+				return DWARFSTAR_TEXTURES;
+			} else {
+				return DWARFSTAR_SHOOTING_TEXTURES;
+			}
+		}
 
-	   	protected ResourceLocation getEntityTexture(CustomEntity entity) {
-	      	if (entity.getAttackTarget() == null) {
-	      		return DWARFSTAR_TEXTURES;
-	      	}
-	      	else {
-	      		return DWARFSTAR_SHOOTING_TEXTURES;
-	      	}
-	   	}
-	
-	   	protected void preRenderCallback(CustomEntity entitylivingbaseIn, float partialTickTime) {
-	      	float f = 1.0F;
-	      	float f1 = 1F;
-	      	float f2 = 1F;
-	      	GlStateManager.scalef(1F, 1F, 1F);
-	      	GlStateManager.color4f(1.0F, 1.0F, 1.0F, 1.0F);
-	   	}
+		protected void preRenderCallback(CustomEntity entitylivingbaseIn, float partialTickTime) {
+			float f = 1.0F;
+			float f1 = 1F;
+			float f2 = 1F;
+			GlStateManager.scalef(1F, 1F, 1F);
+			GlStateManager.color4f(1.0F, 1.0F, 1.0F, 1.0F);
+		}
 	}
 
 	@OnlyIn(value = Dist.CLIENT, _interface = IRendersAsItem.class)

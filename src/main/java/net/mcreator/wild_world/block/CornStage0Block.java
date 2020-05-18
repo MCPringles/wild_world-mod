@@ -56,7 +56,7 @@ public class CornStage0Block extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:cornstage0")
 	public static final TileEntityType<CustomTileEntity> tileEntityType = null;
 	public CornStage0Block(WildWorldElements instance) {
-		super(instance, 298);
+		super(instance, 344);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

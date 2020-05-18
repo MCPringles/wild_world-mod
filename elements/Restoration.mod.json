@@ -1,0 +1,30 @@
+{
+  "_fv": 6,
+  "_type": "potion",
+  "definition": {
+    "name": "Potion of Restoration",
+    "effectName": "Restoration",
+    "icon": "restoration_icon.png",
+    "color": {
+      "value": -20003,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": false,
+    "isBenefitical": true,
+    "registerPotionType": true,
+    "curativeItems": [
+      {
+        "value": "Items.MILK_BUCKET"
+      }
+    ],
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onStarted": {
+      "name": "RestorationStarted"
+    },
+    "onExpired": {
+      "name": "RestorationExpires"
+    }
+  }
+}

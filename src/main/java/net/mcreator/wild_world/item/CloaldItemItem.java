@@ -15,7 +15,7 @@ public class CloaldItemItem extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:cloalditem")
 	public static final Item block = null;
 	public CloaldItemItem(WildWorldElements instance) {
-		super(instance, 75);
+		super(instance, 120);
 	}
 
 	@Override

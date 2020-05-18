@@ -1,0 +1,45 @@
+{
+  "_fv": 6,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "recipeRetstackSize": 1,
+    "group": "fallenstar",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:BluestoneItem"
+      },
+      {
+        "value": "CUSTOM:BluestoneItem"
+      },
+      {
+        "value": "CUSTOM:BluestoneItem"
+      },
+      {
+        "value": "CUSTOM:BluestoneItem"
+      },
+      {
+        "value": "Items.NETHER_STAR"
+      },
+      {
+        "value": "CUSTOM:BluestoneItem"
+      },
+      {
+        "value": "CUSTOM:BluestoneItem"
+      },
+      {
+        "value": "CUSTOM:BluestoneItem"
+      },
+      {
+        "value": "CUSTOM:BluestoneItem"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:FallenStarItem"
+    },
+    "name": "fallenstarrecipe",
+    "namespace": "mod"
+  }
+}

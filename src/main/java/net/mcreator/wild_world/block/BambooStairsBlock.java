@@ -31,7 +31,7 @@ public class BambooStairsBlock extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:bamboostairs")
 	public static final Block block = null;
 	public BambooStairsBlock(WildWorldElements instance) {
-		super(instance, 29);
+		super(instance, 53);
 	}
 
 	@Override

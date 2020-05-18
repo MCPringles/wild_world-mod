@@ -9,7 +9,7 @@ import net.mcreator.wild_world.WildWorldElements;
 @WildWorldElements.ModElement.Tag
 public class PalmGen3Procedure extends WildWorldElements.ModElement {
 	public PalmGen3Procedure(WildWorldElements instance) {
-		super(instance, 332);
+		super(instance, 377);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

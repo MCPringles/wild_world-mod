@@ -10,7 +10,7 @@ import net.mcreator.wild_world.WildWorldElements;
 @WildWorldElements.ModElement.Tag
 public class PringlePearFoodEatenProcedure extends WildWorldElements.ModElement {
 	public PringlePearFoodEatenProcedure(WildWorldElements instance) {
-		super(instance, 274);
+		super(instance, 320);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

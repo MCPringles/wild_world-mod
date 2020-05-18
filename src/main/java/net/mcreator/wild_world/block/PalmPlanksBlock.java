@@ -30,7 +30,7 @@ public class PalmPlanksBlock extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:palmplanks")
 	public static final Block block = null;
 	public PalmPlanksBlock(WildWorldElements instance) {
-		super(instance, 22);
+		super(instance, 33);
 	}
 
 	@Override

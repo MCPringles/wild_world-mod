@@ -1,0 +1,13 @@
+{
+  "group": "midnightmangroveplanks",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wild_world:marshwoodlog"
+    }
+  ],
+  "result": {
+    "item": "wild_world:midnightplanks",
+    "count": 4
+  }
+}

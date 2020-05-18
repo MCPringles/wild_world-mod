@@ -5,7 +5,7 @@
     "recipeType": "Crafting",
     "xpReward": 0.0,
     "recipeRetstackSize": 2,
-    "group": "",
+    "group": "halvecoconut",
     "recipeShapeless": true,
     "recipeSlots": [
       {
@@ -21,7 +21,7 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:CoconutItem"
+        "value": "CUSTOM:CoconutBlock"
       },
       {
         "value": ""

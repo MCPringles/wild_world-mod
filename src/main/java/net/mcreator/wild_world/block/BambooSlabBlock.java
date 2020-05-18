@@ -32,7 +32,7 @@ public class BambooSlabBlock extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:bambooslab")
 	public static final Block block = null;
 	public BambooSlabBlock(WildWorldElements instance) {
-		super(instance, 32);
+		super(instance, 58);
 	}
 
 	@Override

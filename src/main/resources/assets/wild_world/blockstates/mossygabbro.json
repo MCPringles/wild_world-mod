@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "": [
+      	{ "model": "wild_world:block/mossygabbro" },
+    	{ "model": "wild_world:block/mossygabbro", "y": 90 },
+        { "model": "wild_world:block/mossygabbro", "y": 180 },
+        { "model": "wild_world:block/mossygabbro", "y": 270 }
+    ]
+  }
+}

@@ -11,7 +11,7 @@ import net.mcreator.wild_world.WildWorldElements;
 @WildWorldElements.ModElement.Tag
 public class WaterFoliageSpawnerBlockAddedProcedure extends WildWorldElements.ModElement {
 	public WaterFoliageSpawnerBlockAddedProcedure(WildWorldElements instance) {
-		super(instance, 326);
+		super(instance, 372);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

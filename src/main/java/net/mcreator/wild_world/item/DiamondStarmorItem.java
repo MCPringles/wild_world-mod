@@ -35,7 +35,7 @@ public class DiamondStarmorItem extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:diamondstarmorboots")
 	public static final Item boots = null;
 	public DiamondStarmorItem(WildWorldElements instance) {
-		super(instance, 115);
+		super(instance, 164);
 	}
 
 	@Override

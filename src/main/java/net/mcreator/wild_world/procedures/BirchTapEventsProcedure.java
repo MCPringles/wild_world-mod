@@ -13,6 +13,7 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.item.ItemEntity;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.Entity;
+import net.minecraft.block.Blocks;
 import net.minecraft.advancements.AdvancementProgress;
 import net.minecraft.advancements.Advancement;
 
@@ -20,8 +21,6 @@ import net.mcreator.wild_world.item.TapWoodItem;
 import net.mcreator.wild_world.item.TapIronItem;
 import net.mcreator.wild_world.item.TapGoldItem;
 import net.mcreator.wild_world.item.BirchSapItemItem;
-import net.mcreator.wild_world.block.MapleLogWildBlock;
-import net.mcreator.wild_world.block.MapleLogBlock;
 import net.mcreator.wild_world.WildWorldElements;
 
 import java.util.Iterator;
@@ -29,7 +28,7 @@ import java.util.Iterator;
 @WildWorldElements.ModElement.Tag
 public class BirchTapEventsProcedure extends WildWorldElements.ModElement {
 	public BirchTapEventsProcedure(WildWorldElements instance) {
-		super(instance, 258);
+		super(instance, 305);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {
@@ -86,14 +85,14 @@ public class BirchTapEventsProcedure extends WildWorldElements.ModElement {
 					}
 				}
 				if ((Math.random() >= 0.25)) {
-					world.setBlockState(new BlockPos((int) x, (int) y, (int) z), MapleLogWildBlock.block.getDefaultState(), 3);
+					world.setBlockState(new BlockPos((int) x, (int) y, (int) z), Blocks.BIRCH_LOG.getDefaultState(), 3);
 				}
 				world.playSound((PlayerEntity) null, x, y, z,
 						(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.wooden_button.click_on")),
 						SoundCategory.NEUTRAL, (float) 1, (float) 1.15);
 				if (entity instanceof ServerPlayerEntity) {
 					Advancement _adv = ((MinecraftServer) ((ServerPlayerEntity) entity).server).getAdvancementManager()
-							.getAdvancement(new ResourceLocation("none"));
+							.getAdvancement(new ResourceLocation("wild_world:acheivementmaplesap"));
 					AdvancementProgress _ap = ((ServerPlayerEntity) entity).getAdvancements().getProgress(_adv);
 					if (!_ap.isDone()) {
 						Iterator _iterator = _ap.getRemaningCriteria().iterator();
@@ -122,14 +121,14 @@ public class BirchTapEventsProcedure extends WildWorldElements.ModElement {
 						world.addEntity(entityToSpawn);
 					}
 				}
-				world.setBlockState(new BlockPos((int) x, (int) y, (int) z), MapleLogBlock.block.getDefaultState(), 3);
+				world.setBlockState(new BlockPos((int) x, (int) y, (int) z), Blocks.BIRCH_LOG.getDefaultState(), 3);
 				world.playSound((PlayerEntity) null, x, y, z,
 						(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS
 								.getValue(new ResourceLocation("block.wooden_pressure_plate.click_on")),
 						SoundCategory.NEUTRAL, (float) 1, (float) 1.05);
 				if (entity instanceof ServerPlayerEntity) {
 					Advancement _adv = ((MinecraftServer) ((ServerPlayerEntity) entity).server).getAdvancementManager()
-							.getAdvancement(new ResourceLocation("none"));
+							.getAdvancement(new ResourceLocation("wild_world:acheivementmaplesap"));
 					AdvancementProgress _ap = ((ServerPlayerEntity) entity).getAdvancements().getProgress(_adv);
 					if (!_ap.isDone()) {
 						Iterator _iterator = _ap.getRemaningCriteria().iterator();
@@ -175,7 +174,7 @@ public class BirchTapEventsProcedure extends WildWorldElements.ModElement {
 					}
 				}
 				if ((Math.random() >= 0.125)) {
-					world.setBlockState(new BlockPos((int) x, (int) y, (int) z), MapleLogBlock.block.getDefaultState(), 3);
+					world.setBlockState(new BlockPos((int) x, (int) y, (int) z), Blocks.BIRCH_LOG.getDefaultState(), 3);
 				}
 				world.playSound((PlayerEntity) null, x, y, z,
 						(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS
@@ -183,7 +182,7 @@ public class BirchTapEventsProcedure extends WildWorldElements.ModElement {
 						SoundCategory.NEUTRAL, (float) 1, (float) 1.2);
 				if (entity instanceof ServerPlayerEntity) {
 					Advancement _adv = ((MinecraftServer) ((ServerPlayerEntity) entity).server).getAdvancementManager()
-							.getAdvancement(new ResourceLocation("none"));
+							.getAdvancement(new ResourceLocation("wild_world:acheivementmaplesap"));
 					AdvancementProgress _ap = ((ServerPlayerEntity) entity).getAdvancements().getProgress(_adv);
 					if (!_ap.isDone()) {
 						Iterator _iterator = _ap.getRemaningCriteria().iterator();

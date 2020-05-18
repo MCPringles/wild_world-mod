@@ -15,7 +15,7 @@ public class CloudItemItem extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:clouditem")
 	public static final Item block = null;
 	public CloudItemItem(WildWorldElements instance) {
-		super(instance, 119);
+		super(instance, 168);
 	}
 
 	@Override

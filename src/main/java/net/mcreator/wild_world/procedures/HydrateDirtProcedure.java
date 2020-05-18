@@ -11,7 +11,7 @@ import net.mcreator.wild_world.WildWorldElements;
 @WildWorldElements.ModElement.Tag
 public class HydrateDirtProcedure extends WildWorldElements.ModElement {
 	public HydrateDirtProcedure(WildWorldElements instance) {
-		super(instance, 141);
+		super(instance, 193);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

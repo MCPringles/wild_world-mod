@@ -2,7 +2,7 @@
   "_fv": 6,
   "_type": "achievement",
   "definition": {
-    "achievementName": "Aerial Orchard",
+    "achievementName": "Windy Woods",
     "achievementDescription": "Find a Cottongale Forest biome.",
     "achievementIcon": {
       "value": "CUSTOM:BlossieLeaves"
@@ -13,11 +13,7 @@
     "announceToChat": true,
     "hideIfNotCompleted": true,
     "rewardLoot": [],
-    "rewardRecipes": [
-      "PineconeToSapling",
-      "PineRecipe",
-      "PineTeaRecipe"
-    ],
+    "rewardRecipes": [],
     "rewardFunction": "No function",
     "rewardXP": 0,
     "achievementType": "task",

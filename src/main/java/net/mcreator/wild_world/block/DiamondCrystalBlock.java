@@ -47,7 +47,7 @@ public class DiamondCrystalBlock extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:diamondcrystal")
 	public static final Block block = null;
 	public DiamondCrystalBlock(WildWorldElements instance) {
-		super(instance, 364);
+		super(instance, 399);
 	}
 
 	@Override

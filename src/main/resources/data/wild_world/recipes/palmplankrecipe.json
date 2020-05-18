@@ -1,0 +1,13 @@
+{
+  "group": "palmplanks",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wild_world:palmlog"
+    }
+  ],
+  "result": {
+    "item": "wild_world:palmplanks",
+    "count": 4
+  }
+}

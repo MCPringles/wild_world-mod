@@ -15,7 +15,7 @@ public class BirchSapItemItem extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:birchsapitem")
 	public static final Item block = null;
 	public BirchSapItemItem(WildWorldElements instance) {
-		super(instance, 118);
+		super(instance, 167);
 	}
 
 	@Override

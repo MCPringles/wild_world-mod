@@ -13,10 +13,16 @@ import net.minecraft.world.gen.feature.MultipleRandomFeatureConfig;
 import net.minecraft.world.gen.feature.IFeatureConfig;
 import net.minecraft.world.gen.feature.GrassFeatureConfig;
 import net.minecraft.world.gen.feature.Feature;
+import net.minecraft.world.gen.feature.NoFeatureConfig;
 import net.minecraft.world.gen.GenerationStage;
 import net.minecraft.world.biome.DefaultBiomeFeatures;
 import net.minecraft.world.biome.Biome;
 import net.minecraft.block.Blocks;
+import net.minecraft.util.registry.Registry;
+
+import net.mcreator.customclass.BlossieTreeFeature;
+import net.mcreator.customclass.WillowTreeFeature;
+import net.mcreator.customclass.DefaultSkyFeatures;
 
 import net.mcreator.wild_world.WildWorldElements;
 
@@ -25,7 +31,7 @@ public class SkyJungleBiome extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:skyjungle")
 	public static final CustomBiome biome = null;
 	public SkyJungleBiome(WildWorldElements instance) {
-		super(instance, 218);
+		super(instance, 265);
 	}
 
 	@Override
@@ -48,14 +54,14 @@ public class SkyJungleBiome extends WildWorldElements.ModElement {
 			DefaultBiomeFeatures.addMonsterRooms(this);
 			DefaultBiomeFeatures.addOres(this);
 			DefaultBiomeFeatures.addLakes(this);
+			DefaultSkyFeatures.addStoneVariants(this);
 			addFeature(GenerationStage.Decoration.VEGETAL_DECORATION, Biome.createDecoratedFeature(Feature.DEFAULT_FLOWER,
 					IFeatureConfig.NO_FEATURE_CONFIG, Placement.COUNT_HEIGHTMAP_32, new FrequencyConfig(10)));
 			addFeature(GenerationStage.Decoration.VEGETAL_DECORATION, Biome.createDecoratedFeature(Feature.GRASS,
 					new GrassFeatureConfig(Blocks.GRASS.getDefaultState()), Placement.COUNT_HEIGHTMAP_DOUBLE, new FrequencyConfig(10)));
-			addFeature(GenerationStage.Decoration.VEGETAL_DECORATION,
-					Biome.createDecoratedFeature(Feature.RANDOM_SELECTOR,
-							new MultipleRandomFeatureConfig(new Feature[]{Feature.FANCY_TREE}, new IFeatureConfig[]{IFeatureConfig.NO_FEATURE_CONFIG},
-									new float[]{0.1F}, Feature.NORMAL_TREE, IFeatureConfig.NO_FEATURE_CONFIG),
+			addFeature(GenerationStage.Decoration.VEGETAL_DECORATION, Biome.createDecoratedFeature(Feature.RANDOM_SELECTOR,
+					new MultipleRandomFeatureConfig(new Feature[]{Feature.FANCY_TREE, new BlossieTreeFeature(NoFeatureConfig::deserialize, false), new WillowTreeFeature(NoFeatureConfig::deserialize, false)}, new IFeatureConfig[]{IFeatureConfig.NO_FEATURE_CONFIG, IFeatureConfig.NO_FEATURE_CONFIG, IFeatureConfig.NO_FEATURE_CONFIG},
+									new float[]{0.1F, 0.1F, 0.2F}, Feature.FANCY_TREE, IFeatureConfig.NO_FEATURE_CONFIG),
 							Placement.COUNT_EXTRA_HEIGHTMAP, new AtSurfaceWithExtraConfig(4, 0.1F, 1)));
 		}
 	}

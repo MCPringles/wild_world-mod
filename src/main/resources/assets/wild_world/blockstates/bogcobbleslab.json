@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "wild_world:block/bogcobbleslab"
+    },
+    "type=top": {
+      "model": "wild_world:block/bogcobbleslab_top"
+    },
+    "type=double": {
+      "model": "wild_world:block/bogcobbleslab_full"
+    }
+  }
+}

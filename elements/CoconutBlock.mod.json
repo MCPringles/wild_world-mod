@@ -31,7 +31,7 @@
     "destroyTool": "Not specified",
     "affectedBySilkTouch": false,
     "customDrop": {
-      "value": "CUSTOM:CoconutItem"
+      "value": ""
     },
     "dropAmount": 1,
     "isBeaconBase": false,
@@ -47,7 +47,7 @@
     "isReplaceable": false,
     "colorOnMap": "AIR",
     "creativePickItem": {
-      "value": "CUSTOM:CoconutItem"
+      "value": ""
     },
     "flammability": 1,
     "fireSpreadSpeed": 0,

@@ -22,7 +22,7 @@ public class TapIronItem extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:tapiron")
 	public static final Item block = null;
 	public TapIronItem(WildWorldElements instance) {
-		super(instance, 136);
+		super(instance, 188);
 	}
 
 	@Override

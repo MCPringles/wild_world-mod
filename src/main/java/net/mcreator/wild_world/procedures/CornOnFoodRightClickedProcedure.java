@@ -22,7 +22,7 @@ import net.mcreator.wild_world.WildWorldElements;
 @WildWorldElements.ModElement.Tag
 public class CornOnFoodRightClickedProcedure extends WildWorldElements.ModElement {
 	public CornOnFoodRightClickedProcedure(WildWorldElements instance) {
-		super(instance, 299);
+		super(instance, 345);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

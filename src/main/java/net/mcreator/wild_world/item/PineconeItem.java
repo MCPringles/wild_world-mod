@@ -21,7 +21,7 @@ public class PineconeItem extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:pinecone")
 	public static final Item block = null;
 	public PineconeItem(WildWorldElements instance) {
-		super(instance, 82);
+		super(instance, 129);
 	}
 
 	@Override

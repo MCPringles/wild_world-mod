@@ -16,6 +16,7 @@ import net.minecraft.world.gen.GenerationStage;
 import net.minecraft.world.gen.ChunkGenerator;
 import net.minecraft.world.dimension.DimensionType;
 import net.minecraft.world.biome.Biome;
+import net.minecraft.world.biome.BiomeColors;
 import net.minecraft.world.IWorld;
 import net.minecraft.world.IBlockReader;
 import net.minecraft.util.math.BlockPos;
@@ -32,6 +33,7 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.FlowerBlock;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
+import net.minecraft.client.renderer.color.BlockColors;
 
 import net.mcreator.wild_world.world.dimension.SkyDimension;
 import net.mcreator.wild_world.WildWorldElements;
@@ -39,13 +41,14 @@ import net.mcreator.wild_world.WildWorldElements;
 import java.util.Random;
 import java.util.List;
 import java.util.Collections;
+import net.minecraft.client.renderer.color.IBlockColor;
 
 @WildWorldElements.ModElement.Tag
 public class SkyFernBlock extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:skyfern")
 	public static final Block block = null;
 	public SkyFernBlock(WildWorldElements instance) {
-		super(instance, 59);
+		super(instance, 96);
 	}
 
 	@Override

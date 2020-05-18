@@ -8,6 +8,7 @@ import net.minecraft.entity.Entity;
 
 import net.mcreator.wild_world.block.MapleLogWildBlock;
 import net.mcreator.wild_world.block.BlossieLogWildBlock;
+import net.mcreator.wild_world.block.BirchLogWildBlock;
 import net.mcreator.wild_world.WildWorldElements;
 
 import java.util.Random;
@@ -15,7 +16,7 @@ import java.util.Random;
 @WildWorldElements.ModElement.Tag
 public class TapUsedEventProcedure extends WildWorldElements.ModElement {
 	public TapUsedEventProcedure(WildWorldElements instance) {
-		super(instance, 170);
+		super(instance, 220);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {
@@ -81,6 +82,23 @@ public class TapUsedEventProcedure extends WildWorldElements.ModElement {
 				$_dependencies.put("y", (int) (y));
 				$_dependencies.put("z", (int) (z));
 				BlossieTapEventsProcedure.executeProcedure($_dependencies);
+			}
+		}
+		if (((world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == BirchLogWildBlock.block.getDefaultState().getBlock())) {
+			if ((!((entity instanceof PlayerEntity) ? ((PlayerEntity) entity).abilities.isCreativeMode : false))) {
+				if (itemstack.attemptDamageItem((int) 1, new Random(), null)) {
+					itemstack.shrink(1);
+					itemstack.setDamage(0);
+				}
+			}
+			{
+				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+				$_dependencies.put("entity", entity);
+				$_dependencies.put("world", world);
+				$_dependencies.put("x", (int) (x));
+				$_dependencies.put("y", (int) (y));
+				$_dependencies.put("z", (int) (z));
+				BirchTapEventsProcedure.executeProcedure($_dependencies);
 			}
 		}
 	}

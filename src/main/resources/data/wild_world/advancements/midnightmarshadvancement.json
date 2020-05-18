@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "wild_world:morningorchid"
+    },
+    "title": {
+      "translate": "advancements.midnightmarshadvancement.title"
+    },
+    "description": {
+      "translate": "advancements.midnightmarshadvancement.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "midnightmarshadvancement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "wild_world:midnightmarsh"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0
+  },
+  "parent": "wild_world:skyadv"
+}

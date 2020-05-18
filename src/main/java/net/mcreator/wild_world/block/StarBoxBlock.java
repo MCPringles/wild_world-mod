@@ -36,7 +36,7 @@ public class StarBoxBlock extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:starbox")
 	public static final Block block = null;
 	public StarBoxBlock(WildWorldElements instance) {
-		super(instance, 89);
+		super(instance, 136);
 	}
 
 	@Override

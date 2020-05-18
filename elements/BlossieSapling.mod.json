@@ -1,0 +1,93 @@
+{
+  "_fv": 6,
+  "_type": "block",
+  "definition": {
+    "texture": "pinesapling",
+    "textureTop": "pinesapling",
+    "textureLeft": "pinesapling",
+    "textureFront": "pinesapling",
+    "textureRight": "pinesapling",
+    "textureBack": "pinesapling",
+    "renderType": 12,
+    "customModelName": "Cross model",
+    "rotationMode": 0,
+    "hasTransparency": true,
+    "transparencyType": "CUTOUT_MIPPED",
+    "mx": 0.01,
+    "my": 0.0,
+    "mz": 0.01,
+    "Mx": 0.9,
+    "My": 0.8,
+    "Mz": 0.9,
+    "faceShape": "SOLID",
+    "name": "Pine Sapling",
+    "specialInfo": [],
+    "hardness": 0.01,
+    "resistance": 0.0,
+    "hasGravity": false,
+    "creativeTab": {
+      "value": "DECORATIONS"
+    },
+    "destroyTool": "axe",
+    "affectedBySilkTouch": false,
+    "customDrop": {
+      "value": ""
+    },
+    "dropAmount": 1,
+    "isBeaconBase": false,
+    "enchantPowerBonus": 0.0,
+    "plantsGrowOn": false,
+    "canProvidePower": false,
+    "lightOpacity": 0,
+    "material": {
+      "value": "PLANTS"
+    },
+    "tickRate": 10,
+    "tickRandomly": false,
+    "isReplaceable": false,
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "isLadder": false,
+    "slipperiness": 0.6,
+    "reactionToPushing": "NORMAL",
+    "isNotColidable": true,
+    "soundOnStep": {
+      "value": "PLANT"
+    },
+    "luminance": 0.0,
+    "unbreakable": false,
+    "breakHarvestLevel": -1,
+    "spawnParticles": false,
+    "particleToSpawn": {
+      "value": "EXPLOSION_NORMAL"
+    },
+    "particleSpawningShape": "Spread",
+    "particleSpawningRadious": 0.5,
+    "particleAmount": 4,
+    "particleSpawningCondition": "ALWAYS",
+    "hasInventory": false,
+    "openGUIOnRightClick": false,
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "inventoryDropWhenDestroyed": true,
+    "inventoryComparatorPower": true,
+    "inventoryOutSlotIDs": [],
+    "onRightClicked": {
+      "name": "PineSaplingBonemealed"
+    },
+    "onTickUpdate": {
+      "name": "RandomEvent"
+    },
+    "spawnWorldTypes": [],
+    "restrictionBiomes": [],
+    "blocksToReplace": [
+      {
+        "value": "Blocks.STONE"
+      }
+    ],
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 16,
+    "minGenerateHeight": 10,
+    "maxGenerateHeight": 110
+  }
+}

@@ -2,10 +2,10 @@
   "_fv": 6,
   "_type": "achievement",
   "definition": {
-    "achievementName": "Welcome to Wild World!",
-    "achievementDescription": "Go explore and discover!",
+    "achievementName": "Wild World",
+    "achievementDescription": "Enjoy the beauty of a new world!",
     "achievementIcon": {
-      "value": "CUSTOM:RubyItem"
+      "value": "CUSTOM:PineSapling"
     },
     "background": "advbackground.png",
     "disableDisplay": false,

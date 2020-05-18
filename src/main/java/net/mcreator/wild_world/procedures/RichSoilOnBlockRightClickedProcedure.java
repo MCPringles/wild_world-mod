@@ -15,7 +15,7 @@ import net.mcreator.wild_world.WildWorldElements;
 @WildWorldElements.ModElement.Tag
 public class RichSoilOnBlockRightClickedProcedure extends WildWorldElements.ModElement {
 	public RichSoilOnBlockRightClickedProcedure(WildWorldElements instance) {
-		super(instance, 272);
+		super(instance, 318);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

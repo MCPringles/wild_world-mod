@@ -38,9 +38,6 @@
       {
         "value": "CUSTOM:SkyForest"
       }
-    ],
-    "onDestroyedByPlayer": {
-      "name": "PetalDropEvent"
-    }
+    ]
   }
 }

@@ -2,9 +2,11 @@
 package net.mcreator.wild_world.item;
 
 import net.minecraftforge.registries.ObjectHolder;
+import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
+import net.minecraft.util.ResourceLocation;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
@@ -27,7 +29,7 @@ public class ArmorTopazItem extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:armortopazboots")
 	public static final Item boots = null;
 	public ArmorTopazItem(WildWorldElements instance) {
-		super(instance, 140);
+		super(instance, 192);
 	}
 
 	@Override
@@ -46,11 +48,11 @@ public class ArmorTopazItem extends WildWorldElements.ModElement {
 			}
 
 			public net.minecraft.util.SoundEvent getSoundEvent() {
-				return null;
+				return (net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("item.armor.equip_diamond"));
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.EMPTY;
+				return Ingredient.fromStacks(new ItemStack(TopazItemItem.block, (int) (1)));
 			}
 
 			@OnlyIn(Dist.CLIENT)

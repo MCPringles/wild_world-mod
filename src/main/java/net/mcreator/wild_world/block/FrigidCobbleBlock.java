@@ -27,7 +27,7 @@ public class FrigidCobbleBlock extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:frigidcobble")
 	public static final Block block = null;
 	public FrigidCobbleBlock(WildWorldElements instance) {
-		super(instance, 6);
+		super(instance, 7);
 	}
 
 	@Override

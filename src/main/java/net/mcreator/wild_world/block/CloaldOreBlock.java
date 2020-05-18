@@ -42,7 +42,7 @@ public class CloaldOreBlock extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:cloaldore")
 	public static final Block block = null;
 	public CloaldOreBlock(WildWorldElements instance) {
-		super(instance, 49);
+		super(instance, 78);
 	}
 
 	@Override

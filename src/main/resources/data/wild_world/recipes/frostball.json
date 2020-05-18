@@ -1,0 +1,26 @@
+{
+  "group": "ice",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "wild_world:frostbrambles"
+    },
+    "1": {
+      "item": "wild_world:frostbrambles"
+    },
+    "2": {
+      "item": "wild_world:frostbrambles"
+    },
+    "3": {
+      "item": "wild_world:frostbrambles"
+    }
+  },
+  "result": {
+    "item": "minecraft:ice",
+    "count": 1
+  }
+}

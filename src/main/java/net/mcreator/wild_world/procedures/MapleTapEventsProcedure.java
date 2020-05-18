@@ -29,7 +29,7 @@ import java.util.Iterator;
 @WildWorldElements.ModElement.Tag
 public class MapleTapEventsProcedure extends WildWorldElements.ModElement {
 	public MapleTapEventsProcedure(WildWorldElements instance) {
-		super(instance, 169);
+		super(instance, 219);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

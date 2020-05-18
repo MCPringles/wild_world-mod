@@ -21,7 +21,7 @@ import net.mcreator.wild_world.WildWorldElements;
 @WildWorldElements.ModElement.Tag
 public class SkyPortalProcedureProcedure extends WildWorldElements.ModElement {
 	public SkyPortalProcedureProcedure(WildWorldElements instance) {
-		super(instance, 266);
+		super(instance, 313);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {
@@ -43,7 +43,6 @@ public class SkyPortalProcedureProcedure extends WildWorldElements.ModElement {
 			}
 			((ServerPlayerEntity) entity).connection.sendPacket(new SPlaySoundEventPacket(1032, BlockPos.ZERO, 0, false));
 		}
-		entity.setPositionAndUpdate(0, 72, 0);
 		if (entity instanceof LivingEntity)
 			((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.RESISTANCE, (int) 100, (int) 255));
 	}

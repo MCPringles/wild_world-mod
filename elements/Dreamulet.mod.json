@@ -1,0 +1,27 @@
+{
+  "_fv": 6,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "dreamjewel",
+    "customModelName": "Normal",
+    "name": "Dreamulet",
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "stackSize": 1,
+    "enchantability": 0,
+    "useDuration": 0,
+    "toolType": 1.0,
+    "damageCount": 5,
+    "destroyAnyBlock": false,
+    "stayInGridWhenCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInfo": [
+      "Its magical properties allow one",
+      "to visit the dream world at will."
+    ],
+    "hasGlow": false
+  }
+}

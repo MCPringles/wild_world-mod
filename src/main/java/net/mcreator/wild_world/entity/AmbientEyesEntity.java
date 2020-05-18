@@ -20,8 +20,6 @@ import net.minecraft.entity.projectile.PotionEntity;
 import net.minecraft.entity.player.ServerPlayerEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.monster.MonsterEntity;
-import net.minecraft.entity.ai.goal.RestrictSunGoal;
-import net.minecraft.entity.ai.goal.MoveTowardsVillageGoal;
 import net.minecraft.entity.ai.goal.LookAtGoal;
 import net.minecraft.entity.SharedMonsterAttributes;
 import net.minecraft.entity.EntityType;
@@ -34,10 +32,12 @@ import net.minecraft.client.renderer.entity.model.BipedModel;
 import net.minecraft.client.renderer.entity.layers.BipedArmorLayer;
 import net.minecraft.client.renderer.entity.BipedRenderer;
 
-import net.mcreator.wild_world.procedures.AmbientEyesOnEntityTickUpdateProcedure;
+import net.mcreator.wild_world.procedures.AmbientEyesOnMobTickUpdateProcedure;
 import net.mcreator.wild_world.procedures.AmbientEyesMoveEventProcedure;
 import net.mcreator.wild_world.procedures.AmbientEyesMobIsHurtProcedure;
 import net.mcreator.wild_world.WildWorldElements;
+
+import java.util.Random;
 
 @WildWorldElements.ModElement.Tag
 public class AmbientEyesEntity extends WildWorldElements.ModElement {
@@ -63,14 +63,18 @@ public class AmbientEyesEntity extends WildWorldElements.ModElement {
 		EntitySpawnPlacementRegistry.register(entity, EntitySpawnPlacementRegistry.PlacementType.ON_GROUND, Heightmap.Type.MOTION_BLOCKING_NO_LEAVES,
 				MonsterEntity::func_223315_a);
 	}
-
+	Random rand = new Random();
 	@SubscribeEvent
 	@OnlyIn(Dist.CLIENT)
 	public void registerModels(ModelRegistryEvent event) {
 		RenderingRegistry.registerEntityRenderingHandler(CustomEntity.class, renderManager -> {
 			BipedRenderer customRender = new BipedRenderer(renderManager, new BipedModel(), 0f) {
 				protected ResourceLocation getEntityTexture(Entity entity) {
-					return new ResourceLocation("wild_world:textures/ambienteyes_e.png");
+					if (rand.nextFloat() < 0.995) {
+						return new ResourceLocation("wild_world:textures/ambienteyes_e.png");
+					} else {
+						return new ResourceLocation("wild_world:textures/ambienteyes_b.png");
+					}
 				}
 			};
 			customRender.addLayer(new BipedArmorLayer(customRender, new BipedModel(0.5f), new BipedModel(1)));
@@ -96,13 +100,13 @@ public class AmbientEyesEntity extends WildWorldElements.ModElement {
 		}
 
 		@OnlyIn(Dist.CLIENT)
-   		public int getBrightnessForRender() {
-      		return 15728880;
-   		}
+		public int getBrightnessForRender() {
+			return 15728880;
+		}
 
 		public float getBrightness() {
-      		return 1.0F;
-   		}	
+			return 1.0F;
+		}
 
 		@Override
 		public CreatureAttribute getCreatureAttribute() {
@@ -171,7 +175,7 @@ public class AmbientEyesEntity extends WildWorldElements.ModElement {
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);
 				$_dependencies.put("world", world);
-				AmbientEyesOnEntityTickUpdateProcedure.executeProcedure($_dependencies);
+				AmbientEyesOnMobTickUpdateProcedure.executeProcedure($_dependencies);
 			}
 		}
 
@@ -183,7 +187,7 @@ public class AmbientEyesEntity extends WildWorldElements.ModElement {
 			int z = (int) this.posZ;
 			{
 				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
-				$_dependencies.put("entity", entity);
+				$_dependencies.put("entity", this);
 				AmbientEyesMoveEventProcedure.executeProcedure($_dependencies);
 			}
 		}

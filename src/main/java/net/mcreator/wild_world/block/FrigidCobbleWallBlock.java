@@ -38,14 +38,13 @@ public class FrigidCobbleWallBlock extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:frigidcobblewall")
 	public static final Block block = null;
 	public FrigidCobbleWallBlock(WildWorldElements instance) {
-		super(instance, 31);
+		super(instance, 85);
 	}
 
 	@Override
 	public void initElements() {
 		elements.blocks.add(() -> new CustomBlock());
-		elements.items
-				.add(() -> new BlockItem(block, new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)).setRegistryName(block.getRegistryName()));
+		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(ItemGroup.DECORATIONS)).setRegistryName(block.getRegistryName()));
 	}
 	public static class CustomBlock extends WallBlock {
 		public CustomBlock() {

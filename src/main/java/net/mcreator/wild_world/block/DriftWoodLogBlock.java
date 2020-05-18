@@ -33,7 +33,7 @@ public class DriftWoodLogBlock extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:driftwoodlog")
 	public static final Block block = null;
 	public DriftWoodLogBlock(WildWorldElements instance) {
-		super(instance, 17);
+		super(instance, 27);
 	}
 
 	@Override

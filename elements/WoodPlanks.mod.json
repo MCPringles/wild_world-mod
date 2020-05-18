@@ -19,8 +19,18 @@
       },
       {
         "value": "CUSTOM:PalmPlanks"
+      },
+      {
+        "value": "CUSTOM:MidnightPlanks"
+      },
+      {
+        "value": "CUSTOM:DriftWoodPlanks"
+      },
+      {
+        "value": "CUSTOM:WillowPlanks"
       }
     ],
+    "functions": [],
     "name": "planks",
     "namespace": "minecraft"
   }

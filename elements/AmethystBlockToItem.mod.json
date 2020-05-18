@@ -5,6 +5,7 @@
     "recipeType": "Crafting",
     "xpReward": 0.0,
     "recipeRetstackSize": 9,
+    "group": "amethyst",
     "recipeShapeless": true,
     "recipeSlots": [
       {
@@ -37,12 +38,6 @@
     ],
     "recipeReturnStack": {
       "value": "CUSTOM:Amethyst"
-    },
-    "smeltingInputStack": {
-      "value": ""
-    },
-    "smeltingReturnStack": {
-      "value": ""
     },
     "name": "amethystblocktoitem",
     "namespace": "mod"

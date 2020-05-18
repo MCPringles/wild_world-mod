@@ -46,7 +46,7 @@ public class TopazOreBlock extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:topazore")
 	public static final Block block = null;
 	public TopazOreBlock(WildWorldElements instance) {
-		super(instance, 51);
+		super(instance, 80);
 	}
 
 	@Override

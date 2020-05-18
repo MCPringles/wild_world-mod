@@ -1,0 +1,46 @@
+{
+  "_fv": 6,
+  "_type": "plant",
+  "definition": {
+    "renderType": 12,
+    "texture": "lichen",
+    "customModelName": "Cross model",
+    "plantType": "normal",
+    "growapableSpawnType": "Cave",
+    "growapableMaxHeight": 3,
+    "name": "Lichen",
+    "creativeTab": {
+      "value": "DECORATIONS"
+    },
+    "hardness": 0.0,
+    "resistance": 0.0,
+    "luminance": 0.0,
+    "unbreakable": false,
+    "soundOnStep": {
+      "value": "PLANT"
+    },
+    "customDrop": {
+      "value": ""
+    },
+    "dropAmount": 0,
+    "isReplaceable": true,
+    "colorOnMap": "CLAY",
+    "creativePickItem": {
+      "value": ""
+    },
+    "flammability": 1,
+    "fireSpreadSpeed": 0,
+    "frequencyOnChunks": 7,
+    "spawnWorldTypes": [
+      "CUSTOM:Sky"
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:SkyPlains"
+      },
+      {
+        "value": "CUSTOM:CrystalFields"
+      }
+    ]
+  }
+}

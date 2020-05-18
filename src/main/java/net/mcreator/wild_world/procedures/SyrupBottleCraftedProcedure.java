@@ -10,7 +10,7 @@ import net.mcreator.wild_world.WildWorldElements;
 @WildWorldElements.ModElement.Tag
 public class SyrupBottleCraftedProcedure extends WildWorldElements.ModElement {
 	public SyrupBottleCraftedProcedure(WildWorldElements instance) {
-		super(instance, 182);
+		super(instance, 231);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

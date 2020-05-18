@@ -5,6 +5,7 @@
     "recipeType": "Crafting",
     "xpReward": 0.0,
     "recipeRetstackSize": 1,
+    "group": "pinetea",
     "recipeShapeless": true,
     "recipeSlots": [
       {
@@ -37,12 +38,6 @@
     ],
     "recipeReturnStack": {
       "value": "CUSTOM:PineTea"
-    },
-    "smeltingInputStack": {
-      "value": ""
-    },
-    "smeltingReturnStack": {
-      "value": ""
     },
     "name": "pinetearecipe",
     "namespace": "mod"

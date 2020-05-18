@@ -14,7 +14,7 @@ import net.mcreator.wild_world.WildWorldElements;
 @WildWorldElements.ModElement.Tag
 public class CornStageUpdateTickProcedure extends WildWorldElements.ModElement {
 	public CornStageUpdateTickProcedure(WildWorldElements instance) {
-		super(instance, 300);
+		super(instance, 346);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

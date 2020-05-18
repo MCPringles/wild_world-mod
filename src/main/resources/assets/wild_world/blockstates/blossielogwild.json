@@ -1,28 +1,15 @@
 {
   "variants": {
-    "facing=south": {
+    "axis=y": {
       "model": "wild_world:block/blossielogwild"
     },
-    "facing=north": {
-      "model": "wild_world:block/blossielogwild"
-    },
-    "facing=east": {
+    "axis=z": {
       "model": "wild_world:block/blossielogwild",
       "x": 90
     },
-    "facing=west": {
+    "axis=x": {
       "model": "wild_world:block/blossielogwild",
-      "x": 90
-    },
-    "facing=up": {
-      "model": "wild_world:block/blossielogwild",
-      "x": 90,
-      "y": 90
-    },
-    "facing=down": {
-      "model": "wild_world:block/blossielogwild",
-      "x": 90,
-      "y": 90
+      "z": 90
     }
   }
 }

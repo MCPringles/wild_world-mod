@@ -55,7 +55,7 @@ public class YronStarBoxOffBlock extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:yronstarboxoff")
 	public static final TileEntityType<CustomTileEntity> tileEntityType = null;
 	public YronStarBoxOffBlock(WildWorldElements instance) {
-		super(instance, 111);
+		super(instance, 160);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

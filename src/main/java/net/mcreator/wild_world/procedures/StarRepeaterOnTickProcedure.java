@@ -13,7 +13,7 @@ import net.mcreator.wild_world.WildWorldElements;
 @WildWorldElements.ModElement.Tag
 public class StarRepeaterOnTickProcedure extends WildWorldElements.ModElement {
 	public StarRepeaterOnTickProcedure(WildWorldElements instance) {
-		super(instance, 322);
+		super(instance, 368);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

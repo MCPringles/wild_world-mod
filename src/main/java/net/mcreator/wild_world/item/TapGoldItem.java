@@ -22,7 +22,7 @@ public class TapGoldItem extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:tapgold")
 	public static final Item block = null;
 	public TapGoldItem(WildWorldElements instance) {
-		super(instance, 138);
+		super(instance, 190);
 	}
 
 	@Override

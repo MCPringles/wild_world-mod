@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "wild_world:blocks/barrencobble",
+    "top": "wild_world:blocks/barrencobble",
+    "side": "wild_world:blocks/barrencobble"
+  }
+}

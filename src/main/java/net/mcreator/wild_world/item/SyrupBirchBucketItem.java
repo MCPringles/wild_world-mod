@@ -15,7 +15,7 @@ public class SyrupBirchBucketItem extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:syrupbirchbucket")
 	public static final Item block = null;
 	public SyrupBirchBucketItem(WildWorldElements instance) {
-		super(instance, 86);
+		super(instance, 133);
 	}
 
 	@Override

@@ -10,7 +10,7 @@ import net.mcreator.wild_world.WildWorldElements;
 @WildWorldElements.ModElement.Tag
 public class DehydrateDirtProcedure extends WildWorldElements.ModElement {
 	public DehydrateDirtProcedure(WildWorldElements instance) {
-		super(instance, 145);
+		super(instance, 197);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

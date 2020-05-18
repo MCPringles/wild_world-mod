@@ -1,13 +1,7 @@
 {
-  "defaults": {
-    "model": "wild_world:block/marshgrass"
-  },
   "variants": {
-    "normal": [
-    	{"model": "wild_world:block/marshgrass"},
-		{"model": "wild_world:block/marshgrass", "y": 90},
-		{"model": "wild_world:block/marshgrass", "y": 180},
-		{"model": "wild_world:block/marshgrass", "y": 270}
-    	]
-  	}
+    "": {
+      "model": "wild_world:block/marshgrass"
+    }
+  }
 }

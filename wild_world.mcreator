@@ -1,8 +1,8 @@
 {
   "id_map": {
     "GUI": 3,
-    "ENTITY": 17,
-    "DIMENSION": 1
+    "DIMENSION": 1,
+    "ENTITY": 17
   },
   "mod_elements": [
     {
@@ -24,7 +24,7 @@
     {
       "name": "HydrateDirt",
       "type": "procedure",
-      "sortid": 141,
+      "sortid": 193,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -60,7 +60,7 @@
     {
       "name": "BarrenToCobble",
       "type": "recipe",
-      "sortid": 142,
+      "sortid": 194,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -68,7 +68,7 @@
     {
       "name": "BarrenCobbleToStone",
       "type": "recipe",
-      "sortid": 143,
+      "sortid": 195,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -76,7 +76,7 @@
     {
       "name": "PineLog",
       "type": "block",
-      "sortid": 13,
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -84,7 +84,7 @@
     {
       "name": "PineLeavesBlockDestroyedByPlayer",
       "type": "procedure",
-      "sortid": 144,
+      "sortid": 196,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -116,7 +116,7 @@
     {
       "name": "PineLeaves",
       "type": "block",
-      "sortid": 65,
+      "sortid": 108,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -124,7 +124,7 @@
     {
       "name": "DehydrateDirt",
       "type": "procedure",
-      "sortid": 145,
+      "sortid": 197,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -160,7 +160,7 @@
     {
       "name": "HydrateTopsoil",
       "type": "procedure",
-      "sortid": 146,
+      "sortid": 198,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -188,7 +188,7 @@
     {
       "name": "Pinecone",
       "type": "item",
-      "sortid": 82,
+      "sortid": 129,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -196,83 +196,23 @@
     {
       "name": "Shrub",
       "type": "plant",
-      "sortid": 58,
+      "sortid": 95,
       "compiles": true,
       "locked_code": false,
       "ids": {}
     },
     {
-      "name": "PineSaplingGrowth",
-      "type": "procedure",
-      "sortid": 147,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "int"
-          },
-          {
-            "name": "y",
-            "type": "int"
-          },
-          {
-            "name": "z",
-            "type": "int"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
-      "name": "PineSaplingBonemealed",
-      "type": "procedure",
-      "sortid": 148,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "int"
-          },
-          {
-            "name": "y",
-            "type": "int"
-          },
-          {
-            "name": "z",
-            "type": "int"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
       "name": "PineSapling",
       "type": "block",
-      "sortid": 56,
+      "sortid": 93,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {}
     },
     {
       "name": "Pineconefuel",
       "type": "fuel",
-      "sortid": 149,
+      "sortid": 199,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -280,7 +220,7 @@
     {
       "name": "DryGrassland",
       "type": "biome",
-      "sortid": 150,
+      "sortid": 200,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -288,31 +228,31 @@
     {
       "name": "DryForestYoung",
       "type": "biome",
-      "sortid": 151,
+      "sortid": 201,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {}
     },
     {
       "name": "DryForestMiddle",
       "type": "biome",
-      "sortid": 152,
+      "sortid": 202,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {}
     },
     {
       "name": "DryForestOld",
       "type": "biome",
-      "sortid": 153,
+      "sortid": 203,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {}
     },
     {
       "name": "DryMountain",
       "type": "biome",
-      "sortid": 154,
+      "sortid": 204,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -320,23 +260,23 @@
     {
       "name": "DryMountainForestMiddle",
       "type": "biome",
-      "sortid": 155,
+      "sortid": 205,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {}
     },
     {
       "name": "DryMountainForestOld",
       "type": "biome",
-      "sortid": 156,
+      "sortid": 206,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {}
     },
     {
       "name": "PineconeToSapling",
       "type": "recipe",
-      "sortid": 157,
+      "sortid": 207,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -344,7 +284,7 @@
     {
       "name": "BarrenBrick",
       "type": "block",
-      "sortid": 24,
+      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -352,7 +292,7 @@
     {
       "name": "PinePlanks",
       "type": "block",
-      "sortid": 18,
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -360,7 +300,7 @@
     {
       "name": "PineRecipe",
       "type": "recipe",
-      "sortid": 158,
+      "sortid": 208,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -368,7 +308,7 @@
     {
       "name": "PineNeedles",
       "type": "item",
-      "sortid": 116,
+      "sortid": 165,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -376,7 +316,7 @@
     {
       "name": "PineTeaFoodHealEvent",
       "type": "procedure",
-      "sortid": 159,
+      "sortid": 209,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -392,7 +332,7 @@
     {
       "name": "PineTea",
       "type": "food",
-      "sortid": 120,
+      "sortid": 169,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -400,7 +340,7 @@
     {
       "name": "PineTeaRecipe",
       "type": "recipe",
-      "sortid": 160,
+      "sortid": 210,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -408,7 +348,7 @@
     {
       "name": "BoarIsStruckByLightning",
       "type": "procedure",
-      "sortid": 161,
+      "sortid": 211,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -440,7 +380,7 @@
     {
       "name": "Boar",
       "type": "mob",
-      "sortid": 96,
+      "sortid": 143,
       "compiles": true,
       "locked_code": false,
       "ids": {
@@ -451,29 +391,13 @@
     {
       "name": "MapleLog",
       "type": "block",
-      "sortid": 14,
+      "sortid": 24,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {}
     },
     {
       "name": "FrigidCobble",
-      "type": "block",
-      "sortid": 6,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
-      "name": "FrigidStone",
-      "type": "block",
-      "sortid": 5,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
-      "name": "FrigidDirt",
       "type": "block",
       "sortid": 7,
       "compiles": true,
@@ -481,9 +405,25 @@
       "ids": {}
     },
     {
+      "name": "FrigidStone",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "FrigidDirt",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
       "name": "MapleLeaves",
       "type": "block",
-      "sortid": 66,
+      "sortid": 109,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -491,7 +431,7 @@
     {
       "name": "MapleLeavesDestroyedByPlayer",
       "type": "procedure",
-      "sortid": 162,
+      "sortid": 212,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -523,7 +463,7 @@
     {
       "name": "MapleForest",
       "type": "biome",
-      "sortid": 163,
+      "sortid": 213,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -531,7 +471,7 @@
     {
       "name": "MapleHills",
       "type": "biome",
-      "sortid": 164,
+      "sortid": 214,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -539,7 +479,7 @@
     {
       "name": "MapleForestCold",
       "type": "biome",
-      "sortid": 165,
+      "sortid": 215,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -547,7 +487,7 @@
     {
       "name": "FrigidTopsoil",
       "type": "block",
-      "sortid": 8,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -555,7 +495,7 @@
     {
       "name": "MapleHillsCold",
       "type": "biome",
-      "sortid": 166,
+      "sortid": 216,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -563,7 +503,7 @@
     {
       "name": "MaplePlanks",
       "type": "block",
-      "sortid": 19,
+      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -571,7 +511,7 @@
     {
       "name": "MapleRecipe",
       "type": "recipe",
-      "sortid": 167,
+      "sortid": 217,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -579,15 +519,15 @@
     {
       "name": "MapleLogWild",
       "type": "block",
-      "sortid": 168,
+      "sortid": 218,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {}
     },
     {
       "name": "TapWood",
       "type": "item",
-      "sortid": 135,
+      "sortid": 187,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -595,7 +535,7 @@
     {
       "name": "TapIron",
       "type": "item",
-      "sortid": 136,
+      "sortid": 188,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -603,7 +543,7 @@
     {
       "name": "TapGold",
       "type": "item",
-      "sortid": 138,
+      "sortid": 190,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -611,7 +551,7 @@
     {
       "name": "MapleTapEvents",
       "type": "procedure",
-      "sortid": 169,
+      "sortid": 219,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -643,7 +583,7 @@
     {
       "name": "TapUsedEvent",
       "type": "procedure",
-      "sortid": 170,
+      "sortid": 220,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -679,7 +619,7 @@
     {
       "name": "SapItem",
       "type": "item",
-      "sortid": 117,
+      "sortid": 166,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -687,7 +627,7 @@
     {
       "name": "Boiler",
       "type": "block",
-      "sortid": 69,
+      "sortid": 113,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -695,7 +635,7 @@
     {
       "name": "BoilerGuiActivated",
       "type": "procedure",
-      "sortid": 171,
+      "sortid": 221,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -723,7 +663,7 @@
     {
       "name": "BoilerGui",
       "type": "gui",
-      "sortid": 172,
+      "sortid": 222,
       "compiles": true,
       "locked_code": false,
       "ids": {
@@ -733,7 +673,7 @@
     {
       "name": "BarrenBrickSlab",
       "type": "block",
-      "sortid": 26,
+      "sortid": 40,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -741,7 +681,7 @@
     {
       "name": "BarrenBrickChiselled",
       "type": "block",
-      "sortid": 25,
+      "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -749,7 +689,7 @@
     {
       "name": "BarrenSlab",
       "type": "recipe",
-      "sortid": 173,
+      "sortid": 223,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -757,7 +697,7 @@
     {
       "name": "BarrenChiselled",
       "type": "recipe",
-      "sortid": 174,
+      "sortid": 224,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -765,7 +705,7 @@
     {
       "name": "DehydrateGrass",
       "type": "procedure",
-      "sortid": 175,
+      "sortid": 225,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -793,7 +733,7 @@
     {
       "name": "ThawDirt",
       "type": "procedure",
-      "sortid": 176,
+      "sortid": 226,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -821,7 +761,7 @@
     {
       "name": "ThawTopsoil",
       "type": "procedure",
-      "sortid": 177,
+      "sortid": 227,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -845,55 +785,11 @@
           }
         ]
       }
-    },
-    {
-      "name": "Pine5",
-      "type": "structure",
-      "sortid": 178,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
-      "name": "PineSaplingItemPlanted",
-      "type": "procedure",
-      "sortid": 179,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "int"
-          },
-          {
-            "name": "y",
-            "type": "int"
-          },
-          {
-            "name": "z",
-            "type": "int"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
-      "name": "PineSaplingItem",
-      "type": "item",
-      "sortid": 57,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
     },
     {
       "name": "BoilerTick",
       "type": "procedure",
-      "sortid": 180,
+      "sortid": 229,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -921,7 +817,7 @@
     {
       "name": "SyrupBucket",
       "type": "item",
-      "sortid": 85,
+      "sortid": 132,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -929,7 +825,7 @@
     {
       "name": "SyrupBottleDrank",
       "type": "procedure",
-      "sortid": 181,
+      "sortid": 230,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -961,7 +857,7 @@
     {
       "name": "SyrupBottle",
       "type": "food",
-      "sortid": 121,
+      "sortid": 170,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -969,7 +865,7 @@
     {
       "name": "SyrupBottleCrafted",
       "type": "procedure",
-      "sortid": 182,
+      "sortid": 231,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -997,7 +893,7 @@
     {
       "name": "SyrupBottleRecipe",
       "type": "recipe",
-      "sortid": 183,
+      "sortid": 232,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1005,7 +901,7 @@
     {
       "name": "BoilerRecipe",
       "type": "recipe",
-      "sortid": 184,
+      "sortid": 233,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1013,7 +909,7 @@
     {
       "name": "WoodTap",
       "type": "recipe",
-      "sortid": 185,
+      "sortid": 234,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1021,7 +917,7 @@
     {
       "name": "IronTap",
       "type": "recipe",
-      "sortid": 186,
+      "sortid": 235,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1029,7 +925,7 @@
     {
       "name": "GoldTap",
       "type": "recipe",
-      "sortid": 187,
+      "sortid": 236,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1037,7 +933,7 @@
     {
       "name": "RandomEvent",
       "type": "procedure",
-      "sortid": 188,
+      "sortid": 237,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1065,7 +961,7 @@
     {
       "name": "Update",
       "type": "procedure",
-      "sortid": 189,
+      "sortid": 238,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1093,7 +989,7 @@
     {
       "name": "HouseSpawnerBlockAdded",
       "type": "procedure",
-      "sortid": 190,
+      "sortid": 239,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1121,7 +1017,7 @@
     {
       "name": "HouseSpawner",
       "type": "block",
-      "sortid": 191,
+      "sortid": 240,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1129,7 +1025,7 @@
     {
       "name": "MapleHouse",
       "type": "structure",
-      "sortid": 192,
+      "sortid": 241,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1137,7 +1033,7 @@
     {
       "name": "FrigidTopsoilSnowy",
       "type": "block",
-      "sortid": 193,
+      "sortid": 242,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1145,7 +1041,7 @@
     {
       "name": "FrigidTopsoilSnowyUpdateTick",
       "type": "procedure",
-      "sortid": 194,
+      "sortid": 243,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1173,7 +1069,7 @@
     {
       "name": "MapleCookie",
       "type": "food",
-      "sortid": 123,
+      "sortid": 172,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1181,7 +1077,7 @@
     {
       "name": "MapleCookieRecipe",
       "type": "recipe",
-      "sortid": 195,
+      "sortid": 244,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1189,7 +1085,7 @@
     {
       "name": "MapleCookieItemIsCraftedsmelted",
       "type": "procedure",
-      "sortid": 196,
+      "sortid": 245,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1217,7 +1113,7 @@
     {
       "name": "AmbientEyesMoveEvent",
       "type": "procedure",
-      "sortid": 197,
+      "sortid": 246,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1233,7 +1129,7 @@
     {
       "name": "AmbientEyes",
       "type": "mob",
-      "sortid": 97,
+      "sortid": 144,
       "compiles": true,
       "locked_code": true,
       "ids": {
@@ -1242,52 +1138,9 @@
       }
     },
     {
-      "name": "NetherCrawler",
-      "type": "mob",
-      "sortid": 90,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {
-        "0": 5,
-        "1": 6
-      }
-    },
-    {
-      "name": "NetherCrawlerOnInitialMobSpawn",
-      "type": "procedure",
-      "sortid": 198,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "int"
-          },
-          {
-            "name": "y",
-            "type": "int"
-          },
-          {
-            "name": "z",
-            "type": "int"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
       "name": "AmbientEyesMobIsHurt",
       "type": "procedure",
-      "sortid": 199,
+      "sortid": 248,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1303,7 +1156,7 @@
     {
       "name": "AmbientEyesOnMobTickUpdate",
       "type": "procedure",
-      "sortid": 200,
+      "sortid": 249,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1335,7 +1188,7 @@
     {
       "name": "Sky",
       "type": "dimension",
-      "sortid": 98,
+      "sortid": 147,
       "compiles": true,
       "locked_code": true,
       "ids": {
@@ -1346,7 +1199,7 @@
     {
       "name": "SkyPlains",
       "type": "biome",
-      "sortid": 201,
+      "sortid": 250,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1354,7 +1207,7 @@
     {
       "name": "EyesEventEffectOnPotionActiveTick",
       "type": "procedure",
-      "sortid": 202,
+      "sortid": 251,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1370,15 +1223,15 @@
     {
       "name": "BlossieLog",
       "type": "block",
-      "sortid": 15,
+      "sortid": 25,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {}
     },
     {
       "name": "CloudItem",
       "type": "item",
-      "sortid": 119,
+      "sortid": 168,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1386,15 +1239,15 @@
     {
       "name": "BlossieLogWild",
       "type": "block",
-      "sortid": 203,
+      "sortid": 252,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {}
     },
     {
       "name": "BlossieTapEvents",
       "type": "procedure",
-      "sortid": 204,
+      "sortid": 253,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1426,15 +1279,15 @@
     {
       "name": "BlossieLeaves",
       "type": "block",
-      "sortid": 67,
+      "sortid": 110,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {}
     },
     {
       "name": "BlossieLeavesDestroyedByPlayer",
       "type": "procedure",
-      "sortid": 205,
+      "sortid": 254,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1466,7 +1319,7 @@
     {
       "name": "SkyForest",
       "type": "biome",
-      "sortid": 206,
+      "sortid": 255,
       "compiles": true,
       "locked_code": true,
       "ids": {}
@@ -1474,7 +1327,7 @@
     {
       "name": "SkyPortalUsed",
       "type": "procedure",
-      "sortid": 208,
+      "sortid": 256,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1494,7 +1347,7 @@
     {
       "name": "SkyPortal",
       "type": "block",
-      "sortid": 87,
+      "sortid": 134,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1502,59 +1355,23 @@
     {
       "name": "SkyFern",
       "type": "plant",
-      "sortid": 59,
+      "sortid": 96,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {}
     },
     {
       "name": "FallenStarFlower",
       "type": "plant",
-      "sortid": 60,
+      "sortid": 99,
       "compiles": true,
       "locked_code": false,
       "ids": {}
-    },
-    {
-      "name": "FallenStarPetal",
-      "type": "item",
-      "sortid": 83,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
-      "name": "PetalDropEvent",
-      "type": "procedure",
-      "sortid": 209,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "int"
-          },
-          {
-            "name": "y",
-            "type": "int"
-          },
-          {
-            "name": "z",
-            "type": "int"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
     },
     {
       "name": "YronIngot",
       "type": "item",
-      "sortid": 76,
+      "sortid": 121,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1562,7 +1379,7 @@
     {
       "name": "StarPillar",
       "type": "block",
-      "sortid": 114,
+      "sortid": 163,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1570,7 +1387,7 @@
     {
       "name": "StarAltarActivated",
       "type": "procedure",
-      "sortid": 210,
+      "sortid": 257,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1598,7 +1415,7 @@
     {
       "name": "FallenStarBox",
       "type": "block",
-      "sortid": 88,
+      "sortid": 135,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1606,7 +1423,7 @@
     {
       "name": "StarAltarActive",
       "type": "block",
-      "sortid": 211,
+      "sortid": 258,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1614,7 +1431,7 @@
     {
       "name": "FallenStarItem",
       "type": "item",
-      "sortid": 99,
+      "sortid": 152,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1622,7 +1439,7 @@
     {
       "name": "StarItem",
       "type": "item",
-      "sortid": 100,
+      "sortid": 153,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1630,7 +1447,7 @@
     {
       "name": "StarBossKilled",
       "type": "procedure",
-      "sortid": 212,
+      "sortid": 259,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1650,7 +1467,7 @@
     {
       "name": "StarBox",
       "type": "block",
-      "sortid": 89,
+      "sortid": 136,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1658,7 +1475,7 @@
     {
       "name": "StarAltarComplete",
       "type": "procedure",
-      "sortid": 213,
+      "sortid": 260,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1674,7 +1491,7 @@
     {
       "name": "StarBoxDestroyed",
       "type": "procedure",
-      "sortid": 214,
+      "sortid": 261,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1702,7 +1519,7 @@
     {
       "name": "StarBossMob",
       "type": "mob",
-      "sortid": 91,
+      "sortid": 138,
       "compiles": true,
       "locked_code": false,
       "ids": {
@@ -1714,7 +1531,7 @@
     {
       "name": "StarAltarTestForEvent",
       "type": "procedure",
-      "sortid": 215,
+      "sortid": 262,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1742,7 +1559,7 @@
     {
       "name": "StarAltarUpdate",
       "type": "procedure",
-      "sortid": 216,
+      "sortid": 263,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1770,7 +1587,7 @@
     {
       "name": "StarBoxRecipe",
       "type": "recipe",
-      "sortid": 217,
+      "sortid": 264,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1778,15 +1595,15 @@
     {
       "name": "SkyJungle",
       "type": "biome",
-      "sortid": 218,
+      "sortid": 265,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {}
     },
     {
       "name": "AmethystBlock",
       "type": "block",
-      "sortid": 38,
+      "sortid": 67,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1794,7 +1611,7 @@
     {
       "name": "Amethyst",
       "type": "item",
-      "sortid": 80,
+      "sortid": 127,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1802,15 +1619,15 @@
     {
       "name": "CrystalFields",
       "type": "biome",
-      "sortid": 219,
+      "sortid": 266,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {}
     },
     {
       "name": "BlossiePlanks",
       "type": "block",
-      "sortid": 20,
+      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1818,7 +1635,7 @@
     {
       "name": "BlossiePlankRecipe",
       "type": "recipe",
-      "sortid": 220,
+      "sortid": 267,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1826,7 +1643,7 @@
     {
       "name": "AmethystBlockToItem",
       "type": "recipe",
-      "sortid": 221,
+      "sortid": 268,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1834,7 +1651,7 @@
     {
       "name": "AmethystItemToBlock",
       "type": "recipe",
-      "sortid": 222,
+      "sortid": 269,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1842,7 +1659,7 @@
     {
       "name": "SmokeyQuartz",
       "type": "item",
-      "sortid": 81,
+      "sortid": 128,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1850,7 +1667,7 @@
     {
       "name": "AmethystTile",
       "type": "block",
-      "sortid": 39,
+      "sortid": 68,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1858,7 +1675,7 @@
     {
       "name": "YronBlockToIngot",
       "type": "recipe",
-      "sortid": 223,
+      "sortid": 270,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1866,7 +1683,7 @@
     {
       "name": "YronIngotToBlock",
       "type": "recipe",
-      "sortid": 224,
+      "sortid": 271,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1874,7 +1691,7 @@
     {
       "name": "AmethystTileRecipe",
       "type": "recipe",
-      "sortid": 225,
+      "sortid": 272,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1882,7 +1699,7 @@
     {
       "name": "AmethystOre",
       "type": "block",
-      "sortid": 45,
+      "sortid": 74,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1890,7 +1707,7 @@
     {
       "name": "QuartzOre",
       "type": "block",
-      "sortid": 44,
+      "sortid": 73,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1898,7 +1715,7 @@
     {
       "name": "AmethystEndOre",
       "type": "block",
-      "sortid": 46,
+      "sortid": 75,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1906,7 +1723,7 @@
     {
       "name": "SmokeyQuartzEndOre",
       "type": "block",
-      "sortid": 47,
+      "sortid": 76,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1914,7 +1731,7 @@
     {
       "name": "SmokeyQuartzNetherOre",
       "type": "block",
-      "sortid": 48,
+      "sortid": 77,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1922,7 +1739,7 @@
     {
       "name": "CloaldOre",
       "type": "block",
-      "sortid": 49,
+      "sortid": 78,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1930,7 +1747,7 @@
     {
       "name": "CloaldItem",
       "type": "item",
-      "sortid": 75,
+      "sortid": 120,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1938,7 +1755,7 @@
     {
       "name": "CloaldFuel",
       "type": "fuel",
-      "sortid": 226,
+      "sortid": 273,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1946,7 +1763,7 @@
     {
       "name": "BurnQuartz",
       "type": "recipe",
-      "sortid": 227,
+      "sortid": 274,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1954,7 +1771,7 @@
     {
       "name": "BurnAmethyst",
       "type": "recipe",
-      "sortid": 228,
+      "sortid": 275,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1962,7 +1779,7 @@
     {
       "name": "YronStarBox",
       "type": "block",
-      "sortid": 229,
+      "sortid": 276,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1970,7 +1787,7 @@
     {
       "name": "YronStarPillarOff",
       "type": "block",
-      "sortid": 110,
+      "sortid": 159,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1978,7 +1795,7 @@
     {
       "name": "StarTechnology",
       "type": "tab",
-      "sortid": 230,
+      "sortid": 277,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1986,7 +1803,7 @@
     {
       "name": "YronStarPillarOn",
       "type": "block",
-      "sortid": 231,
+      "sortid": 278,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -1994,7 +1811,7 @@
     {
       "name": "BluestoneItem",
       "type": "item",
-      "sortid": 101,
+      "sortid": 148,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2002,7 +1819,7 @@
     {
       "name": "BluestoneOre",
       "type": "block",
-      "sortid": 53,
+      "sortid": 82,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2010,7 +1827,7 @@
     {
       "name": "TopazItem",
       "type": "item",
-      "sortid": 78,
+      "sortid": 124,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2018,7 +1835,7 @@
     {
       "name": "RubyItem",
       "type": "item",
-      "sortid": 79,
+      "sortid": 126,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2026,15 +1843,7 @@
     {
       "name": "YronDungeonBlock",
       "type": "block",
-      "sortid": 232,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
-      "name": "AcheivementMapleSap",
-      "type": "achievement",
-      "sortid": 233,
+      "sortid": 279,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2042,7 +1851,7 @@
     {
       "name": "YronOre",
       "type": "block",
-      "sortid": 50,
+      "sortid": 79,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2050,7 +1859,7 @@
     {
       "name": "YronIngotRecipe",
       "type": "recipe",
-      "sortid": 234,
+      "sortid": 281,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2058,7 +1867,7 @@
     {
       "name": "PickaxeTopaz",
       "type": "tool",
-      "sortid": 131,
+      "sortid": 182,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2066,7 +1875,7 @@
     {
       "name": "AxeTopaz",
       "type": "tool",
-      "sortid": 132,
+      "sortid": 183,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2074,7 +1883,7 @@
     {
       "name": "AxeShovel",
       "type": "tool",
-      "sortid": 133,
+      "sortid": 184,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2082,7 +1891,7 @@
     {
       "name": "AxeShovelRightClickedOnBlock",
       "type": "procedure",
-      "sortid": 235,
+      "sortid": 282,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2110,7 +1919,7 @@
     {
       "name": "HoeTopaz",
       "type": "tool",
-      "sortid": 134,
+      "sortid": 185,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2118,7 +1927,7 @@
     {
       "name": "SwordTopaz",
       "type": "tool",
-      "sortid": 139,
+      "sortid": 191,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2126,7 +1935,7 @@
     {
       "name": "ArmorTopaz",
       "type": "armor",
-      "sortid": 140,
+      "sortid": 192,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2140,7 +1949,7 @@
     {
       "name": "TopazOre",
       "type": "block",
-      "sortid": 51,
+      "sortid": 80,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2148,7 +1957,7 @@
     {
       "name": "TopazOreBlockDestroyedByPlayer",
       "type": "procedure",
-      "sortid": 236,
+      "sortid": 283,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2180,7 +1989,7 @@
     {
       "name": "RubyOre",
       "type": "block",
-      "sortid": 52,
+      "sortid": 81,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2188,7 +1997,7 @@
     {
       "name": "SmokeyQuartzBlock",
       "type": "block",
-      "sortid": 40,
+      "sortid": 69,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2196,7 +2005,7 @@
     {
       "name": "SmokeyQuartzPillar",
       "type": "block",
-      "sortid": 41,
+      "sortid": 70,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2204,7 +2013,7 @@
     {
       "name": "SmokeyQuartzChiselled",
       "type": "block",
-      "sortid": 42,
+      "sortid": 71,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2212,7 +2021,7 @@
     {
       "name": "TopazBlock",
       "type": "block",
-      "sortid": 36,
+      "sortid": 65,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2220,7 +2029,7 @@
     {
       "name": "RubyBlock",
       "type": "block",
-      "sortid": 37,
+      "sortid": 66,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2228,7 +2037,7 @@
     {
       "name": "SkyronBlock",
       "type": "block",
-      "sortid": 35,
+      "sortid": 64,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2236,7 +2045,7 @@
     {
       "name": "QuartzXPEvent",
       "type": "procedure",
-      "sortid": 237,
+      "sortid": 284,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2268,7 +2077,7 @@
     {
       "name": "RecipeStarYronBox",
       "type": "recipe",
-      "sortid": 238,
+      "sortid": 285,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2276,7 +2085,7 @@
     {
       "name": "RecipeYronStarPillar",
       "type": "recipe",
-      "sortid": 239,
+      "sortid": 286,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2284,7 +2093,7 @@
     {
       "name": "RecipeYronStarPillarALT",
       "type": "recipe",
-      "sortid": 240,
+      "sortid": 287,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2292,7 +2101,7 @@
     {
       "name": "RecipePickaxeTopaz",
       "type": "recipe",
-      "sortid": 241,
+      "sortid": 288,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2300,7 +2109,7 @@
     {
       "name": "RecipeAxeTopaz",
       "type": "recipe",
-      "sortid": 242,
+      "sortid": 289,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2308,7 +2117,7 @@
     {
       "name": "RecipeAxeTopazALT",
       "type": "recipe",
-      "sortid": 243,
+      "sortid": 290,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2316,7 +2125,7 @@
     {
       "name": "RecipeShovelTopaz",
       "type": "recipe",
-      "sortid": 244,
+      "sortid": 291,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2324,7 +2133,7 @@
     {
       "name": "RecipeSwordTopaz",
       "type": "recipe",
-      "sortid": 245,
+      "sortid": 292,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2332,7 +2141,7 @@
     {
       "name": "RecipeHoeTopaz",
       "type": "recipe",
-      "sortid": 246,
+      "sortid": 293,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2340,7 +2149,7 @@
     {
       "name": "RecipeHoeTopazALT",
       "type": "recipe",
-      "sortid": 247,
+      "sortid": 294,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2348,7 +2157,7 @@
     {
       "name": "RecipeBlockTopaz",
       "type": "recipe",
-      "sortid": 248,
+      "sortid": 295,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2356,7 +2165,7 @@
     {
       "name": "RecipeBlockRuby",
       "type": "recipe",
-      "sortid": 249,
+      "sortid": 296,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2364,7 +2173,7 @@
     {
       "name": "RecipeGemTopazCrafting",
       "type": "recipe",
-      "sortid": 250,
+      "sortid": 297,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2372,7 +2181,7 @@
     {
       "name": "RecipeGemRubyCrafting",
       "type": "recipe",
-      "sortid": 251,
+      "sortid": 298,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2380,7 +2189,7 @@
     {
       "name": "HelmetTopaz",
       "type": "recipe",
-      "sortid": 252,
+      "sortid": 299,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2388,7 +2197,7 @@
     {
       "name": "ChestplateTopaz",
       "type": "recipe",
-      "sortid": 253,
+      "sortid": 300,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2396,7 +2205,7 @@
     {
       "name": "LeggingsTopaz",
       "type": "recipe",
-      "sortid": 254,
+      "sortid": 301,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2404,7 +2213,7 @@
     {
       "name": "BootsTopaz",
       "type": "recipe",
-      "sortid": 255,
+      "sortid": 302,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2412,7 +2221,7 @@
     {
       "name": "BluestoneBlock",
       "type": "block",
-      "sortid": 102,
+      "sortid": 149,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2420,7 +2229,7 @@
     {
       "name": "RecipeBluestoneCrafting",
       "type": "recipe",
-      "sortid": 256,
+      "sortid": 303,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2428,7 +2237,7 @@
     {
       "name": "SmokeyQuartzSlab",
       "type": "block",
-      "sortid": 43,
+      "sortid": 72,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2436,7 +2245,7 @@
     {
       "name": "PineStairs",
       "type": "block",
-      "sortid": 27,
+      "sortid": 51,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2444,7 +2253,7 @@
     {
       "name": "CloaldBlock",
       "type": "block",
-      "sortid": 34,
+      "sortid": 63,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2452,7 +2261,7 @@
     {
       "name": "AmbientEyesOnEntityTickUpdate",
       "type": "procedure",
-      "sortid": 257,
+      "sortid": 304,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2484,7 +2293,7 @@
     {
       "name": "BirchSapItem",
       "type": "item",
-      "sortid": 118,
+      "sortid": 167,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2492,7 +2301,7 @@
     {
       "name": "SyrupBirchBucket",
       "type": "item",
-      "sortid": 86,
+      "sortid": 133,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2500,7 +2309,7 @@
     {
       "name": "BirchSyrupBottle",
       "type": "food",
-      "sortid": 122,
+      "sortid": 171,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2508,7 +2317,7 @@
     {
       "name": "BirchTapEvents",
       "type": "procedure",
-      "sortid": 258,
+      "sortid": 305,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2540,7 +2349,7 @@
     {
       "name": "BirchSyrupBottleRecipe",
       "type": "recipe",
-      "sortid": 259,
+      "sortid": 306,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2548,7 +2357,7 @@
     {
       "name": "TapYron",
       "type": "item",
-      "sortid": 137,
+      "sortid": 189,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2556,7 +2365,7 @@
     {
       "name": "YronNugget",
       "type": "item",
-      "sortid": 77,
+      "sortid": 122,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2564,7 +2373,7 @@
     {
       "name": "RecipeYronNugget",
       "type": "recipe",
-      "sortid": 260,
+      "sortid": 307,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2572,7 +2381,7 @@
     {
       "name": "RecipeYronIngot",
       "type": "recipe",
-      "sortid": 261,
+      "sortid": 308,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2580,7 +2389,7 @@
     {
       "name": "RecipeSmokyQuartzBlock",
       "type": "recipe",
-      "sortid": 262,
+      "sortid": 309,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2588,7 +2397,7 @@
     {
       "name": "RecipeSmokyQuartzSlab",
       "type": "recipe",
-      "sortid": 263,
+      "sortid": 310,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2596,7 +2405,7 @@
     {
       "name": "RecipeSmokyQuartzPillar",
       "type": "recipe",
-      "sortid": 264,
+      "sortid": 311,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2604,7 +2413,7 @@
     {
       "name": "RecipeSmokyQuartzChiselled",
       "type": "recipe",
-      "sortid": 265,
+      "sortid": 312,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2612,7 +2421,7 @@
     {
       "name": "SkyPortalProcedure",
       "type": "procedure",
-      "sortid": 266,
+      "sortid": 313,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2628,7 +2437,7 @@
     {
       "name": "SkyPortalReturn",
       "type": "procedure",
-      "sortid": 267,
+      "sortid": 314,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2648,15 +2457,7 @@
     {
       "name": "SkyronStairs",
       "type": "block",
-      "sortid": 268,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
-      "name": "StructureSkyPortal",
-      "type": "structure",
-      "sortid": 269,
+      "sortid": 315,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2664,7 +2465,7 @@
     {
       "name": "RichSoil",
       "type": "block",
-      "sortid": 11,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2672,7 +2473,7 @@
     {
       "name": "RichGrass",
       "type": "block",
-      "sortid": 12,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2680,7 +2481,7 @@
     {
       "name": "EnrichSoil",
       "type": "procedure",
-      "sortid": 270,
+      "sortid": 316,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2708,7 +2509,7 @@
     {
       "name": "EnrichGrass",
       "type": "procedure",
-      "sortid": 271,
+      "sortid": 317,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2736,7 +2537,7 @@
     {
       "name": "RichSoilOnBlockRightClicked",
       "type": "procedure",
-      "sortid": 272,
+      "sortid": 318,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2768,7 +2569,7 @@
     {
       "name": "BarrenWall",
       "type": "block",
-      "sortid": 30,
+      "sortid": 83,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2776,7 +2577,7 @@
     {
       "name": "FrigidCobbleWall",
       "type": "block",
-      "sortid": 31,
+      "sortid": 85,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2784,7 +2585,7 @@
     {
       "name": "MapleStairs",
       "type": "block",
-      "sortid": 28,
+      "sortid": 52,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2792,7 +2593,7 @@
     {
       "name": "BarrenBrickWall",
       "type": "block",
-      "sortid": 33,
+      "sortid": 84,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2800,7 +2601,7 @@
     {
       "name": "RichStone",
       "type": "block",
-      "sortid": 9,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2808,7 +2609,7 @@
     {
       "name": "RichCobble",
       "type": "block",
-      "sortid": 10,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2816,7 +2617,7 @@
     {
       "name": "BlossieFruit",
       "type": "food",
-      "sortid": 126,
+      "sortid": 175,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2824,7 +2625,7 @@
     {
       "name": "GoldenPearFoodEaten",
       "type": "procedure",
-      "sortid": 273,
+      "sortid": 319,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2840,7 +2641,7 @@
     {
       "name": "GoldenPear",
       "type": "food",
-      "sortid": 127,
+      "sortid": 176,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2848,7 +2649,7 @@
     {
       "name": "PringlePear",
       "type": "food",
-      "sortid": 128,
+      "sortid": 177,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -2856,7 +2657,7 @@
     {
       "name": "PringlePearFoodEaten",
       "type": "procedure",
-      "sortid": 274,
+      "sortid": 320,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2872,7 +2673,7 @@
     {
       "name": "LeafDecay",
       "type": "procedure",
-      "sortid": 275,
+      "sortid": 321,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2900,7 +2701,7 @@
     {
       "name": "SkyRescue",
       "type": "procedure",
-      "sortid": 276,
+      "sortid": 322,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2920,7 +2721,7 @@
     {
       "name": "DiamondStarmorHelmetTickEvent",
       "type": "procedure",
-      "sortid": 277,
+      "sortid": 323,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2952,7 +2753,7 @@
     {
       "name": "DiamondStarmorBootsTickEvent",
       "type": "procedure",
-      "sortid": 278,
+      "sortid": 324,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2968,7 +2769,7 @@
     {
       "name": "DiamondStarmorBodyTickEvent",
       "type": "procedure",
-      "sortid": 279,
+      "sortid": 325,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -2984,7 +2785,7 @@
     {
       "name": "DiamondStarmorLeggingsTickEvent",
       "type": "procedure",
-      "sortid": 280,
+      "sortid": 326,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3000,7 +2801,7 @@
     {
       "name": "FusionFurnace",
       "type": "block",
-      "sortid": 281,
+      "sortid": 327,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -3008,7 +2809,7 @@
     {
       "name": "FusionFurnaceOff",
       "type": "block",
-      "sortid": 112,
+      "sortid": 161,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -3016,7 +2817,7 @@
     {
       "name": "PancakeItemIsCraftedsmelted",
       "type": "procedure",
-      "sortid": 282,
+      "sortid": 328,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3044,7 +2845,7 @@
     {
       "name": "Pancake",
       "type": "food",
-      "sortid": 124,
+      "sortid": 173,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -3052,7 +2853,7 @@
     {
       "name": "RecipePancake",
       "type": "recipe",
-      "sortid": 283,
+      "sortid": 329,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -3060,7 +2861,7 @@
     {
       "name": "PancakeWithSyrup",
       "type": "food",
-      "sortid": 284,
+      "sortid": 330,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -3068,7 +2869,7 @@
     {
       "name": "PancakeWithSyrupItemIsCraftedsmelted",
       "type": "procedure",
-      "sortid": 285,
+      "sortid": 331,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3096,7 +2897,7 @@
     {
       "name": "PancakeWithSyrup2",
       "type": "food",
-      "sortid": 286,
+      "sortid": 332,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -3104,7 +2905,7 @@
     {
       "name": "PancakeWithSyrup3",
       "type": "food",
-      "sortid": 287,
+      "sortid": 333,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -3112,7 +2913,7 @@
     {
       "name": "PancakeWithSyrup4",
       "type": "food",
-      "sortid": 288,
+      "sortid": 334,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -3120,7 +2921,7 @@
     {
       "name": "PancakesWithSyrup",
       "type": "food",
-      "sortid": 125,
+      "sortid": 174,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -3128,7 +2929,7 @@
     {
       "name": "PwS",
       "type": "recipe",
-      "sortid": 289,
+      "sortid": 335,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -3136,7 +2937,7 @@
     {
       "name": "PancakeWithSyrup2FoodEaten",
       "type": "procedure",
-      "sortid": 290,
+      "sortid": 336,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3152,7 +2953,7 @@
     {
       "name": "PwSEaten3",
       "type": "procedure",
-      "sortid": 291,
+      "sortid": 337,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3168,7 +2969,7 @@
     {
       "name": "PwSEaten4",
       "type": "procedure",
-      "sortid": 292,
+      "sortid": 338,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3184,7 +2985,7 @@
     {
       "name": "PwSEaten5",
       "type": "procedure",
-      "sortid": 293,
+      "sortid": 339,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3200,7 +3001,7 @@
     {
       "name": "PwS2",
       "type": "recipe",
-      "sortid": 294,
+      "sortid": 340,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -3208,7 +3009,7 @@
     {
       "name": "PwS3",
       "type": "recipe",
-      "sortid": 295,
+      "sortid": 341,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -3216,7 +3017,7 @@
     {
       "name": "PwS4",
       "type": "recipe",
-      "sortid": 296,
+      "sortid": 342,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -3224,7 +3025,7 @@
     {
       "name": "PwS5",
       "type": "recipe",
-      "sortid": 297,
+      "sortid": 343,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -3232,7 +3033,7 @@
     {
       "name": "Corn",
       "type": "food",
-      "sortid": 129,
+      "sortid": 178,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -3240,7 +3041,7 @@
     {
       "name": "CornStage0",
       "type": "block",
-      "sortid": 298,
+      "sortid": 344,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -3248,7 +3049,7 @@
     {
       "name": "CornOnFoodRightClicked",
       "type": "procedure",
-      "sortid": 299,
+      "sortid": 345,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3268,7 +3069,7 @@
     {
       "name": "CornStageUpdateTick",
       "type": "procedure",
-      "sortid": 300,
+      "sortid": 346,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3296,7 +3097,7 @@
     {
       "name": "CornStage1",
       "type": "block",
-      "sortid": 301,
+      "sortid": 347,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -3304,7 +3105,7 @@
     {
       "name": "CornStage2",
       "type": "block",
-      "sortid": 302,
+      "sortid": 348,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -3312,7 +3113,7 @@
     {
       "name": "CornStage3",
       "type": "block",
-      "sortid": 303,
+      "sortid": 349,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -3320,7 +3121,7 @@
     {
       "name": "CornStage4",
       "type": "block",
-      "sortid": 304,
+      "sortid": 350,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -3328,7 +3129,7 @@
     {
       "name": "CornStage5",
       "type": "block",
-      "sortid": 305,
+      "sortid": 351,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -3336,7 +3137,7 @@
     {
       "name": "CornStage6",
       "type": "block",
-      "sortid": 306,
+      "sortid": 352,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -3344,7 +3145,7 @@
     {
       "name": "CornStage7",
       "type": "block",
-      "sortid": 307,
+      "sortid": 353,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -3352,7 +3153,7 @@
     {
       "name": "CornStageReady",
       "type": "block",
-      "sortid": 308,
+      "sortid": 354,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -3360,7 +3161,7 @@
     {
       "name": "CornOnHarvest",
       "type": "procedure",
-      "sortid": 309,
+      "sortid": 355,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3392,7 +3193,7 @@
     {
       "name": "CornProgress",
       "type": "procedure",
-      "sortid": 310,
+      "sortid": 356,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3420,7 +3221,7 @@
     {
       "name": "FusionFurnaceTick",
       "type": "procedure",
-      "sortid": 311,
+      "sortid": 357,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3448,7 +3249,7 @@
     {
       "name": "FusionGUI",
       "type": "gui",
-      "sortid": 312,
+      "sortid": 358,
       "compiles": true,
       "locked_code": false,
       "ids": {
@@ -3458,7 +3259,7 @@
     {
       "name": "FusionFurnaceUpdateTick",
       "type": "procedure",
-      "sortid": 313,
+      "sortid": 359,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3486,7 +3287,7 @@
     {
       "name": "FusionFurnaceBlockDestroyedByPlayer",
       "type": "procedure",
-      "sortid": 314,
+      "sortid": 360,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3518,7 +3319,7 @@
     {
       "name": "BambooWood",
       "type": "block",
-      "sortid": 21,
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -3526,7 +3327,7 @@
     {
       "name": "BambooStairs",
       "type": "block",
-      "sortid": 29,
+      "sortid": 53,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -3534,7 +3335,7 @@
     {
       "name": "BambooFence",
       "type": "block",
-      "sortid": 70,
+      "sortid": 89,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -3542,7 +3343,7 @@
     {
       "name": "StarDiamond",
       "type": "item",
-      "sortid": 103,
+      "sortid": 154,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -3550,7 +3351,7 @@
     {
       "name": "StarTopaz",
       "type": "item",
-      "sortid": 104,
+      "sortid": 155,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -3558,7 +3359,7 @@
     {
       "name": "StarEmerald",
       "type": "item",
-      "sortid": 105,
+      "sortid": 156,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -3566,7 +3367,7 @@
     {
       "name": "StarRuby",
       "type": "item",
-      "sortid": 106,
+      "sortid": 157,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -3574,7 +3375,7 @@
     {
       "name": "FusionFurnaceBlownUp",
       "type": "procedure",
-      "sortid": 315,
+      "sortid": 361,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3602,7 +3403,7 @@
     {
       "name": "StarBoxSource",
       "type": "block",
-      "sortid": 109,
+      "sortid": 158,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -3610,7 +3411,7 @@
     {
       "name": "YronStarBoxOff",
       "type": "block",
-      "sortid": 111,
+      "sortid": 160,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -3618,7 +3419,7 @@
     {
       "name": "DwarfStarGuard",
       "type": "mob",
-      "sortid": 92,
+      "sortid": 139,
       "compiles": true,
       "locked_code": true,
       "ids": {
@@ -3629,7 +3430,7 @@
     {
       "name": "BlueStoneRod",
       "type": "item",
-      "sortid": 107,
+      "sortid": 150,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -3637,7 +3438,7 @@
     {
       "name": "RodToDust",
       "type": "recipe",
-      "sortid": 316,
+      "sortid": 362,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -3645,7 +3446,7 @@
     {
       "name": "DustToRod",
       "type": "recipe",
-      "sortid": 317,
+      "sortid": 363,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -3653,7 +3454,7 @@
     {
       "name": "StarRepeaterOffTick",
       "type": "procedure",
-      "sortid": 318,
+      "sortid": 364,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3681,7 +3482,7 @@
     {
       "name": "YronStarPillarOffTick",
       "type": "procedure",
-      "sortid": 319,
+      "sortid": 365,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3709,7 +3510,7 @@
     {
       "name": "BlueStoneRodBlock",
       "type": "block",
-      "sortid": 108,
+      "sortid": 151,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -3717,7 +3518,7 @@
     {
       "name": "BlueStoneRodBlockUpdateTick",
       "type": "procedure",
-      "sortid": 320,
+      "sortid": 366,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3745,7 +3546,7 @@
     {
       "name": "StarSourceTick",
       "type": "procedure",
-      "sortid": 321,
+      "sortid": 367,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3773,7 +3574,7 @@
     {
       "name": "StarRepeaterOnTick",
       "type": "procedure",
-      "sortid": 322,
+      "sortid": 368,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3801,7 +3602,7 @@
     {
       "name": "YronStarPillarOnUpdateTick",
       "type": "procedure",
-      "sortid": 323,
+      "sortid": 369,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3829,7 +3630,7 @@
     {
       "name": "DiamondStarmor",
       "type": "armor",
-      "sortid": 115,
+      "sortid": 164,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3843,7 +3644,7 @@
     {
       "name": "FrigidTopsoilUpdateTick",
       "type": "procedure",
-      "sortid": 324,
+      "sortid": 370,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3871,7 +3672,7 @@
     {
       "name": "CosmicEmeraldForceFieldBoss",
       "type": "block",
-      "sortid": 325,
+      "sortid": 371,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -3879,7 +3680,7 @@
     {
       "name": "EnemySummoningVent",
       "type": "block",
-      "sortid": 113,
+      "sortid": 162,
       "compiles": true,
       "locked_code": true,
       "ids": {}
@@ -3887,7 +3688,7 @@
     {
       "name": "HalvedCoconut",
       "type": "food",
-      "sortid": 130,
+      "sortid": 179,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -3895,7 +3696,7 @@
     {
       "name": "WaterFoliageSpawnerBlockAdded",
       "type": "procedure",
-      "sortid": 326,
+      "sortid": 372,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3923,7 +3724,7 @@
     {
       "name": "TropicalFlatBeach",
       "type": "biome",
-      "sortid": 328,
+      "sortid": 373,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -3931,15 +3732,15 @@
     {
       "name": "PalmLog",
       "type": "block",
-      "sortid": 16,
+      "sortid": 26,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {}
     },
     {
       "name": "PalmLeaves",
       "type": "block",
-      "sortid": 68,
+      "sortid": 111,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -3947,7 +3748,7 @@
     {
       "name": "PalmTreeSpawner",
       "type": "block",
-      "sortid": 329,
+      "sortid": 374,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -3955,7 +3756,7 @@
     {
       "name": "PalmGen1",
       "type": "procedure",
-      "sortid": 330,
+      "sortid": 375,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -3983,7 +3784,7 @@
     {
       "name": "PalmGen2",
       "type": "procedure",
-      "sortid": 331,
+      "sortid": 376,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4011,7 +3812,7 @@
     {
       "name": "PalmGen3",
       "type": "procedure",
-      "sortid": 332,
+      "sortid": 377,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4039,7 +3840,7 @@
     {
       "name": "PalmGen4",
       "type": "procedure",
-      "sortid": 333,
+      "sortid": 378,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4067,7 +3868,7 @@
     {
       "name": "PalmLeavesGenerator",
       "type": "procedure",
-      "sortid": 334,
+      "sortid": 379,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4095,7 +3896,7 @@
     {
       "name": "PalmTreeSpawnerBlockAdded",
       "type": "procedure",
-      "sortid": 335,
+      "sortid": 380,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4123,7 +3924,7 @@
     {
       "name": "TropicalIslands",
       "type": "biome",
-      "sortid": 336,
+      "sortid": 381,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -4131,7 +3932,7 @@
     {
       "name": "TropicalLowlands",
       "type": "biome",
-      "sortid": 337,
+      "sortid": 382,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -4139,7 +3940,7 @@
     {
       "name": "TropicalMidlands",
       "type": "biome",
-      "sortid": 338,
+      "sortid": 383,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -4147,15 +3948,7 @@
     {
       "name": "TropicalHighlands",
       "type": "biome",
-      "sortid": 339,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
-      "name": "CoconutItem",
-      "type": "item",
-      "sortid": 84,
+      "sortid": 384,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -4163,15 +3956,15 @@
     {
       "name": "CoconutBlock",
       "type": "block",
-      "sortid": 64,
+      "sortid": 107,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {}
     },
     {
       "name": "WaterFoliage1",
       "type": "block",
-      "sortid": 61,
+      "sortid": 102,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -4179,7 +3972,7 @@
     {
       "name": "WaterFoliage2",
       "type": "block",
-      "sortid": 62,
+      "sortid": 103,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -4187,7 +3980,7 @@
     {
       "name": "WaterFoliage3",
       "type": "block",
-      "sortid": 63,
+      "sortid": 104,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -4195,7 +3988,7 @@
     {
       "name": "PalmPlanks",
       "type": "block",
-      "sortid": 22,
+      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -4203,7 +3996,7 @@
     {
       "name": "WoodPlanks",
       "type": "tag",
-      "sortid": 340,
+      "sortid": 385,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -4211,7 +4004,7 @@
     {
       "name": "DriftWoodLog",
       "type": "block",
-      "sortid": 17,
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -4219,7 +4012,7 @@
     {
       "name": "DriftWoodPlanks",
       "type": "block",
-      "sortid": 23,
+      "sortid": 34,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -4227,7 +4020,7 @@
     {
       "name": "StarBoxer",
       "type": "mob",
-      "sortid": 93,
+      "sortid": 140,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -4235,7 +4028,7 @@
     {
       "name": "Crab",
       "type": "mob",
-      "sortid": 94,
+      "sortid": 141,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -4243,7 +4036,7 @@
     {
       "name": "DriftwoodDweller",
       "type": "mob",
-      "sortid": 95,
+      "sortid": 142,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -4251,7 +4044,7 @@
     {
       "name": "Dog",
       "type": "musicdisc",
-      "sortid": 71,
+      "sortid": 116,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -4259,7 +4052,7 @@
     {
       "name": "BambooSlab",
       "type": "block",
-      "sortid": 32,
+      "sortid": 58,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -4267,7 +4060,7 @@
     {
       "name": "DroopyLikesRicochet",
       "type": "musicdisc",
-      "sortid": 72,
+      "sortid": 117,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -4275,7 +4068,7 @@
     {
       "name": "DroopyLikesYourFace",
       "type": "musicdisc",
-      "sortid": 73,
+      "sortid": 118,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -4283,7 +4076,7 @@
     {
       "name": "WildWorldAdvancements",
       "type": "achievement",
-      "sortid": 341,
+      "sortid": 386,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -4291,7 +4084,7 @@
     {
       "name": "YronTapRecipe",
       "type": "recipe",
-      "sortid": 342,
+      "sortid": 387,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -4299,7 +4092,7 @@
     {
       "name": "TreeTapAdvancement",
       "type": "achievement",
-      "sortid": 343,
+      "sortid": 388,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -4307,7 +4100,7 @@
     {
       "name": "PineconeFuelT",
       "type": "achievement",
-      "sortid": 344,
+      "sortid": 389,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -4315,7 +4108,7 @@
     {
       "name": "PineTeaT",
       "type": "achievement",
-      "sortid": 345,
+      "sortid": 390,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -4323,7 +4116,7 @@
     {
       "name": "BambooTrapdoor",
       "type": "block",
-      "sortid": 54,
+      "sortid": 114,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -4331,7 +4124,7 @@
     {
       "name": "HalveCoconut",
       "type": "recipe",
-      "sortid": 346,
+      "sortid": 391,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -4339,7 +4132,7 @@
     {
       "name": "Eleven",
       "type": "musicdisc",
-      "sortid": 74,
+      "sortid": 119,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -4347,7 +4140,7 @@
     {
       "name": "AXETHECOCONUT",
       "type": "recipe",
-      "sortid": 347,
+      "sortid": 392,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -4355,7 +4148,7 @@
     {
       "name": "MapleForestAdv",
       "type": "achievement",
-      "sortid": 348,
+      "sortid": 393,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -4363,7 +4156,7 @@
     {
       "name": "PineForestAdv",
       "type": "achievement",
-      "sortid": 349,
+      "sortid": 394,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -4371,7 +4164,7 @@
     {
       "name": "SkyAdv",
       "type": "achievement",
-      "sortid": 350,
+      "sortid": 395,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -4379,7 +4172,7 @@
     {
       "name": "BlossieForestAdv",
       "type": "achievement",
-      "sortid": 351,
+      "sortid": 396,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -4387,7 +4180,7 @@
     {
       "name": "CrystalFieldAdv",
       "type": "achievement",
-      "sortid": 352,
+      "sortid": 397,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -4395,7 +4188,7 @@
     {
       "name": "TropicalForestAdv",
       "type": "achievement",
-      "sortid": 353,
+      "sortid": 398,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -4403,7 +4196,7 @@
     {
       "name": "PalmTrapdoor",
       "type": "block",
-      "sortid": 55,
+      "sortid": 115,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -4411,7 +4204,7 @@
     {
       "name": "BarenStoneSlab",
       "type": "block",
-      "sortid": 354,
+      "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -4419,7 +4212,7 @@
     {
       "name": "FrigidStoneSlab",
       "type": "block",
-      "sortid": 355,
+      "sortid": 42,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -4427,7 +4220,7 @@
     {
       "name": "RichStoneSlab",
       "type": "block",
-      "sortid": 356,
+      "sortid": 45,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -4435,7 +4228,7 @@
     {
       "name": "SmoothBarrenStone",
       "type": "block",
-      "sortid": 357,
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -4443,7 +4236,7 @@
     {
       "name": "SmoothFrigidStone",
       "type": "block",
-      "sortid": 358,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -4451,7 +4244,7 @@
     {
       "name": "SmoothRichStone",
       "type": "block",
-      "sortid": 359,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -4459,7 +4252,7 @@
     {
       "name": "SmoothBarrenStoneSlab",
       "type": "block",
-      "sortid": 360,
+      "sortid": 41,
       "compiles": true,
       "locked_code": true,
       "ids": {}
@@ -4467,7 +4260,7 @@
     {
       "name": "SmoothFrigidStoneSlab",
       "type": "block",
-      "sortid": 361,
+      "sortid": 44,
       "compiles": true,
       "locked_code": true,
       "ids": {}
@@ -4475,7 +4268,7 @@
     {
       "name": "SmoothRichStoneSlab",
       "type": "block",
-      "sortid": 362,
+      "sortid": 47,
       "compiles": true,
       "locked_code": true,
       "ids": {}
@@ -4483,7 +4276,7 @@
     {
       "name": "WaterPlant",
       "type": "plant",
-      "sortid": 363,
+      "sortid": 105,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -4491,7 +4284,7 @@
     {
       "name": "DiamondCrystal",
       "type": "plant",
-      "sortid": 364,
+      "sortid": 399,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -4499,7 +4292,7 @@
     {
       "name": "ShardDiamond",
       "type": "item",
-      "sortid": 365,
+      "sortid": 123,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -4507,7 +4300,7 @@
     {
       "name": "DiamondCrystalSharp",
       "type": "procedure",
-      "sortid": 366,
+      "sortid": 400,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4523,23 +4316,15 @@
     {
       "name": "MidnightMarsh",
       "type": "biome",
-      "sortid": 369,
+      "sortid": 401,
       "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
-      "name": "Wahsatch",
-      "type": "dimension",
-      "sortid": 370,
-      "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {}
     },
     {
       "name": "MarshDirt",
       "type": "block",
-      "sortid": 371,
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -4547,15 +4332,15 @@
     {
       "name": "MarshGrass",
       "type": "block",
-      "sortid": 372,
+      "sortid": 19,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "ids": {}
     },
     {
       "name": "MarshStone",
       "type": "block",
-      "sortid": 374,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -4563,7 +4348,7 @@
     {
       "name": "MarshStoneCobble",
       "type": "block",
-      "sortid": 375,
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -4571,15 +4356,15 @@
     {
       "name": "MarshWoodLog",
       "type": "block",
-      "sortid": 376,
+      "sortid": 28,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {}
     },
     {
       "name": "DebugModeCommandExecuted",
       "type": "procedure",
-      "sortid": 377,
+      "sortid": 402,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -4603,7 +4388,7 @@
     {
       "name": "DebugMode",
       "type": "command",
-      "sortid": 377,
+      "sortid": 403,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -4611,7 +4396,7 @@
     {
       "name": "MarshFarmLand",
       "type": "block",
-      "sortid": 378,
+      "sortid": 21,
       "compiles": true,
       "locked_code": true,
       "ids": {}
@@ -4619,7 +4404,7 @@
     {
       "name": "Axolotl",
       "type": "mob",
-      "sortid": 379,
+      "sortid": 145,
       "compiles": true,
       "locked_code": true,
       "ids": {}
@@ -4627,7 +4412,7 @@
     {
       "name": "MarshLeaves",
       "type": "block",
-      "sortid": 380,
+      "sortid": 112,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -4635,15 +4420,819 @@
     {
       "name": "MarshVine",
       "type": "block",
-      "sortid": 381,
+      "sortid": 106,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "ids": {}
     },
     {
       "name": "WaterloggedStone",
       "type": "block",
-      "sortid": 382,
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {}
+    },
+    {
+      "name": "AerodusMob",
+      "type": "mob",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {}
+    },
+    {
+      "name": "RestorationStarted",
+      "type": "procedure",
+      "sortid": 404,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RestorationExpires",
+      "type": "procedure",
+      "sortid": 405,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Restoration",
+      "type": "potion",
+      "sortid": 406,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SpawnAerodus",
+      "type": "procedure",
+      "sortid": 407,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AerodusSpawnProcedure",
+      "type": "procedure",
+      "sortid": 408,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WoundTick",
+      "type": "procedure",
+      "sortid": 409,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WoundEnd",
+      "type": "procedure",
+      "sortid": 410,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Wound",
+      "type": "potion",
+      "sortid": 411,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "FrostBrambles",
+      "type": "plant",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CottageChest",
+      "type": "loottable",
+      "sortid": 412,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DewBush",
+      "type": "plant",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ShardToDiamond",
+      "type": "recipe",
+      "sortid": 413,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MidnightPlanks",
+      "type": "block",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Dreamulet",
+      "type": "item",
+      "sortid": 186,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DreamuletRecipe",
+      "type": "recipe",
+      "sortid": 414,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PlayerDream",
+      "type": "procedure",
+      "sortid": 415,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DreamLockUpdate",
+      "type": "procedure",
+      "sortid": 416,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BlossieSapling",
+      "type": "block",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {}
+    },
+    {
+      "name": "ShardTopaz",
+      "type": "item",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TopazCrystal",
+      "type": "plant",
+      "sortid": 417,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ShardToTopaz",
+      "type": "recipe",
+      "sortid": 418,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BirchLogWild",
+      "type": "block",
+      "sortid": 419,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {}
+    },
+    {
+      "name": "LeavesTag",
+      "type": "tag",
+      "sortid": 420,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "LogsTag",
+      "type": "tag",
+      "sortid": 421,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Morel",
+      "type": "plant",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Truffle",
+      "type": "plant",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MorelCooked",
+      "type": "food",
+      "sortid": 180,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TruffleCooked",
+      "type": "food",
+      "sortid": 181,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CookMorel",
+      "type": "recipe",
+      "sortid": 422,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CookTruffle",
+      "type": "recipe",
+      "sortid": 423,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "FrostBall",
+      "type": "recipe",
+      "sortid": 424,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MudCobbleWall",
+      "type": "block",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BlossieStairs",
+      "type": "block",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PalmStairs",
+      "type": "block",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DriftwoodStairs",
+      "type": "block",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MidnightMangroveStairs",
+      "type": "block",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BogCobbleWall",
+      "type": "block",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BlossieSlab",
+      "type": "block",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PalmSlab",
+      "type": "block",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DriftwoodSlab",
+      "type": "block",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MidnightMangroveSlab",
+      "type": "block",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BlossieFence",
+      "type": "block",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PalmFence",
+      "type": "block",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DriftwoodFence",
+      "type": "block",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MidnightMangroveFence",
+      "type": "block",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BarrenCobbleSlab",
+      "type": "block",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "FrigidCobbleSlab",
+      "type": "block",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MudCobbleSlab",
+      "type": "block",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BogCobbleSlab",
+      "type": "block",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BogStoneSlab",
+      "type": "block",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SmoothBogStone",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SmoothBogStoneSlab",
+      "type": "block",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {}
+    },
+    {
+      "name": "MorningOrchid",
+      "type": "plant",
+      "sortid": 425,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Antholumin",
+      "type": "item",
+      "sortid": 427,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "AntholuminRecipe",
+      "type": "recipe",
+      "sortid": 428,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PalmPlankRecipe",
+      "type": "recipe",
+      "sortid": 429,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DriftwoodPlankRecipe",
+      "type": "recipe",
+      "sortid": 430,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MidnightMangrovePlankRecipe",
+      "type": "recipe",
+      "sortid": 431,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "FallenStarRecipe",
+      "type": "recipe",
+      "sortid": 432,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Luminode",
+      "type": "block",
+      "sortid": 433,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MidnightMangroveSapling",
+      "type": "block",
+      "sortid": 434,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {}
+    },
+    {
+      "name": "SmeltMorel",
+      "type": "recipe",
+      "sortid": 435,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SmeltTruffle",
+      "type": "recipe",
+      "sortid": 436,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "LuminodeRecipe",
+      "type": "recipe",
+      "sortid": 438,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SkyWildsAdvancement",
+      "type": "achievement",
+      "sortid": 439,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BigCatEyes",
+      "type": "item",
+      "sortid": 440,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "AerodusAdvancement",
+      "type": "achievement",
+      "sortid": 442,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "AsatchEntityDies",
+      "type": "procedure",
+      "sortid": 443,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LightPlant",
+      "type": "tag",
+      "sortid": 445,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PhantomAerodus",
+      "type": "mob",
+      "sortid": 446,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PhantomPhur",
+      "type": "item",
+      "sortid": 447,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PhantomLoot",
+      "type": "tag",
+      "sortid": 448,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Gabbro",
+      "type": "block",
+      "sortid": 449,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Gabbro_Polished",
+      "type": "block",
+      "sortid": 450,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "AdvancementRescued",
+      "type": "achievement",
+      "sortid": 451,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MidnightMarshAdvancement",
+      "type": "achievement",
+      "sortid": 452,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MossyStone",
+      "type": "block",
+      "sortid": 453,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {}
+    },
+    {
+      "name": "Lichen",
+      "type": "plant",
+      "sortid": 454,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MossyGabbro",
+      "type": "block",
+      "sortid": 455,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {}
+    },
+    {
+      "name": "LogWillow",
+      "type": "block",
+      "sortid": 456,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "WillowPlanks",
+      "type": "block",
+      "sortid": 457,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "WillowLeaves",
+      "type": "block",
+      "sortid": 458,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "WillowSapling",
+      "type": "block",
+      "sortid": 459,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {}
+    },
+    {
+      "name": "Peridotite",
+      "type": "block",
+      "sortid": 460,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PeridotitePolished",
+      "type": "block",
+      "sortid": 461,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MossyPeridotite",
+      "type": "block",
+      "sortid": 462,
       "compiles": true,
       "locked_code": true,
       "ids": {}
@@ -4725,12 +5314,17 @@
   "language_map": {
     "en_us": {
       "entity.wild_world.driftwooddweller": "Driftwood Dweller",
+      "block.wild_world.peridotite": "Peridotite",
       "block.wild_world.yrondungeonblock": "Nickel Dungeon Block",
+      "block.wild_world.morningorchid": "Morning Orchid",
+      "block.wild_world.dewbush": "Dew Bush",
+      "block.wild_world.gabbro_polished": "Polished Gabbro",
       "item.wild_world.birchsapitem": "Birch Sap",
       "biome.wild_world.skyplains": "Flats",
       "item.armortopazboots.name": "Topaz Boots",
       "item.smokeyquartz.name": "Smokey Quartz",
       "tile.frigidtopsoilsnowy.name": "Frozen Topsoil",
+      "block.wild_world.frostbrambles": "Frost Brambles",
       "tile.pineplanks.name": "Pine Wood Planks",
       "tile.cornstage4.name": "Corn Stage0",
       "item.staremerald.name": "Cosmic Emerald",
@@ -4739,13 +5333,15 @@
       "block.wild_world.palmplanks": "Palm Wood Planks",
       "item.armortopazlegs.name": "Topaz Leggings",
       "item.bluestoneitem.name": "Stardust",
+      "entity.wild_world.phantomaerodus": "Phantom",
       "item.swordtopaz.name": "Topaz Sword",
-      "tile.blossielog.name": "Cottongale Log",
       "item.pinecone.name": "Pinecone",
+      "tile.blossielog.name": "Cottongale Log",
       "tile.frigiddirt.name": "Permafrost",
       "item.wild_world.droopylikesyourface.desc": "C418 - Droopy Likes Your Face",
       "block.wild_world.smoothfrigidstone": "Cut Frigid Stone",
-      "advancements.skyadv.title": "Beyond the World Limit",
+      "block.wild_world.peridotitepolished": "Polished Peridotite",
+      "advancements.skyadv.title": "Cottongale Heights",
       "block.wild_world.bamboofence": "Bamboo Fence",
       "block.wild_world.blossielog": "Cottongale Log",
       "tile.barrenbrickslab.name": "Dry Stone Brick Slab",
@@ -4755,16 +5351,18 @@
       "item.cloalditem.name": "Cloald",
       "item.diamondstarmorlegs.name": "Starmor Leggings",
       "item.wild_world.fallenstaritem": "Fallen Star",
+      "block.wild_world.mossygabbro": "Mossy Gabbro",
       "block.wild_world.driftwoodlog": "Driftwood Log",
       "block.wild_world.topazore": "Topaz Ore",
       "itemGroup.tabstartechnology": "Star Technology",
       "biome.wild_world.midnightmarsh": "Midnight Marsh",
       "block.wild_world.richgrass": "Rich Grass",
       "block.wild_world.barrendirt": "Barren Dirt",
+      "block.wild_world.logwillow": "Wind Willow Log",
       "block.wild_world.enemysummoningvent": "Enemy Summoning Vent",
       "tile.barrencobble.name": "Dry Cobblestone",
-      "biome.wild_world.mapleforestcold": "Cold Maple Forest",
       "biome.wild_world.maplehillscold": "Cold Maple Forest Hills",
+      "biome.wild_world.mapleforestcold": "Cold Maple Forest",
       "item.wild_world.tapwood": "Wooden Tree Tap",
       "item.syrupbucket.name": "Bucket of Maple Syrup",
       "item.wild_world.birchsyrupbottle": "Bottle of Birch Syrup",
@@ -4772,21 +5370,27 @@
       "item.wild_world.corn": "Corn",
       "item.wild_world.tapyron": "Nickel Tree Tap",
       "block.wild_world.amethysttile": "Amethyst Crystal Tile",
-      "block.wild_world.barrenbrickwall": "Dry Stone Brick Wall",
       "block.wild_world.smokeyquartzblock": "Block of Smokey Quartz",
+      "block.wild_world.barrenbrickwall": "Dry Stone Brick Wall",
+      "block.wild_world.willowplanks": "Wind Willow Wood Planks",
       "item.fallenstarpetal.name": "Fallen Star Petal",
       "item.wild_world.droopylikesyourface": "Music Disc",
       "tile.amethystblock.name": "Amethyst Crystal",
       "block.wild_world.palmlog": "Palm Log",
+      "block.wild_world.mudcobblewall": "Mudcobble Wall",
       "block.wild_world.fusionfurnace": "Fusion Furnace",
       "tile.smokeyquartzslab.name": "Smokey Quartz Slab",
       "item.tapiron.name": "Iron Tree Tap",
       "item.axeshovel.name": "Topaz Shovel",
+      "item.wild_world.phantomaerodus": "Phantom Spawn Egg",
+      "block.wild_world.lichen": "Lichen",
       "item.wild_world.staremerald": "Cosmic Emerald",
       "advancements.pineteat.title": "Pine Needle Tea",
       "block.wild_world.maplelogwild": "Sugar Maple Log (Wild)",
       "tile.maplelog.name": "Sugar Maple Log",
+      "item.wild_world.aerodusmob": "Aerodus Spawn Egg",
       "item.pineneedles.name": "Pine Needles",
+      "item.wild_world.morelcooked": "Cooked Morel",
       "block.wild_world.frigidstone": "Frigid Stone",
       "block.wild_world.skyportal": "Sky Portal",
       "tile.bamboostairs.name": "Bamboo Stairs",
@@ -4800,30 +5404,38 @@
       "tile.fallenstarflower.name": "Fallen Star",
       "item.wild_world.armortopazlegs": "Topaz Leggings",
       "block.wild_world.waterfoliage2": "Water Foliage",
+      "advancements.midnightmarshadvancement.descr": "Find a Midnight Marsh biome.",
       "item.tapyron.name": "Iron Tree Tap",
       "block.wild_world.waterfoliage3": "Water Foliage",
+      "block.wild_world.frigidcobbleslab": "Frigid Cobblestone Slab",
+      "block.wild_world.driftwoodslab": "Driftwood Slab",
       "tile.starbox.name": "Star Core",
+      "block.wild_world.blossiesapling": "Pine Sapling",
       "tile.frigidtopsoil.name": "Frozen Topsoil",
+      "block.wild_world.smoothbogstoneslab": "Smooth Mudstone Slab",
       "block.wild_world.barrenwall": "Dry Cobblestone Wall",
       "item.topazitem.name": "Topaz",
       "advancements.pineconefuelt.title": "Pine Sapling",
       "item.staritem.name": "Star Gem",
-      "item.pancakeswithsyrup.name": "Pancakes",
       "tile.barrenstone.name": "Dry Stone",
+      "item.pancakeswithsyrup.name": "Pancakes",
       "block.wild_world.staraltaractive": "Fallen Star Core (Active)",
-      "item.wild_world.starruby": "Helios Ruby",
       "item.blossiefruit.name": "Cottongale Pear",
+      "item.wild_world.starruby": "Helios Ruby",
       "tile.smokeyquartzblock.name": "Block of Smokey Quartz",
       "item.stardiamond.name": "Stellar Diamond",
       "block.wild_world.frigiddirt": "Permafrost",
       "tile.fusionfurnaceoff.name": "Fusion Furnace",
       "tile.starboxsource.name": "Star Container",
+      "block.wild_world.bogstoneslab": "Bogstone Slab",
       "block.wild_world.smokeyquartzslab": "Smokey Quartz Slab",
       "tile.topazblock.name": "Block of Topaz",
       "block.wild_world.palmtrapdoor": "Palm Trap Door",
       "item.pringlepear.name": "Enchanted Golden Pear",
       "block.wild_world.waterfoliage1": "Water Foliage",
+      "block.wild_world.willowleaves": "Wind Willow Leaves",
       "biome.wild_world.dryforestmiddle": "Dry Forest",
+      "block.wild_world.truffle": "Morel",
       "biome.wild_world.skyforest": "Cottongale Forest",
       "tile.skyfern.name": "Sky Fern",
       "block.wild_world.rubyore": "Ruby Ore",
@@ -4833,27 +5445,32 @@
       "block.wild_world.barrenbrickslab": "Dry Stone Brick Slab",
       "block.wild_world.bamboowood": "Bamboo Planks",
       "tile.yronstarbox.name": "Star Cube",
+      "block.wild_world.gabbro": "Gabbro",
       "tile.pinesapling.name": "Pine Sapling",
       "advancements.pineconefuelt.descr": "(Turn up the heat)",
       "item.pickaxetopaz.name": "Topaz Pickaxe",
       "item.wild_world.pancakewithsyrup": "Pancakes",
-      "block.wild_world.blossieleaves": "Cottongale Leaves",
       "tile.cornstage3.name": "Corn Stage0",
+      "block.wild_world.blossieleaves": "Cottongale Leaves",
       "entity.ambienteyes.name": "AmbientEyes",
       "block.wild_world.barrentopsoil": "Barren Topsoil",
+      "block.wild_world.palmfence": "Palm Wood Fence",
+      "block.wild_world.birchlogwild": "Cottongale Log (Wild)",
       "item.wild_world.diamondstarmorbody": "Stellar Diamond Chestplate",
       "block.wild_world.fallenstarbox": "Fallen Star Core",
       "block.wild_world.frigidcobblewall": "Frigid Cobblestone Wall",
-      "advancements.treetapadvancement.title": "Wooden Faucet",
+      "advancements.treetapadvancement.title": "Let the Sap Flow!",
       "item.wild_world.syrupbirchbucket": "Bucket of Birch Syrup",
       "advancements.pineforestadv.descr": "Find a Dry Forest biome.",
       "tile.fallenstarbox.name": "Fallen Star Core",
-      "item.wild_world.pinesaplingitem": "Pine Sapling",
+      "advancements.advancementrescued.title": "Hey, I can see my house from here!",
       "block.wild_world.cornstage6": "Corn Stage0",
+      "block.wild_world.palmslab": "Palm Wood Slab",
       "block.wild_world.cornstage7": "Corn Stage0",
       "block.wild_world.diamondcrystal": "Diamond Crystal",
       "block.wild_world.amethystendore": "Amethyst Ore",
       "item.syrupbottle.name": "Bottle of Maple Syrup",
+      "item.minecraft.lingering_potion.effect.restoration": "Lingering Potion of Restoration",
       "item.wild_world.axetopaz": "Topaz Axe",
       "item.wild_world.swordtopaz": "Topaz Sword",
       "block.wild_world.topazblock": "Block of Topaz",
@@ -4879,21 +5496,25 @@
       "block.wild_world.amethystore": "Amethyst Ore",
       "block.wild_world.frigidtopsoil": "Frozen Topsoil",
       "item.pancakewithsyrup.name": "Pancakes",
+      "block.wild_world.midnightmangrovesapling": "Midnight Mangrove Sapling",
       "block.wild_world.marshstonecobble": "Bogcobble",
       "item.wild_world.hoetopaz": "Topaz Hoe",
       "tile.rubyore.name": "Ruby Ore",
       "block.wild_world.barrencobble": "Dry Cobblestone",
       "tile.bluestoneore.name": "Stardust Ore",
       "tile.pineleavesinv.name": "Pine Needles",
+      "item.wild_world.phantomphur": "Phantom Hide",
       "item.pancakewithsyrup2.name": "Pancakes",
       "block.wild_world.maplestairs": "Maple Wood Stairs",
-      "item.wild_world.coconutitem": "Coconut",
       "entity.wild_world.starboss": "Alpha-C Guardian",
       "item.wild_world.pancake": "Pancake",
       "block.wild_world.pinesapling": "Pine Sapling",
+      "block.wild_world.midnightmangrovefence": "Midnight Mangrove Wood Fence",
       "block.wild_world.barenstoneslab": "Dry Stone Slab",
       "block.wild_world.smokeyquartzendore": "Smokey Quartz Ore",
       "block.wild_world.pinestairs": "Pine Wood Stairs",
+      "effect.restoration": "Restoration",
+      "advancements.aerodusadvancement.title": "Apex Predator",
       "item.wild_world.stardiamond": "Stellar Diamond",
       "tile.amethysttile.name": "Amethyst Crystal Tile",
       "item.wild_world.armortopazboots": "Topaz Boots",
@@ -4926,15 +5547,18 @@
       "block.wild_world.frigidtopsoilsnowy": "Frozen Topsoil",
       "tile.topazore.name": "Topaz Ore",
       "advancements.treetapadvancement.descr": "Craft a Wooden Tree Tap",
+      "item.wild_world.dreamulet": "Dreamulet",
       "entity.dwarfstarguard.name": "Dwarf Stardian",
       "block.wild_world.mapleplanks": "Maple Wood Planks",
       "item.wild_world.sky": "Smokey Quartz",
       "item.sky.name": "Smokey Quartz",
       "item.wild_world.armortopazhelmet": "Topaz Helmet",
+      "block.wild_world.blossiestairs": "Cottongale Wood Stairs",
       "biome.wild_world.tropicalislands": "Tropical Islands",
       "item.wild_world.starboxer": "Star Boxer Spawn Egg",
       "block.wild_world.smoothfrigidstoneslab": "Smooth Frigid Stone Slab",
       "tile.staraltaractive.name": "Fallen Star Core (Active)",
+      "block.wild_world.mudcobbleslab": "Mudcobble Slab",
       "block.wild_world.cornstageready": "Corn Stage0",
       "advancements.pineteat.descr": "(From toothpicks to tea)",
       "item.wild_world.dog": "Music Disc",
@@ -4959,14 +5583,17 @@
       "item.wild_world.pancakewithsyrup2": "Pancakes",
       "item.birchsyrupbottle.name": "Bottle of Birch Syrup",
       "item.wild_world.pancakewithsyrup3": "Pancakes",
-      "advancements.acheivementmaplesap.title": "Sweet Sweet Sap",
       "block.wild_world.bluestonerodblock": "Bluestone Rod",
       "item.wild_world.axeshovel": "Topaz Shovel",
       "item.diamondstarmorboots.name": "Starmor Boots",
+      "item.minecraft.potion.effect.wound": "Potion of Wounding",
       "item.rubyitem.name": "Ruby",
       "item.wild_world.starboss": "Alpha-C Guardian Spawn Egg",
+      "advancements.advancementrescued.descr": "Return to the Overworld by jumping into off of the island.",
+      "item.minecraft.lingering_potion.effect.wound": "Lingering Potion of Wounding",
       "item.sapitem.name": "Maple Sap",
       "item.wild_world.smokeyquartz": "Smokey Quartz",
+      "block.wild_world.driftwoodfence": "Driftwood Fence",
       "entity.wild_world.starboxer": "Star Boxer",
       "tile.barrentopsoil.name": "Barren Topsoil",
       "tile.cloaldore.name": "Cloald Ore",
@@ -4979,6 +5606,7 @@
       "block.wild_world.rubyblock": "Block of Ruby",
       "item.starruby.name": "Helios Ruby",
       "item.wild_world.halvedcoconut": "Halved Coconut",
+      "effect.wound": "Bleeding Wound",
       "tile.pinelog.name": "Pine Log",
       "block.wild_world.bambootrapdoor": "Bamboo Trap Door",
       "item.amethyst.name": "Amethyst",
@@ -4990,6 +5618,9 @@
       "tile.yrondungeonblock.name": "Nickel Block",
       "item.axetopaz.name": "Topaz Axe",
       "item.wild_world.syrupbottle": "Bottle of Maple Syrup",
+      "block.wild_world.driftwoodstairs": "Palm Wood Stairs",
+      "block.wild_world.bogcobbleslab": "Bogcobble Slab",
+      "item.minecraft.splash_potion.effect.restoration": "Splash Potion of Restoration",
       "item.wild_world.sapitem": "Maple Sap",
       "biome.wild_world.skyjungle": "Wilds",
       "advancements.mapleforestadv.title": "Sub-Zero",
@@ -5003,17 +5634,21 @@
       "item.starbullets.name": "Star Bullets",
       "block.wild_world.smoothrichstoneslab": "Smooth Mudstone Slab",
       "item.wild_world.rubyitem": "Ruby",
-      "entity.wild_world.nethercrawler": "Nether Crawler",
       "entity.boar.name": "Wild Hog",
       "tile.yronstarboxoff.name": "Star Cube",
+      "item.wild_world.shardtopaz": "Topaz Shard",
+      "block.wild_world.blossiefence": "Cottongale Wood Slab",
+      "block.wild_world.topazcrystal": "Topaz Crystal",
       "item.diamondstarmorbody.name": "Starmor Body",
-      "advancements.wildworldadvancements.title": "Welcome to Wild World!",
-      "item.wild_world.wahsatch": "Wahsatch Portal Igniter",
+      "advancements.wildworldadvancements.title": "Wild World",
+      "advancements.aerodusadvancement.descr": "Kill an Aerodus",
       "tile.cloaldblock.name": "Block of Cloald",
+      "block.wild_world.midnightmangroveslab": "Midnight Mangrove Wood Slab",
+      "item.wild_world.antholumin": "Antholumosin",
+      "block.wild_world.blossieslab": "Cottongale Wood Stairs",
       "item.yronnugget.name": "Yron Nugget",
       "item.diamondstarmorhelmet.name": "Starmor Helmet",
       "item.wild_world.eleven": "Music Disc",
-      "item.wild_world.fallenstarpetal": "Fallen Star Petal",
       "tile.barrenbrickwall.name": "Dry Stone Brick Wall",
       "item.tapwood.name": "Wooden Tree Tap",
       "block.wild_world.fallenstarflower": "Fallen Star",
@@ -5025,7 +5660,9 @@
       "tile.mapleleavesinv.name": "Maple Leaves",
       "item.birchsapitem.name": "Birch Sap",
       "tile.frigidcobblewall.name": "Frigid Cobblestone Wall",
+      "advancements.skywildsadvancement.title": "Go Wild",
       "item.diskdog.name": "Music Disk",
+      "block.wild_world.mossystone": "Mossy Stone",
       "item.wild_world.sharddiamond": "Diamond Shard",
       "block.wild_world.barrenstone": "Dry Stone",
       "block.wild_world.starbox": "Star Core",
@@ -5042,30 +5679,40 @@
       "entity.wild_world.ambienteyes": "AmbientEyes",
       "biome.wild_world.drymountainforestold": "Wooded Dry Mountain",
       "advancements.blossieforestadv.descr": "Find a Cottongale Forest biome.",
+      "block.wild_world.barrenstoneslab": "Dry Cobblestone Slab",
+      "block.wild_world.smoothbogstone": "Cut Bogstone",
+      "advancements.skywildsadvancement.descr": "Find a Sky Wilds biome.",
+      "item.minecraft.potion.effect.restoration": "Potion of Restoration",
       "item.pancake.name": "Pancake",
       "item.wild_world.maplecookie": "Maple Cookie",
-      "advancements.skyadv.descr": "Enter Cottongale Heights",
+      "advancements.skyadv.descr": "Welcome to the Dream World.",
       "block.wild_world.pineplanks": "Pine Wood Planks",
       "block.wild_world.smokeyquartzpillar": "Smokey Quartz Pillar",
+      "block.wild_world.barrencobbleslab": "Dry Cobblestone Slab",
       "item.wild_world.pringlepear": "Enchanted Golden Pear",
       "block.wild_world.frigidstoneslab": "Frigid Stone Slab",
       "tile.frigidcobble.name": "Frigid Cobblestone",
+      "block.wild_world.midnightplanks": "Midnight Mangrove Planks",
+      "block.wild_world.mossyperidotite": "Mossy Peridotite",
       "tile.blossieplanks.name": "Cottongale Planks",
       "item.wild_world.armortopazbody": "Topaz Body",
       "block.wild_world.cloaldblock": "Block of Cloald",
       "block.wild_world.smoothrichstone": "Cut Mudstone",
+      "item.wild_world.trufflecooked": "Cooked Truffle",
       "tile.quartzore.name": "Quartz Ore",
-      "advancements.acheivementmaplesap.descr": "It\u0027s maple sap, you know what to do with it...",
+      "advancements.midnightmarshadvancement.title": "Living Lightshow",
       "tile.fusionfurnace.name": "Fusion Furnace",
       "item.clouditem.name": "Cottongale sap",
       "block.wild_world.blossielogwild": "Cottongale Log (Wild)",
       "block.wild_world.yronstarpillaron": "Star Pillar",
+      "block.wild_world.luminode": "Luminode",
       "item.yroningot.name": "Nickel Ingot",
+      "item.minecraft.splash_potion.effect.wound": "Splash Potion of Wounding",
       "entity.wild_world.dwarfstarguard": "Dwarf Stardian",
       "item.wild_world.droopylikesricochet.desc": "C418 - Droopy Likes Ricochet",
       "tile.blossielogwild.name": "Cottongale Log (Wild)",
       "entity.wild_world.crab": "Crab",
-      "item.wild_world.boar": "Wild Hog Spawn Egg",
+      "item.wild_world.boar": "Wild Boar Spawn Egg",
       "block.wild_world.richcobble": "Mudcobble",
       "tile.boiler.name": "Boiler",
       "advancements.pineforestadv.title": "Fire Hazard",
@@ -5075,20 +5722,22 @@
       "item.fallenstaritem.name": "Fallen Star",
       "biome.wild_world.tropicallowlands": "Tropical Lowlands",
       "block.wild_world.mapleleaves": "Maple Leaves",
-      "item.wild_world.nethercrawler": "Nether Crawler Spawn Egg",
       "block.wild_world.bamboostairs": "Bamboo Stairs",
+      "entity.wild_world.aerodusmob": "Aerodus",
       "block.wild_world.bambooslab": "Bamboo Slab",
       "item.pinetea.name": "Pine Needle Tea",
       "block.wild_world.smokeyquartznetherore": "Smokey Quartz Ore",
       "item.wild_world.cloalditem": "Cloald",
       "item.wild_world.pancakeswithsyrup": "Pancakes",
       "item.wild_world.dwarfstarguard": "Dwarf Stardian Spawn Egg",
+      "block.wild_world.morel": "Morel",
       "tile.starpillar.name": "Star Altar Pillar",
       "item.pancakewithsyrup3.name": "Pancakes",
       "block.wild_world.shrub": "Shrub",
       "tile.cornstage0.name": "Corn Stage0",
       "block.wild_world.bluestoneblock": "Stardust Block",
       "block.wild_world.pineleaves": "Pine Needles",
+      "block.wild_world.midnightmangrovestairs": "Midnight Mangrove Wood Stairs",
       "item.wild_world.diamondstarmorlegs": "Stellar Diamond Leggings",
       "item.wild_world.clouditem": "Cottongale sap",
       "advancements.tropicalforestadv.descr": "Find a Tropical Forest biome.",
@@ -5097,6 +5746,7 @@
       "item.wild_world.pinetea": "Pine Needle Tea",
       "biome.wild_world.drymountainforestmiddle": "Wooded Dry Mountain",
       "item.wild_world.ambienteyes": "AmbientEyes Spawn Egg",
+      "item.wild_world.bigcateyes": "Monster Eyes",
       "block.wild_world.waterloggedstone": "Porous Stone",
       "tile.amethystendore.name": "Amethyst Ore",
       "tile.skyronblock.name": "Block of Nickel",
@@ -5104,13 +5754,18 @@
       "biome.wild_world.dryforestyoung": "Dry Forest",
       "tile.barrenwall.name": "Dry Cobblestone Wall",
       "tile.bluestonerodblock.name": "Bluestone Rod",
-      "advancements.wildworldadvancements.descr": "Go explore and discover!",
+      "block.wild_world.palmstairs": "Palm Wood Stairs",
+      "advancements.wildworldadvancements.descr": "Enjoy the beauty of a new world!",
+      "item.minecraft.tipped_arrow.effect.wound": "Arrow of Potion of Wounding",
       "item.wild_world.tapgold": "Golden Tree Tap",
       "item.wild_world.crab": "Crab Spawn Egg",
       "item.wild_world.staritem": "Star Gem",
-      "advancements.blossieforestadv.title": "Aerial Orchard",
+      "advancements.blossieforestadv.title": "Windy Woods",
       "tile.cornstage7.name": "Corn Stage0",
-      "advancements.crystalfieldadv.title": "The Big Mine in the Sky",
+      "advancements.crystalfieldadv.title": "A Miner\u0027s Dream",
+      "block.wild_world.willowsapling": "Midnight Mangrove Sapling",
+      "item.minecraft.tipped_arrow.effect.restoration": "Arrow of Potion of Restoration",
+      "block.wild_world.bogcobblewall": "Bogcobble Wall",
       "item.wild_world.droopylikesricochet": "Music Disc",
       "block.wild_world.coconutblock": "Coconut",
       "item.armortopazbody.name": "Topaz Body",
@@ -5125,7 +5780,7 @@
       "block.wild_world.marshleaves": "Midnight Mangrove Leaves",
       "tile.frigidstone.name": "Frigid Stone",
       "tile.skyportal.name": "Sky Portal",
-      "entity.wild_world.boar": "Wild Hog",
+      "entity.wild_world.boar": "Wild Boar",
       "tile.richstone.name": "Wet Stone"
     }
   },

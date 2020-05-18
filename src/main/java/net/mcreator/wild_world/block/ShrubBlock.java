@@ -46,7 +46,7 @@ public class ShrubBlock extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:shrub")
 	public static final Block block = null;
 	public ShrubBlock(WildWorldElements instance) {
-		super(instance, 58);
+		super(instance, 95);
 	}
 
 	@Override

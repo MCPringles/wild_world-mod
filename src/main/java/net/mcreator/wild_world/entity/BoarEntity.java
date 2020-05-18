@@ -56,17 +56,17 @@ import net.mcreator.wild_world.WildWorldElements;
 public class BoarEntity extends WildWorldElements.ModElement {
 	public static EntityType entity = null;
 	public BoarEntity(WildWorldElements instance) {
-		super(instance, 96);
+		super(instance, 143);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 
 	@Override
 	public void initElements() {
 		entity = (EntityType.Builder.<CustomEntity>create(CustomEntity::new, EntityClassification.CREATURE).setShouldReceiveVelocityUpdates(true)
-				.setTrackingRange(16).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).size(0.9f, 0.8f)).build("boar")
+				.setTrackingRange(8).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).size(0.9f, 0.8f)).build("boar")
 						.setRegistryName("boar");
 		elements.entities.add(() -> entity);
-		elements.items.add(() -> new SpawnEggItem(entity, -2066055, -13819107, new Item.Properties().group(ItemGroup.MISC)).setRegistryName("boar"));
+		elements.items.add(() -> new SpawnEggItem(entity, -1073763, -13819107, new Item.Properties().group(ItemGroup.MISC)).setRegistryName("boar"));
 	}
 
 	@Override
@@ -131,7 +131,7 @@ public class BoarEntity extends WildWorldElements.ModElement {
 
 		public CustomEntity(EntityType<CustomEntity> type, World world) {
 			super(type, world);
-			experienceValue = 6;
+			experienceValue = 3;
 			setNoAI(false);
 		}
 
@@ -141,16 +141,17 @@ public class BoarEntity extends WildWorldElements.ModElement {
 			this.goalSelector.addGoal(1, new TemptGoal(this, 1, Ingredient.fromItems(new ItemStack(Items.CARROT, (int) (1)).getItem()), false));
 			this.goalSelector.addGoal(2, new TemptGoal(this, 1, Ingredient.fromItems(new ItemStack(Items.POTATO, (int) (1)).getItem()), false));
 			this.goalSelector.addGoal(3, new TemptGoal(this, 1, Ingredient.fromItems(new ItemStack(Items.BEETROOT, (int) (1)).getItem()), false));
-			this.targetSelector.addGoal(4, new NearestAttackableTargetGoal(this, PlayerEntity.class, true, false));
-			this.targetSelector.addGoal(5, new NearestAttackableTargetGoal(this, ServerPlayerEntity.class, true, true));
-			this.goalSelector.addGoal(6, new MeleeAttackGoal(this, 1.2, true));
-			this.targetSelector.addGoal(7, new HurtByTargetGoal(this).setCallsForHelp(this.getClass()));
+			this.targetSelector.addGoal(4, new HurtByTargetGoal(this).setCallsForHelp(this.getClass()));
+			this.targetSelector.addGoal(5, new NearestAttackableTargetGoal(this, PlayerEntity.class, true, true));
+			this.targetSelector.addGoal(6, new NearestAttackableTargetGoal(this, ServerPlayerEntity.class, true, true));
+			this.goalSelector.addGoal(7, new MeleeAttackGoal(this, 1.2, true));
 			this.goalSelector.addGoal(8, new AvoidEntityGoal(this, BoarEntity.CustomEntity.class, (float) 7, 1, 1));
 			this.goalSelector.addGoal(9, new AvoidEntityGoal(this, CreeperEntity.class, (float) 8, 1.2, 1));
-			this.goalSelector.addGoal(10, new LookAtGoal(this, LivingEntity.class, (float) 6));
-			this.goalSelector.addGoal(11, new RandomWalkingGoal(this, 1));
-			this.goalSelector.addGoal(12, new LookRandomlyGoal(this));
-			this.goalSelector.addGoal(13, new SwimGoal(this));
+			this.goalSelector.addGoal(10, new AvoidEntityGoal(this, AerodusMobEntity.CustomEntity.class, (float) 8, 1.2, 1));
+			this.goalSelector.addGoal(11, new LookAtGoal(this, LivingEntity.class, (float) 6));
+			this.goalSelector.addGoal(12, new RandomWalkingGoal(this, 1));
+			this.goalSelector.addGoal(13, new LookRandomlyGoal(this));
+			this.goalSelector.addGoal(14, new SwimGoal(this));
 		}
 
 		@Override

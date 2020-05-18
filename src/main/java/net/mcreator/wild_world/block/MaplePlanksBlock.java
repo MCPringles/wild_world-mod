@@ -27,7 +27,7 @@ public class MaplePlanksBlock extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:mapleplanks")
 	public static final Block block = null;
 	public MaplePlanksBlock(WildWorldElements instance) {
-		super(instance, 19);
+		super(instance, 30);
 	}
 
 	@Override

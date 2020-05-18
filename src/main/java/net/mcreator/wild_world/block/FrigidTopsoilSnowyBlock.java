@@ -32,7 +32,7 @@ public class FrigidTopsoilSnowyBlock extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:frigidtopsoilsnowy")
 	public static final Block block = null;
 	public FrigidTopsoilSnowyBlock(WildWorldElements instance) {
-		super(instance, 193);
+		super(instance, 242);
 	}
 
 	@Override

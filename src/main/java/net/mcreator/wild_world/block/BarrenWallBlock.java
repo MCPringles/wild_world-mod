@@ -38,14 +38,13 @@ public class BarrenWallBlock extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:barrenwall")
 	public static final Block block = null;
 	public BarrenWallBlock(WildWorldElements instance) {
-		super(instance, 30);
+		super(instance, 83);
 	}
 
 	@Override
 	public void initElements() {
 		elements.blocks.add(() -> new CustomBlock());
-		elements.items
-				.add(() -> new BlockItem(block, new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)).setRegistryName(block.getRegistryName()));
+		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(ItemGroup.DECORATIONS)).setRegistryName(block.getRegistryName()));
 	}
 	public static class CustomBlock extends WallBlock {
 		public CustomBlock() {

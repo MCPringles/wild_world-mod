@@ -5,6 +5,7 @@
     "recipeType": "Crafting",
     "xpReward": 0.0,
     "recipeRetstackSize": 4,
+    "group": "blossieplanks",
     "recipeShapeless": true,
     "recipeSlots": [
       {
@@ -37,12 +38,6 @@
     ],
     "recipeReturnStack": {
       "value": "CUSTOM:BlossiePlanks"
-    },
-    "smeltingInputStack": {
-      "value": ""
-    },
-    "smeltingReturnStack": {
-      "value": ""
     },
     "name": "blossieplankrecipe",
     "namespace": "mod"

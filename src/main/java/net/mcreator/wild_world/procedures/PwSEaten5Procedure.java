@@ -1,19 +1,18 @@
 package net.mcreator.wild_world.procedures;
 
-import net.minecraftforge.items.ItemHandlerHelper;
-
+import net.minecraft.util.Hand;
 import net.minecraft.item.ItemStack;
-import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.entity.player.ServerPlayerEntity;
+import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.Entity;
 
-import net.mcreator.wild_world.item.PancakesWithSyrupItem;
 import net.mcreator.wild_world.item.PancakeWithSyrup4Item;
 import net.mcreator.wild_world.WildWorldElements;
 
 @WildWorldElements.ModElement.Tag
 public class PwSEaten5Procedure extends WildWorldElements.ModElement {
 	public PwSEaten5Procedure(WildWorldElements instance) {
-		super(instance, 293);
+		super(instance, 339);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {
@@ -22,13 +21,12 @@ public class PwSEaten5Procedure extends WildWorldElements.ModElement {
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
-		if (entity instanceof PlayerEntity)
-			((PlayerEntity) entity).inventory.clearMatchingItems(p -> new ItemStack(PancakesWithSyrupItem.block, (int) (1)).getItem() == p.getItem(),
-					(int) 1);
-		if (entity instanceof PlayerEntity) {
+		if (entity instanceof LivingEntity) {
 			ItemStack _setstack = new ItemStack(PancakeWithSyrup4Item.block, (int) (1));
 			_setstack.setCount(1);
-			ItemHandlerHelper.giveItemToPlayer(((PlayerEntity) entity), _setstack);
+			((LivingEntity) entity).setHeldItem(Hand.MAIN_HAND, _setstack);
+			if (entity instanceof ServerPlayerEntity)
+				((ServerPlayerEntity) entity).inventory.markDirty();
 		}
 	}
 }

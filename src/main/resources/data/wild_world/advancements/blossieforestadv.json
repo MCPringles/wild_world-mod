@@ -23,12 +23,7 @@
     }
   },
   "rewards": {
-    "experience": 0,
-    "recipes": [
-      "wild_world:pineconetosapling",
-      "wild_world:pinerecipe",
-      "wild_world:pinetearecipe"
-    ]
+    "experience": 0
   },
   "parent": "wild_world:skyadv"
 }

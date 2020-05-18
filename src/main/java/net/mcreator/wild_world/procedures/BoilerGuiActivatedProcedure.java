@@ -20,7 +20,7 @@ import net.mcreator.wild_world.WildWorldElements;
 @WildWorldElements.ModElement.Tag
 public class BoilerGuiActivatedProcedure extends WildWorldElements.ModElement {
 	public BoilerGuiActivatedProcedure(WildWorldElements instance) {
-		super(instance, 171);
+		super(instance, 221);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

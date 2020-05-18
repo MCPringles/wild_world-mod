@@ -19,7 +19,7 @@ public class MapleCookieItem extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:maplecookie")
 	public static final Item block = null;
 	public MapleCookieItem(WildWorldElements instance) {
-		super(instance, 123);
+		super(instance, 172);
 	}
 
 	@Override

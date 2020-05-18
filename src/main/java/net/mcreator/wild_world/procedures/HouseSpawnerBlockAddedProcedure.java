@@ -15,7 +15,7 @@ import net.mcreator.wild_world.WildWorldElements;
 @WildWorldElements.ModElement.Tag
 public class HouseSpawnerBlockAddedProcedure extends WildWorldElements.ModElement {
 	public HouseSpawnerBlockAddedProcedure(WildWorldElements instance) {
-		super(instance, 190);
+		super(instance, 239);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

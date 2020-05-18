@@ -1,0 +1,25 @@
+{
+  "_fv": 6,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:FallenStarFlower"
+      },
+      {
+        "value": "CUSTOM:MarshVine"
+      },
+      {
+        "value": "CUSTOM:DewBush"
+      },
+      {
+        "value": "CUSTOM:MorningOrchid"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "name": "lightplant",
+    "namespace": "forge"
+  }
+}

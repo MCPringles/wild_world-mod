@@ -2,8 +2,8 @@
   "_fv": 6,
   "_type": "achievement",
   "definition": {
-    "achievementName": "Beyond the World Limit",
-    "achievementDescription": "Enter Cottongale Heights",
+    "achievementName": "Cottongale Heights",
+    "achievementDescription": "Welcome to the Dream World.",
     "achievementIcon": {
       "value": "CUSTOM:SkyFern"
     },

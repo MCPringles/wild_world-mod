@@ -32,7 +32,7 @@ public class SmokeyQuartzSlabBlock extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:smokeyquartzslab")
 	public static final Block block = null;
 	public SmokeyQuartzSlabBlock(WildWorldElements instance) {
-		super(instance, 43);
+		super(instance, 72);
 	}
 
 	@Override

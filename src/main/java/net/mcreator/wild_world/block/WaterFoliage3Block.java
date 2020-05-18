@@ -36,7 +36,7 @@ public class WaterFoliage3Block extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:waterfoliage3")
 	public static final Block block = null;
 	public WaterFoliage3Block(WildWorldElements instance) {
-		super(instance, 63);
+		super(instance, 104);
 	}
 
 	@Override

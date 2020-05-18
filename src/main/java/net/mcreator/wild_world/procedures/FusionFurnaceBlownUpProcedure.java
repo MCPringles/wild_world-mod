@@ -14,7 +14,7 @@ import net.mcreator.wild_world.WildWorldElements;
 @WildWorldElements.ModElement.Tag
 public class FusionFurnaceBlownUpProcedure extends WildWorldElements.ModElement {
 	public FusionFurnaceBlownUpProcedure(WildWorldElements instance) {
-		super(instance, 315);
+		super(instance, 361);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

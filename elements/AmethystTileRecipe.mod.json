@@ -5,6 +5,7 @@
     "recipeType": "Crafting",
     "xpReward": 0.0,
     "recipeRetstackSize": 8,
+    "group": "amethysttile",
     "recipeShapeless": false,
     "recipeSlots": [
       {
@@ -36,12 +37,6 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:AmethystTile"
-    },
-    "smeltingInputStack": {
-      "value": "CUSTOM:AmethystBlock"
-    },
-    "smeltingReturnStack": {
       "value": "CUSTOM:AmethystTile"
     },
     "name": "amethysttilerecipe",

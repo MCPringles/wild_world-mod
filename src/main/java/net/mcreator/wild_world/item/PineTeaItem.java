@@ -19,7 +19,7 @@ public class PineTeaItem extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:pinetea")
 	public static final Item block = null;
 	public PineTeaItem(WildWorldElements instance) {
-		super(instance, 120);
+		super(instance, 169);
 	}
 
 	@Override
@@ -28,7 +28,8 @@ public class PineTeaItem extends WildWorldElements.ModElement {
 	}
 	public static class FoodItemCustom extends Item {
 		public FoodItemCustom() {
-			super(new Item.Properties().group(ItemGroup.FOOD).maxStackSize(1).food((new Food.Builder()).hunger(0).saturation(20f).build()));
+			super(new Item.Properties().group(ItemGroup.FOOD).maxStackSize(1)
+					.food((new Food.Builder()).hunger(-1).saturation(20f).setAlwaysEdible().build()));
 			setRegistryName("pinetea");
 		}
 

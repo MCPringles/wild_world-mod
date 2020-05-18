@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "wild_world:blocks/willow_log_top",
+    "up": "wild_world:blocks/willow_log_top",
+    "north": "wild_world:blocks/willow_bark",
+    "east": "wild_world:blocks/willow_bark",
+    "south": "wild_world:blocks/willow_bark",
+    "west": "wild_world:blocks/willow_bark",
+    "particle": "wild_world:blocks/willow_log_top"
+  }
+}

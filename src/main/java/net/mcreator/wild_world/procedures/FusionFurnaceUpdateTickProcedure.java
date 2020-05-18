@@ -21,7 +21,7 @@ import net.mcreator.wild_world.WildWorldElements;
 @WildWorldElements.ModElement.Tag
 public class FusionFurnaceUpdateTickProcedure extends WildWorldElements.ModElement {
 	public FusionFurnaceUpdateTickProcedure(WildWorldElements instance) {
-		super(instance, 313);
+		super(instance, 359);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

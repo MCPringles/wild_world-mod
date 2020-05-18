@@ -35,7 +35,7 @@ public class TropicalMidlandsBiome extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:tropicalmidlands")
 	public static final CustomBiome biome = null;
 	public TropicalMidlandsBiome(WildWorldElements instance) {
-		super(instance, 338);
+		super(instance, 383);
 	}
 
 	@Override

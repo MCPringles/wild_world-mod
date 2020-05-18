@@ -32,7 +32,7 @@ public class CosmicEmeraldForceFieldBossBlock extends WildWorldElements.ModEleme
 	@ObjectHolder("wild_world:cosmicemeraldforcefieldboss")
 	public static final Block block = null;
 	public CosmicEmeraldForceFieldBossBlock(WildWorldElements instance) {
-		super(instance, 325);
+		super(instance, 371);
 	}
 
 	@Override

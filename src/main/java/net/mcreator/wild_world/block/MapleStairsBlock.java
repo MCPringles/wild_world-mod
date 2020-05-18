@@ -31,7 +31,7 @@ public class MapleStairsBlock extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:maplestairs")
 	public static final Block block = null;
 	public MapleStairsBlock(WildWorldElements instance) {
-		super(instance, 28);
+		super(instance, 52);
 	}
 
 	@Override

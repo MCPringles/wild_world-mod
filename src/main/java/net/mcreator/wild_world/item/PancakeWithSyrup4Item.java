@@ -20,7 +20,7 @@ public class PancakeWithSyrup4Item extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:pancakewithsyrup4")
 	public static final Item block = null;
 	public PancakeWithSyrup4Item(WildWorldElements instance) {
-		super(instance, 288);
+		super(instance, 334);
 	}
 
 	@Override
@@ -29,7 +29,7 @@ public class PancakeWithSyrup4Item extends WildWorldElements.ModElement {
 	}
 	public static class FoodItemCustom extends Item {
 		public FoodItemCustom() {
-			super(new Item.Properties().group(null).maxStackSize(1).food((new Food.Builder()).hunger(4).saturation(0.300000011920929f).build()));
+			super(new Item.Properties().group(null).maxStackSize(1).food((new Food.Builder()).hunger(9).saturation(3.7f).build()));
 			setRegistryName("pancakewithsyrup4");
 		}
 

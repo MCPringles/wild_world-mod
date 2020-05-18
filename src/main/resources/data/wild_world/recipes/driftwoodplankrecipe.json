@@ -1,0 +1,13 @@
+{
+  "group": "driftwoodplanks",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wild_world:driftwoodlog"
+    }
+  ],
+  "result": {
+    "item": "wild_world:driftwoodplanks",
+    "count": 4
+  }
+}

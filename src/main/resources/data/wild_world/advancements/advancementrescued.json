@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "wild_world:clouditem"
+    },
+    "title": {
+      "translate": "advancements.advancementrescued.title"
+    },
+    "description": {
+      "translate": "advancements.advancementrescued.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "advancementrescued": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 0
+  },
+  "parent": "wild_world:skyadv"
+}

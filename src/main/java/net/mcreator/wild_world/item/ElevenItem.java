@@ -16,7 +16,7 @@ public class ElevenItem extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:eleven")
 	public static final Item block = null;
 	public ElevenItem(WildWorldElements instance) {
-		super(instance, 74);
+		super(instance, 119);
 	}
 
 	@Override

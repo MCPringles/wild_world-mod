@@ -13,7 +13,7 @@ import net.mcreator.wild_world.WildWorldElements;
 @WildWorldElements.ModElement.Tag
 public class CloaldFuelFuel extends WildWorldElements.ModElement {
 	public CloaldFuelFuel(WildWorldElements instance) {
-		super(instance, 226);
+		super(instance, 273);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 

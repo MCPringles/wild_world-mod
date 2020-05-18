@@ -27,7 +27,7 @@ public class YronDungeonBlockBlock extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:yrondungeonblock")
 	public static final Block block = null;
 	public YronDungeonBlockBlock(WildWorldElements instance) {
-		super(instance, 232);
+		super(instance, 279);
 	}
 
 	@Override

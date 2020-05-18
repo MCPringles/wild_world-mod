@@ -50,7 +50,7 @@ public class FrigidDirtBlock extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:frigiddirt")
 	public static final Block block = null;
 	public FrigidDirtBlock(WildWorldElements instance) {
-		super(instance, 7);
+		super(instance, 8);
 	}
 
 	@Override

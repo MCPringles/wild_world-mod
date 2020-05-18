@@ -16,7 +16,7 @@ import net.mcreator.wild_world.WildWorldElements;
 @WildWorldElements.ModElement.Tag
 public class FusionFurnaceBlockDestroyedByPlayerProcedure extends WildWorldElements.ModElement {
 	public FusionFurnaceBlockDestroyedByPlayerProcedure(WildWorldElements instance) {
-		super(instance, 314);
+		super(instance, 360);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

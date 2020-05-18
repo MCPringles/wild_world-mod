@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "": [
+      	{ "model": "wild_world:block/mossyperidotite" },
+		{ "model": "wild_world:block/mossyperidotite", "y": 90 },
+	    { "model": "wild_world:block/mossyperidotite", "y": 180 },
+	    { "model": "wild_world:block/mossyperidotite", "y": 270 }
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "group": "antholumin",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:lightplant"
+    }
+  ],
+  "result": {
+    "item": "wild_world:antholumin",
+    "count": 1
+  }
+}

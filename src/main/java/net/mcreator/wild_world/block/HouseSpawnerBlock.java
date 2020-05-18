@@ -33,7 +33,7 @@ public class HouseSpawnerBlock extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:housespawner")
 	public static final Block block = null;
 	public HouseSpawnerBlock(WildWorldElements instance) {
-		super(instance, 191);
+		super(instance, 240);
 	}
 
 	@Override

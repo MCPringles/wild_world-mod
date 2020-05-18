@@ -20,7 +20,7 @@ import net.mcreator.wild_world.WildWorldElements;
 @WildWorldElements.ModElement.Tag
 public class CornOnHarvestProcedure extends WildWorldElements.ModElement {
 	public CornOnHarvestProcedure(WildWorldElements instance) {
-		super(instance, 309);
+		super(instance, 355);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

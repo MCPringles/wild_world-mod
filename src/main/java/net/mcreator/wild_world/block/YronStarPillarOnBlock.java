@@ -64,7 +64,7 @@ public class YronStarPillarOnBlock extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:yronstarpillaron")
 	public static final TileEntityType<CustomTileEntity> tileEntityType = null;
 	public YronStarPillarOnBlock(WildWorldElements instance) {
-		super(instance, 231);
+		super(instance, 278);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

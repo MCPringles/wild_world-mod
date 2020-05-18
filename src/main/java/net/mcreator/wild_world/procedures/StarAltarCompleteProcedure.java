@@ -8,7 +8,7 @@ import net.mcreator.wild_world.WildWorldElements;
 @WildWorldElements.ModElement.Tag
 public class StarAltarCompleteProcedure extends WildWorldElements.ModElement {
 	public StarAltarCompleteProcedure(WildWorldElements instance) {
-		super(instance, 213);
+		super(instance, 260);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

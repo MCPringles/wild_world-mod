@@ -53,7 +53,7 @@ public class PalmLeavesBlock extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:palmleaves")
 	public static final TileEntityType<CustomTileEntity> tileEntityType = null;
 	public PalmLeavesBlock(WildWorldElements instance) {
-		super(instance, 68);
+		super(instance, 111);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

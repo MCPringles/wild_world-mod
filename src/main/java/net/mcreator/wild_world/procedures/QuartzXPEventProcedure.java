@@ -14,7 +14,7 @@ import net.mcreator.wild_world.WildWorldElements;
 @WildWorldElements.ModElement.Tag
 public class QuartzXPEventProcedure extends WildWorldElements.ModElement {
 	public QuartzXPEventProcedure(WildWorldElements instance) {
-		super(instance, 237);
+		super(instance, 284);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

@@ -14,7 +14,7 @@ import net.mcreator.wild_world.WildWorldElements;
 @WildWorldElements.ModElement.Tag
 public class EnrichGrassProcedure extends WildWorldElements.ModElement {
 	public EnrichGrassProcedure(WildWorldElements instance) {
-		super(instance, 271);
+		super(instance, 317);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

@@ -14,7 +14,7 @@ import net.mcreator.wild_world.WildWorldElements;
 @WildWorldElements.ModElement.Tag
 public class LeafDecayProcedure extends WildWorldElements.ModElement {
 	public LeafDecayProcedure(WildWorldElements instance) {
-		super(instance, 275);
+		super(instance, 321);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

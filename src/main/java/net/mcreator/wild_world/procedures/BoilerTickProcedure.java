@@ -19,7 +19,7 @@ import net.mcreator.wild_world.WildWorldElements;
 @WildWorldElements.ModElement.Tag
 public class BoilerTickProcedure extends WildWorldElements.ModElement {
 	public BoilerTickProcedure(WildWorldElements instance) {
-		super(instance, 180);
+		super(instance, 229);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

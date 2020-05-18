@@ -9,7 +9,7 @@ import net.mcreator.wild_world.WildWorldElements;
 @WildWorldElements.ModElement.Tag
 public class AmbientEyesOnEntityTickUpdateProcedure extends WildWorldElements.ModElement {
 	public AmbientEyesOnEntityTickUpdateProcedure(WildWorldElements instance) {
-		super(instance, 257);
+		super(instance, 304);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

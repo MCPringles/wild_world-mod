@@ -31,7 +31,7 @@ public class BarrenBrickSlabBlock extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:barrenbrickslab")
 	public static final Block block = null;
 	public BarrenBrickSlabBlock(WildWorldElements instance) {
-		super(instance, 26);
+		super(instance, 40);
 	}
 
 	@Override

@@ -53,7 +53,7 @@ public class RichSoilBlock extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:richsoil")
 	public static final Block block = null;
 	public RichSoilBlock(WildWorldElements instance) {
-		super(instance, 11);
+		super(instance, 13);
 	}
 
 	@Override

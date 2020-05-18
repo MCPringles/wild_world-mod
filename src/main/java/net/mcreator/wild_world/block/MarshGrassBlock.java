@@ -29,7 +29,7 @@ public class MarshGrassBlock extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:marshgrass")
 	public static final Block block = null;
 	public MarshGrassBlock(WildWorldElements instance) {
-		super(instance, 372);
+		super(instance, 19);
 	}
 
 	@Override
@@ -48,6 +48,11 @@ public class MarshGrassBlock extends WildWorldElements.ModElement {
 		@Override
 		public MaterialColor getMaterialColor(BlockState state, IBlockReader blockAccess, BlockPos pos) {
 			return MaterialColor.CYAN;
+		}
+
+		@Override
+		public boolean canSustainPlant(BlockState state, IBlockReader world, BlockPos pos, Direction direction, IPlantable plantable) {
+			return true;
 		}
 
 		@Override

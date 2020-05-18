@@ -1,0 +1,10 @@
+{
+  "parent": "wild_world:custom/crystal_topaz",
+  "textures": {
+    "all": "wild_world:blocks/maincrystaltopaz",
+    "particle": "wild_world:blocks/maincrystaltopaz",
+    "0": "wild_world:blocks/outercrystalstopaz",
+    "1": "wild_world:blocks/maincrystaltopaz",
+    "missing": "wild_world:blocks/maincrystaltopaz"
+  }
+}

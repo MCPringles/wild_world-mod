@@ -42,7 +42,7 @@ public class MarshStoneBlock extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:marshstone")
 	public static final Block block = null;
 	public MarshStoneBlock(WildWorldElements instance) {
-		super(instance, 374);
+		super(instance, 16);
 	}
 
 	@Override

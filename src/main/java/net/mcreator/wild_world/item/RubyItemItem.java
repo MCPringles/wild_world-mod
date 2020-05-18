@@ -15,7 +15,7 @@ public class RubyItemItem extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:rubyitem")
 	public static final Item block = null;
 	public RubyItemItem(WildWorldElements instance) {
-		super(instance, 79);
+		super(instance, 126);
 	}
 
 	@Override

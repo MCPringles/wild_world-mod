@@ -41,7 +41,7 @@ public class YronOreBlock extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:yronore")
 	public static final Block block = null;
 	public YronOreBlock(WildWorldElements instance) {
-		super(instance, 50);
+		super(instance, 79);
 	}
 
 	@Override

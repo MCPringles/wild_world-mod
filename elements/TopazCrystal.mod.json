@@ -1,0 +1,47 @@
+{
+  "_fv": 6,
+  "_type": "plant",
+  "definition": {
+    "renderType": 2,
+    "texture": "maincrystaltopaz",
+    "customModelName": "crystal_topaz:default",
+    "plantType": "normal",
+    "growapableSpawnType": "Cave",
+    "growapableMaxHeight": 3,
+    "name": "Topaz Crystal",
+    "creativeTab": {
+      "value": "No creative tab entry"
+    },
+    "hardness": 3.0,
+    "resistance": 3.0,
+    "luminance": 0.0,
+    "unbreakable": false,
+    "soundOnStep": {
+      "value": "GLASS"
+    },
+    "customDrop": {
+      "value": "CUSTOM:ShardTopaz"
+    },
+    "dropAmount": 1,
+    "isReplaceable": false,
+    "colorOnMap": "YELLOW_TERRACOTTA",
+    "creativePickItem": {
+      "value": ""
+    },
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "frequencyOnChunks": 1,
+    "spawnWorldTypes": [
+      "Surface",
+      "CUSTOM:Sky"
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:CrystalFields"
+      }
+    ],
+    "onEntityCollides": {
+      "name": "DiamondCrystalSharp"
+    }
+  }
+}

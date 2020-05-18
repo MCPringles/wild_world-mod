@@ -13,7 +13,7 @@ import java.util.HashMap;
 @WildWorldElements.ModElement.Tag
 public class DebugModeCommandExecutedProcedure extends WildWorldElements.ModElement {
 	public DebugModeCommandExecutedProcedure(WildWorldElements instance) {
-		super(instance, 377);
+		super(instance, 402);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

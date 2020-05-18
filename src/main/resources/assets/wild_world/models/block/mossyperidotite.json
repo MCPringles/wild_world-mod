@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "wild_world:blocks/peridotite",
+    "up": "wild_world:blocks/moss_top",
+    "north": "wild_world:blocks/moss_peridotite",
+    "east": "wild_world:blocks/moss_peridotite",
+    "south": "wild_world:blocks/moss_peridotite",
+    "west": "wild_world:blocks/moss_peridotite",
+    "particle": "wild_world:blocks/peridotite"
+  }
+}

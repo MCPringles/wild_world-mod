@@ -23,7 +23,7 @@ public class StarRubyItem extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:starruby")
 	public static final Item block = null;
 	public StarRubyItem(WildWorldElements instance) {
-		super(instance, 106);
+		super(instance, 157);
 	}
 
 	@Override

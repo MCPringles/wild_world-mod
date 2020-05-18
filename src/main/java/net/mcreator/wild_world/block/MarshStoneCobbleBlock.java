@@ -27,7 +27,7 @@ public class MarshStoneCobbleBlock extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:marshstonecobble")
 	public static final Block block = null;
 	public MarshStoneCobbleBlock(WildWorldElements instance) {
-		super(instance, 375);
+		super(instance, 17);
 	}
 
 	@Override

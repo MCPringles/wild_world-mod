@@ -33,7 +33,7 @@ public class SmokeyQuartzPillarBlock extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:smokeyquartzpillar")
 	public static final Block block = null;
 	public SmokeyQuartzPillarBlock(WildWorldElements instance) {
-		super(instance, 41);
+		super(instance, 70);
 	}
 
 	@Override

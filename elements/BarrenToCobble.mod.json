@@ -5,6 +5,7 @@
     "recipeType": "Crafting",
     "xpReward": 0.0,
     "recipeRetstackSize": 1,
+    "group": "cobblestone",
     "recipeShapeless": true,
     "recipeSlots": [
       {
@@ -37,12 +38,6 @@
     ],
     "recipeReturnStack": {
       "value": "Blocks.COBBLESTONE"
-    },
-    "smeltingInputStack": {
-      "value": ""
-    },
-    "smeltingReturnStack": {
-      "value": ""
     },
     "name": "barrentocobble",
     "namespace": "mod"

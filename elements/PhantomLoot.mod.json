@@ -1,0 +1,19 @@
+{
+  "_fv": 6,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:PhantomPhur"
+      },
+      {
+        "value": "Items.PHANTOM_MEMBRANE"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "name": "phantomloot",
+    "namespace": "forge"
+  }
+}

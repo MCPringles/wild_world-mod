@@ -22,7 +22,6 @@ import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
-import net.minecraft.block.VineBlock;
 
 import net.mcreator.wild_world.WildWorldElements;
 
@@ -34,7 +33,7 @@ public class MarshVineBlock extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:marshvine")
 	public static final Block block = null;
 	public MarshVineBlock(WildWorldElements instance) {
-		super(instance, 381);
+		super(instance, 106);
 	}
 
 	@Override
@@ -42,9 +41,9 @@ public class MarshVineBlock extends WildWorldElements.ModElement {
 		elements.blocks.add(() -> new CustomBlock());
 		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(ItemGroup.DECORATIONS)).setRegistryName(block.getRegistryName()));
 	}
-	public static class CustomBlock extends VineBlock {
+	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.TALL_PLANTS).sound(SoundType.WET_GRASS).hardnessAndResistance(0.2F).lightValue(0)
+			super(Block.Properties.create(Material.OCEAN_PLANT).sound(SoundType.GROUND).hardnessAndResistance(0.05f, 0f).lightValue(8)
 					.doesNotBlockMovement().slipperiness(1f).tickRandomly());
 			setRegistryName("marshvine");
 		}

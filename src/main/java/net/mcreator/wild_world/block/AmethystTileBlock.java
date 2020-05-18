@@ -30,7 +30,7 @@ public class AmethystTileBlock extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:amethysttile")
 	public static final Block block = null;
 	public AmethystTileBlock(WildWorldElements instance) {
-		super(instance, 39);
+		super(instance, 68);
 	}
 
 	@Override

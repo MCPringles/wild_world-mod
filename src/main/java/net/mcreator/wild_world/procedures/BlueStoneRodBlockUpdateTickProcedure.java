@@ -13,7 +13,7 @@ import net.mcreator.wild_world.WildWorldElements;
 @WildWorldElements.ModElement.Tag
 public class BlueStoneRodBlockUpdateTickProcedure extends WildWorldElements.ModElement {
 	public BlueStoneRodBlockUpdateTickProcedure(WildWorldElements instance) {
-		super(instance, 320);
+		super(instance, 366);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

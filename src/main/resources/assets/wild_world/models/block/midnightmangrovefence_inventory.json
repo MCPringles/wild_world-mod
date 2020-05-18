@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_inventory",
+  "textures": {
+    "texture": "wild_world:blocks/marshwoodplanks",
+    "particle": "wild_world:blocks/marshwoodplanks"
+  }
+}

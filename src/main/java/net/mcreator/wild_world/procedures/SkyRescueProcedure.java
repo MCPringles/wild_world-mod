@@ -9,22 +9,27 @@ import net.minecraft.world.server.ServerWorld;
 import net.minecraft.world.dimension.DimensionType;
 import net.minecraft.world.World;
 import net.minecraft.util.math.BlockPos;
-import net.minecraft.potion.Effects;
+import net.minecraft.util.ResourceLocation;
+import net.minecraft.server.MinecraftServer;
 import net.minecraft.potion.EffectInstance;
 import net.minecraft.network.play.server.SPlayerAbilitiesPacket;
 import net.minecraft.network.play.server.SPlaySoundEventPacket;
 import net.minecraft.network.play.server.SPlayEntityEffectPacket;
 import net.minecraft.network.play.server.SChangeGameStatePacket;
 import net.minecraft.entity.player.ServerPlayerEntity;
-import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.Entity;
+import net.minecraft.advancements.AdvancementProgress;
+import net.minecraft.advancements.Advancement;
 
+import net.mcreator.wild_world.world.dimension.SkyDimension;
 import net.mcreator.wild_world.WildWorldElements;
+
+import java.util.Iterator;
 
 @WildWorldElements.ModElement.Tag
 public class SkyRescueProcedure extends WildWorldElements.ModElement {
 	public SkyRescueProcedure(WildWorldElements instance) {
-		super(instance, 276);
+		super(instance, 322);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 
@@ -40,7 +45,7 @@ public class SkyRescueProcedure extends WildWorldElements.ModElement {
 		Entity entity = (Entity) dependencies.get("entity");
 		World world = (World) dependencies.get("world");
 		if (((entity.posY) <= 0)) {
-			if (((entity.dimension.getId()) == 1012)) {
+			if (((entity.dimension.getId()) == (SkyDimension.type.getId()))) {
 				if (!entity.world.isRemote && entity instanceof ServerPlayerEntity) {
 					DimensionType destinationType = DimensionType.OVERWORLD;
 					ObfuscationReflectionHelper.setPrivateValue(ServerPlayerEntity.class, (ServerPlayerEntity) entity, true, "field_184851_cj");
@@ -54,11 +59,26 @@ public class SkyRescueProcedure extends WildWorldElements.ModElement {
 					}
 					((ServerPlayerEntity) entity).connection.sendPacket(new SPlaySoundEventPacket(1032, BlockPos.ZERO, 0, false));
 				}
-			}
-			if (((entity.dimension.getId()) == 0)) {
 				entity.setPositionAndUpdate((world.getSpawnPoint().getX()), 255, (world.getSpawnPoint().getZ()));
-				if (entity instanceof LivingEntity)
-					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.RESISTANCE, (int) 200, (int) 255));
+				if ((!(((entity instanceof ServerPlayerEntity) && (entity.world instanceof ServerWorld))
+						? ((ServerPlayerEntity) entity).getAdvancements()
+								.getProgress(((MinecraftServer) ((ServerPlayerEntity) entity).server).getAdvancementManager()
+										.getAdvancement(new ResourceLocation("wild_world:advancementrescued")))
+								.isDone()
+						: false))) {
+					if (entity instanceof ServerPlayerEntity) {
+						Advancement _adv = ((MinecraftServer) ((ServerPlayerEntity) entity).server).getAdvancementManager()
+								.getAdvancement(new ResourceLocation("wild_world:advancementrescued"));
+						AdvancementProgress _ap = ((ServerPlayerEntity) entity).getAdvancements().getProgress(_adv);
+						if (!_ap.isDone()) {
+							Iterator _iterator = _ap.getRemaningCriteria().iterator();
+							while (_iterator.hasNext()) {
+								String _criterion = (String) _iterator.next();
+								((ServerPlayerEntity) entity).getAdvancements().grantCriterion(_adv, _criterion);
+							}
+						}
+					}
+				}
 			}
 		}
 	}

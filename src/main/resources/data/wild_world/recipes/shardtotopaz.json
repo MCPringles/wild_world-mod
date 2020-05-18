@@ -1,0 +1,42 @@
+{
+  "group": "topaz",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "wild_world:shardtopaz"
+    },
+    "1": {
+      "item": "wild_world:shardtopaz"
+    },
+    "2": {
+      "item": "wild_world:shardtopaz"
+    },
+    "3": {
+      "item": "wild_world:shardtopaz"
+    },
+    "4": {
+      "item": "wild_world:shardtopaz"
+    },
+    "5": {
+      "item": "wild_world:shardtopaz"
+    },
+    "6": {
+      "item": "wild_world:shardtopaz"
+    },
+    "7": {
+      "item": "wild_world:shardtopaz"
+    },
+    "8": {
+      "item": "wild_world:shardtopaz"
+    }
+  },
+  "result": {
+    "item": "wild_world:topazitem",
+    "count": 1
+  }
+}

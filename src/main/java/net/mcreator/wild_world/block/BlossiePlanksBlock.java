@@ -7,6 +7,7 @@ import net.minecraftforge.common.ToolType;
 import net.minecraft.world.storage.loot.LootContext;
 import net.minecraft.world.IBlockReader;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.Direction;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
@@ -27,7 +28,7 @@ public class BlossiePlanksBlock extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:blossieplanks")
 	public static final Block block = null;
 	public BlossiePlanksBlock(WildWorldElements instance) {
-		super(instance, 20);
+		super(instance, 31);
 	}
 
 	@Override
@@ -41,6 +42,11 @@ public class BlossiePlanksBlock extends WildWorldElements.ModElement {
 			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2f, 15f).lightValue(0).harvestLevel(-1)
 					.harvestTool(ToolType.AXE));
 			setRegistryName("blossieplanks");
+		}
+
+		@Override
+		public int getFlammability(BlockState state, IBlockReader world, BlockPos pos, Direction face) {
+			return 1;
 		}
 
 		@Override

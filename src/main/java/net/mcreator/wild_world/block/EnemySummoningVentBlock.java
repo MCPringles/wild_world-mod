@@ -12,7 +12,6 @@ import net.minecraft.world.IBlockReader;
 import net.minecraft.util.math.RayTraceResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.Direction;
-import net.minecraft.particles.ParticleTypes;
 import net.minecraft.particles.RedstoneParticleData;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
@@ -48,7 +47,6 @@ public class EnemySummoningVentBlock extends WildWorldElements.ModElement {
 				.add(() -> new BlockItem(block, new Item.Properties().group(StarTechnologyItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
 	public static class CustomBlock extends Block {
-	
 		public CustomBlock() {
 			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(-1, 3600000).lightValue(15));
 			setRegistryName("enemysummoningvent");
@@ -68,8 +66,7 @@ public class EnemySummoningVentBlock extends WildWorldElements.ModElement {
 		public MaterialColor getMaterialColor(BlockState state, IBlockReader blockAccess, BlockPos pos) {
 			if (true) {
 				return MaterialColor.YELLOW;
-			}
-			else {
+			} else {
 				return MaterialColor.BLUE;
 			}
 		}

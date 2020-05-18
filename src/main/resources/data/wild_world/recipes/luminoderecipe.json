@@ -1,0 +1,42 @@
+{
+  "group": "luminode",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "wild_world:antholumin"
+    },
+    "1": {
+      "item": "wild_world:antholumin"
+    },
+    "2": {
+      "item": "wild_world:antholumin"
+    },
+    "3": {
+      "item": "wild_world:antholumin"
+    },
+    "4": {
+      "item": "wild_world:antholumin"
+    },
+    "5": {
+      "item": "wild_world:antholumin"
+    },
+    "6": {
+      "item": "wild_world:antholumin"
+    },
+    "7": {
+      "item": "wild_world:antholumin"
+    },
+    "8": {
+      "item": "wild_world:antholumin"
+    }
+  },
+  "result": {
+    "item": "wild_world:luminode",
+    "count": 1
+  }
+}

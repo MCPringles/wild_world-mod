@@ -6,12 +6,8 @@ import net.minecraft.block.Blocks;
 
 import net.mcreator.wild_world.block.RichSoilBlock;
 import net.mcreator.wild_world.block.RichGrassBlock;
-import net.mcreator.wild_world.block.PineSaplingBlock;
-import net.mcreator.wild_world.block.PineLeavesBlock;
-import net.mcreator.wild_world.block.MapleLeavesBlock;
 import net.mcreator.wild_world.block.FrigidTopsoilBlock;
 import net.mcreator.wild_world.block.FrigidDirtBlock;
-import net.mcreator.wild_world.block.BlossieLeavesBlock;
 import net.mcreator.wild_world.block.BarrenTopsoilBlock;
 import net.mcreator.wild_world.block.BarrenDirtBlock;
 import net.mcreator.wild_world.WildWorldElements;
@@ -19,7 +15,7 @@ import net.mcreator.wild_world.WildWorldElements;
 @WildWorldElements.ModElement.Tag
 public class RandomEventProcedure extends WildWorldElements.ModElement {
 	public RandomEventProcedure(WildWorldElements instance) {
-		super(instance, 188);
+		super(instance, 237);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {
@@ -83,16 +79,6 @@ public class RandomEventProcedure extends WildWorldElements.ModElement {
 				ThawTopsoilProcedure.executeProcedure($_dependencies);
 			}
 		}
-		if (((world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == PineSaplingBlock.block.getDefaultState().getBlock())) {
-			{
-				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
-				$_dependencies.put("world", world);
-				$_dependencies.put("x", (int) (x));
-				$_dependencies.put("y", (int) (y));
-				$_dependencies.put("z", (int) (z));
-				PineSaplingGrowthProcedure.executeProcedure($_dependencies);
-			}
-		}
 		if (((world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == RichSoilBlock.block.getDefaultState().getBlock())) {
 			{
 				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
@@ -111,36 +97,6 @@ public class RandomEventProcedure extends WildWorldElements.ModElement {
 				$_dependencies.put("y", (int) (y));
 				$_dependencies.put("z", (int) (z));
 				EnrichGrassProcedure.executeProcedure($_dependencies);
-			}
-		}
-		if (((world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == PineLeavesBlock.block.getDefaultState().getBlock())) {
-			{
-				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
-				$_dependencies.put("world", world);
-				$_dependencies.put("x", (int) (x));
-				$_dependencies.put("y", (int) (y));
-				$_dependencies.put("z", (int) (z));
-				LeafDecayProcedure.executeProcedure($_dependencies);
-			}
-		}
-		if (((world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == MapleLeavesBlock.block.getDefaultState().getBlock())) {
-			{
-				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
-				$_dependencies.put("world", world);
-				$_dependencies.put("x", (int) (x));
-				$_dependencies.put("y", (int) (y));
-				$_dependencies.put("z", (int) (z));
-				LeafDecayProcedure.executeProcedure($_dependencies);
-			}
-		}
-		if (((world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == BlossieLeavesBlock.block.getDefaultState().getBlock())) {
-			{
-				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
-				$_dependencies.put("world", world);
-				$_dependencies.put("x", (int) (x));
-				$_dependencies.put("y", (int) (y));
-				$_dependencies.put("z", (int) (z));
-				LeafDecayProcedure.executeProcedure($_dependencies);
 			}
 		}
 		if (((world.getBlockState(new BlockPos((int) x, (int) y, (int) z))).getBlock() == Blocks.GRASS_BLOCK.getDefaultState().getBlock())) {

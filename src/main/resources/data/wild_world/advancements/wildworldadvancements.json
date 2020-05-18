@@ -2,7 +2,7 @@
   "display": {
     "background": "wild_world:textures/advbackground.png",
     "icon": {
-      "item": "wild_world:rubyitem"
+      "item": "wild_world:pinesapling"
     },
     "title": {
       "translate": "advancements.wildworldadvancements.title"

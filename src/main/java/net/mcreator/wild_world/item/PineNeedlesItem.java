@@ -15,7 +15,7 @@ public class PineNeedlesItem extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:pineneedles")
 	public static final Item block = null;
 	public PineNeedlesItem(WildWorldElements instance) {
-		super(instance, 116);
+		super(instance, 165);
 	}
 
 	@Override

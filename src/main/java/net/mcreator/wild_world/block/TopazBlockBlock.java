@@ -28,7 +28,7 @@ public class TopazBlockBlock extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:topazblock")
 	public static final Block block = null;
 	public TopazBlockBlock(WildWorldElements instance) {
-		super(instance, 36);
+		super(instance, 65);
 	}
 
 	@Override

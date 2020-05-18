@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "wild_world:blocks/gabbro",
+    "up": "wild_world:blocks/moss_top",
+    "north": "wild_world:blocks/moss_gabbro",
+    "east": "wild_world:blocks/moss_gabbro",
+    "south": "wild_world:blocks/moss_gabbro",
+    "west": "wild_world:blocks/moss_gabbro",
+    "particle": "wild_world:blocks/gabbro"
+  }
+}

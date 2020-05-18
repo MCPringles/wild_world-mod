@@ -23,7 +23,7 @@ public class SkyPlainsBiome extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:skyplains")
 	public static final CustomBiome biome = null;
 	public SkyPlainsBiome(WildWorldElements instance) {
-		super(instance, 201);
+		super(instance, 250);
 	}
 
 	@Override
@@ -36,7 +36,7 @@ public class SkyPlainsBiome extends WildWorldElements.ModElement {
 	}
 	static class CustomBiome extends Biome {
 		public CustomBiome() {
-			super(new Biome.Builder().downfall(0.5f).depth(0.1f).scale(0.2f).temperature(0.5f).precipitation(Biome.RainType.RAIN)
+			super(new Biome.Builder().downfall(0.5f).depth(0f).scale(0.01f).temperature(0.5f).precipitation(Biome.RainType.RAIN)
 					.category(Biome.Category.NONE).waterColor(4159204).waterFogColor(329011)
 					.surfaceBuilder(SurfaceBuilder.DEFAULT, new SurfaceBuilderConfig(Blocks.GRASS_BLOCK.getDefaultState(),
 							Blocks.DIRT.getDefaultState(), Blocks.DIRT.getDefaultState())));

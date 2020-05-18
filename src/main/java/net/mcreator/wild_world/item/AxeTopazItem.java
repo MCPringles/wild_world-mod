@@ -17,7 +17,7 @@ public class AxeTopazItem extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:axetopaz")
 	public static final Item block = null;
 	public AxeTopazItem(WildWorldElements instance) {
-		super(instance, 132);
+		super(instance, 183);
 	}
 
 	@Override
@@ -32,7 +32,7 @@ public class AxeTopazItem extends WildWorldElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 5.5f;
+				return 7f;
 			}
 
 			public int getHarvestLevel() {

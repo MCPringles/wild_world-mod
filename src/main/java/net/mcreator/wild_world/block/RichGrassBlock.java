@@ -50,7 +50,7 @@ public class RichGrassBlock extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:richgrass")
 	public static final Block block = null;
 	public RichGrassBlock(WildWorldElements instance) {
-		super(instance, 12);
+		super(instance, 14);
 	}
 
 	@Override

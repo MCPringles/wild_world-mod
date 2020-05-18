@@ -1,0 +1,19 @@
+{
+  "_fv": 6,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smoking",
+    "xpReward": 2.0,
+    "recipeRetstackSize": 1,
+    "group": "morel",
+    "recipeShapeless": false,
+    "smokingInputStack": {
+      "value": "CUSTOM:Morel"
+    },
+    "smokingReturnStack": {
+      "value": "CUSTOM:MorelCooked"
+    },
+    "name": "cookmorel",
+    "namespace": "mod"
+  }
+}

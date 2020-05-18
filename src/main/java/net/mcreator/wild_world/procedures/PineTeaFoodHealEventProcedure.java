@@ -17,7 +17,7 @@ import java.util.Collection;
 @WildWorldElements.ModElement.Tag
 public class PineTeaFoodHealEventProcedure extends WildWorldElements.ModElement {
 	public PineTeaFoodHealEventProcedure(WildWorldElements instance) {
-		super(instance, 159);
+		super(instance, 209);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

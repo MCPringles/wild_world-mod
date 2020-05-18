@@ -1,0 +1,45 @@
+{
+  "_fv": 6,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "recipeRetstackSize": 1,
+    "group": "dreamulet",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:YronNugget"
+      },
+      {
+        "value": "CUSTOM:YronNugget"
+      },
+      {
+        "value": "CUSTOM:YronNugget"
+      },
+      {
+        "value": "CUSTOM:YronNugget"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:YronNugget"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BluestoneItem"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Dreamulet"
+    },
+    "name": "dreamuletrecipe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "_fv": 6,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "recipeRetstackSize": 1,
+    "group": "ice",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:FrostBrambles"
+      },
+      {
+        "value": "CUSTOM:FrostBrambles"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:FrostBrambles"
+      },
+      {
+        "value": "CUSTOM:FrostBrambles"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Blocks.ICE"
+    },
+    "name": "frostball",
+    "namespace": "mod"
+  }
+}

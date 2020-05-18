@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "outercrystalstopaz",
+        "1": "maincrystaltopaz",
+        "missing": "maincrystaltopaz"
+      },
+      "name": "default"
+    }
+  }
+}

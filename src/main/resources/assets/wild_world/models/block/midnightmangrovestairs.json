@@ -1,0 +1,8 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "wild_world:blocks/marshwoodplanks",
+    "top": "wild_world:blocks/marshwoodplanks",
+    "side": "wild_world:blocks/marshwoodplanks"
+  }
+}

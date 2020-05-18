@@ -41,7 +41,7 @@ public class RichStoneBlock extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:richstone")
 	public static final Block block = null;
 	public RichStoneBlock(WildWorldElements instance) {
-		super(instance, 9);
+		super(instance, 11);
 	}
 
 	@Override

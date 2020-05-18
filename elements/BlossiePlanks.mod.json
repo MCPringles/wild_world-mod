@@ -49,7 +49,7 @@
     "creativePickItem": {
       "value": ""
     },
-    "flammability": 0,
+    "flammability": 1,
     "fireSpreadSpeed": 0,
     "isLadder": false,
     "slipperiness": 0.6,
@@ -70,6 +70,7 @@
     "particleAmount": 4,
     "particleSpawningCondition": "ALWAYS",
     "hasInventory": false,
+    "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,
     "inventorySize": 9,
     "inventoryStackSize": 64,

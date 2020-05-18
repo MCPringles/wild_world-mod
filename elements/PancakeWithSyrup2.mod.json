@@ -10,8 +10,8 @@
       "value": "No creative tab entry"
     },
     "stackSize": 1,
-    "nutritionalValue": 4,
-    "saturation": 0.30000001192092896,
+    "nutritionalValue": 5,
+    "saturation": 2.0,
     "eatingSpeed": 32,
     "forDogs": false,
     "isAlwaysEdible": false,

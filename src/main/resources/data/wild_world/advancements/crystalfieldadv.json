@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "wild_world:amethystblock"
+      "item": "wild_world:mossystone"
     },
     "title": {
       "translate": "advancements.crystalfieldadv.title"
@@ -23,10 +23,7 @@
     }
   },
   "rewards": {
-    "experience": 0,
-    "recipes": [
-      "wild_world:blossieplankrecipe"
-    ]
+    "experience": 0
   },
   "parent": "wild_world:skyadv"
 }

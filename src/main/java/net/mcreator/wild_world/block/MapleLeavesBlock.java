@@ -32,7 +32,7 @@ public class MapleLeavesBlock extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:mapleleaves")
 	public static final Block block = null;
 	public MapleLeavesBlock(WildWorldElements instance) {
-		super(instance, 66);
+		super(instance, 109);
 	}
 
 	@Override

@@ -2,7 +2,7 @@
   "_fv": 6,
   "_type": "block",
   "definition": {
-    "texture": "cosmicemeraldforcefield",
+    "texture": "forcefieldcosmic",
     "textureTop": "cosmicemeraldforcefield",
     "textureLeft": "cosmicemeraldforcefield",
     "textureFront": "cosmicemeraldforcefield",
@@ -70,6 +70,7 @@
     "particleAmount": 4,
     "particleSpawningCondition": "ALWAYS",
     "hasInventory": false,
+    "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,
     "inventorySize": 9,
     "inventoryStackSize": 64,

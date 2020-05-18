@@ -1,0 +1,46 @@
+{
+  "_fv": 6,
+  "_type": "plant",
+  "definition": {
+    "renderType": 12,
+    "texture": "morning_orchid",
+    "customModelName": "Cross model",
+    "plantType": "normal",
+    "growapableSpawnType": "Plains",
+    "growapableMaxHeight": 3,
+    "name": "Morning Orchid",
+    "creativeTab": {
+      "value": "DECORATIONS"
+    },
+    "hardness": 0.0,
+    "resistance": 0.0,
+    "luminance": 0.4,
+    "unbreakable": false,
+    "soundOnStep": {
+      "value": "WET_GRASS"
+    },
+    "customDrop": {
+      "value": ""
+    },
+    "dropAmount": 1,
+    "isReplaceable": false,
+    "colorOnMap": "SNOW",
+    "creativePickItem": {
+      "value": ""
+    },
+    "flammability": 1,
+    "fireSpreadSpeed": 0,
+    "frequencyOnChunks": 4,
+    "spawnWorldTypes": [
+      "CUSTOM:Sky"
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:SkyJungle"
+      },
+      {
+        "value": "CUSTOM:MidnightMarsh"
+      }
+    ]
+  }
+}

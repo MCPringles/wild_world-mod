@@ -2,10 +2,10 @@
   "_fv": 6,
   "_type": "achievement",
   "definition": {
-    "achievementName": "The Big Mine in the Sky",
+    "achievementName": "A Miner's Dream",
     "achievementDescription": "Find a Crystal Field biome.",
     "achievementIcon": {
-      "value": "CUSTOM:AmethystBlock"
+      "value": "CUSTOM:MossyStone"
     },
     "background": "Default",
     "disableDisplay": false,
@@ -13,9 +13,7 @@
     "announceToChat": true,
     "hideIfNotCompleted": true,
     "rewardLoot": [],
-    "rewardRecipes": [
-      "BlossiePlankRecipe"
-    ],
+    "rewardRecipes": [],
     "rewardFunction": "No function",
     "rewardXP": 0,
     "achievementType": "task",

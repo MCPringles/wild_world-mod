@@ -24,7 +24,7 @@ public class AxeShovelItem extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:axeshovel")
 	public static final Item block = null;
 	public AxeShovelItem(WildWorldElements instance) {
-		super(instance, 133);
+		super(instance, 184);
 	}
 
 	@Override
@@ -39,7 +39,7 @@ public class AxeShovelItem extends WildWorldElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 3f;
+				return 3.5f;
 			}
 
 			public int getHarvestLevel() {

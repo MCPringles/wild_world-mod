@@ -1,0 +1,11 @@
+{
+  "group": "morel",
+  "type": "minecraft:smoking",
+  "experience": 2,
+  "ingredient": {
+    "item": "wild_world:morel"
+  },
+  "result": {
+    "item": "wild_world:morelcooked"
+  }
+}

@@ -33,7 +33,7 @@ public class PineLogBlock extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:pinelog")
 	public static final Block block = null;
 	public PineLogBlock(WildWorldElements instance) {
-		super(instance, 13);
+		super(instance, 23);
 	}
 
 	@Override

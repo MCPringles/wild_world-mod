@@ -16,7 +16,7 @@ public class BlossieFruitItem extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:blossiefruit")
 	public static final Item block = null;
 	public BlossieFruitItem(WildWorldElements instance) {
-		super(instance, 126);
+		super(instance, 175);
 	}
 
 	@Override
@@ -25,8 +25,7 @@ public class BlossieFruitItem extends WildWorldElements.ModElement {
 	}
 	public static class FoodItemCustom extends Item {
 		public FoodItemCustom() {
-			super(new Item.Properties().group(ItemGroup.FOOD).maxStackSize(64)
-					.food((new Food.Builder()).hunger(4).saturation(0.300000011920929f).build()));
+			super(new Item.Properties().group(ItemGroup.FOOD).maxStackSize(64).food((new Food.Builder()).hunger(4).saturation(2.4f).build()));
 			setRegistryName("blossiefruit");
 		}
 

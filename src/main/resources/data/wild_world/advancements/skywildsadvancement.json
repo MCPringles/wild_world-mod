@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "wild_world:dewbush"
+    },
+    "title": {
+      "translate": "advancements.skywildsadvancement.title"
+    },
+    "description": {
+      "translate": "advancements.skywildsadvancement.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "skywildsadvancement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "wild_world:skyjungle"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0
+  },
+  "parent": "wild_world:skyadv"
+}

@@ -29,7 +29,7 @@ public class SkyronStairsBlock extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:skyronstairs")
 	public static final Block block = null;
 	public SkyronStairsBlock(WildWorldElements instance) {
-		super(instance, 268);
+		super(instance, 315);
 	}
 
 	@Override

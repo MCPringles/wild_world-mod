@@ -5,6 +5,7 @@
     "recipeType": "Crafting",
     "xpReward": 0.0,
     "recipeRetstackSize": 8,
+    "group": "cookie",
     "recipeShapeless": false,
     "recipeSlots": [
       {
@@ -37,12 +38,6 @@
     ],
     "recipeReturnStack": {
       "value": "CUSTOM:MapleCookie"
-    },
-    "smeltingInputStack": {
-      "value": ""
-    },
-    "smeltingReturnStack": {
-      "value": ""
     },
     "name": "maplecookierecipe",
     "namespace": "mod"

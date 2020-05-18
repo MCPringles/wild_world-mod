@@ -21,7 +21,7 @@ public class PringlePearItem extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:pringlepear")
 	public static final Item block = null;
 	public PringlePearItem(WildWorldElements instance) {
-		super(instance, 128);
+		super(instance, 177);
 	}
 
 	@Override
@@ -31,7 +31,7 @@ public class PringlePearItem extends WildWorldElements.ModElement {
 	public static class FoodItemCustom extends Item {
 		public FoodItemCustom() {
 			super(new Item.Properties().group(ItemGroup.FOOD).maxStackSize(64)
-					.food((new Food.Builder()).hunger(4).saturation(0.300000011920929f).setAlwaysEdible().build()));
+					.food((new Food.Builder()).hunger(4).saturation(9.6f).setAlwaysEdible().build()));
 			setRegistryName("pringlepear");
 		}
 

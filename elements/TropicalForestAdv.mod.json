@@ -13,10 +13,7 @@
     "announceToChat": true,
     "hideIfNotCompleted": false,
     "rewardLoot": [],
-    "rewardRecipes": [
-      "HalveCoconut",
-      "AXETHECOCONUT"
-    ],
+    "rewardRecipes": [],
     "rewardFunction": "No function",
     "rewardXP": 0,
     "achievementType": "task",

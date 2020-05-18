@@ -14,7 +14,7 @@ import net.mcreator.wild_world.WildWorldElements;
 @WildWorldElements.ModElement.Tag
 public class AxeShovelRightClickedOnBlockProcedure extends WildWorldElements.ModElement {
 	public AxeShovelRightClickedOnBlockProcedure(WildWorldElements instance) {
-		super(instance, 235);
+		super(instance, 282);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

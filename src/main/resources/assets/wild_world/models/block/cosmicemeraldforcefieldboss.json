@@ -1,7 +1,7 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "wild_world:blocks/cosmicemeraldforcefield",
-    "particle": "wild_world:blocks/cosmicemeraldforcefield"
+    "all": "wild_world:blocks/forcefieldcosmic",
+    "particle": "wild_world:blocks/forcefieldcosmic"
   }
 }

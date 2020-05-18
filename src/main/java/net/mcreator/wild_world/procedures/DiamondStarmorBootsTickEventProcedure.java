@@ -7,7 +7,7 @@ import net.mcreator.wild_world.WildWorldElements;
 @WildWorldElements.ModElement.Tag
 public class DiamondStarmorBootsTickEventProcedure extends WildWorldElements.ModElement {
 	public DiamondStarmorBootsTickEventProcedure(WildWorldElements instance) {
-		super(instance, 278);
+		super(instance, 324);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

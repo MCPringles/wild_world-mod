@@ -15,7 +15,7 @@ public class ShardDiamondItem extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:sharddiamond")
 	public static final Item block = null;
 	public ShardDiamondItem(WildWorldElements instance) {
-		super(instance, 365);
+		super(instance, 123);
 	}
 
 	@Override

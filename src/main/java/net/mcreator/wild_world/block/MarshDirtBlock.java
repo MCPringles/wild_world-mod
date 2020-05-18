@@ -27,7 +27,7 @@ public class MarshDirtBlock extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:marshdirt")
 	public static final Block block = null;
 	public MarshDirtBlock(WildWorldElements instance) {
-		super(instance, 371);
+		super(instance, 18);
 	}
 
 	@Override

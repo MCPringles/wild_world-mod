@@ -11,7 +11,6 @@ import net.minecraft.world.IBlockReader;
 import net.minecraft.util.math.shapes.VoxelShapes;
 import net.minecraft.util.math.shapes.VoxelShape;
 import net.minecraft.util.math.shapes.ISelectionContext;
-import net.minecraft.util.math.RayTraceResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.Rotation;
 import net.minecraft.util.Mirror;
@@ -24,7 +23,6 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItemUseContext;
 import net.minecraft.item.BlockItem;
-import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.block.material.MaterialColor;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
@@ -32,7 +30,6 @@ import net.minecraft.block.HorizontalBlock;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
-import net.mcreator.wild_world.item.CoconutItemItem;
 import net.mcreator.wild_world.WildWorldElements;
 
 import java.util.List;
@@ -43,7 +40,7 @@ public class CoconutBlockBlock extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:coconutblock")
 	public static final Block block = null;
 	public CoconutBlockBlock(WildWorldElements instance) {
-		super(instance, 64);
+		super(instance, 107);
 	}
 
 	@Override
@@ -123,11 +120,6 @@ public class CoconutBlockBlock extends WildWorldElements.ModElement {
 		}
 
 		@Override
-		public ItemStack getPickBlock(BlockState state, RayTraceResult target, IBlockReader world, BlockPos pos, PlayerEntity player) {
-			return new ItemStack(CoconutItemItem.block, (int) (1));
-		}
-
-		@Override
 		public MaterialColor getMaterialColor(BlockState state, IBlockReader blockAccess, BlockPos pos) {
 			return MaterialColor.AIR;
 		}
@@ -137,7 +129,7 @@ public class CoconutBlockBlock extends WildWorldElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(CoconutItemItem.block, (int) (1)));
+			return Collections.singletonList(new ItemStack(this, 1));
 		}
 	}
 }

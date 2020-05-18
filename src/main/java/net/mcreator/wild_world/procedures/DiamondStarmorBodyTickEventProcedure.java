@@ -12,7 +12,7 @@ import net.mcreator.wild_world.WildWorldElements;
 @WildWorldElements.ModElement.Tag
 public class DiamondStarmorBodyTickEventProcedure extends WildWorldElements.ModElement {
 	public DiamondStarmorBodyTickEventProcedure(WildWorldElements instance) {
-		super(instance, 279);
+		super(instance, 325);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

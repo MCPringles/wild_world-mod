@@ -21,7 +21,7 @@ public class BirchSyrupBottleItem extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:birchsyrupbottle")
 	public static final Item block = null;
 	public BirchSyrupBottleItem(WildWorldElements instance) {
-		super(instance, 122);
+		super(instance, 171);
 	}
 
 	@Override
@@ -30,8 +30,7 @@ public class BirchSyrupBottleItem extends WildWorldElements.ModElement {
 	}
 	public static class FoodItemCustom extends Item {
 		public FoodItemCustom() {
-			super(new Item.Properties().group(ItemGroup.FOOD).maxStackSize(64)
-					.food((new Food.Builder()).hunger(2).saturation(0.300000011920929f).build()));
+			super(new Item.Properties().group(ItemGroup.FOOD).maxStackSize(64).food((new Food.Builder()).hunger(2).saturation(0.2f).build()));
 			setRegistryName("birchsyrupbottle");
 		}
 

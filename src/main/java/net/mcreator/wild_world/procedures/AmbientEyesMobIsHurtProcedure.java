@@ -7,7 +7,7 @@ import net.mcreator.wild_world.WildWorldElements;
 @WildWorldElements.ModElement.Tag
 public class AmbientEyesMobIsHurtProcedure extends WildWorldElements.ModElement {
 	public AmbientEyesMobIsHurtProcedure(WildWorldElements instance) {
-		super(instance, 199);
+		super(instance, 248);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

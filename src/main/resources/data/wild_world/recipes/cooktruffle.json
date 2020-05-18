@@ -1,0 +1,11 @@
+{
+  "group": "truffle",
+  "type": "minecraft:smoking",
+  "experience": 3,
+  "ingredient": {
+    "item": "wild_world:truffle"
+  },
+  "result": {
+    "item": "wild_world:trufflecooked"
+  }
+}

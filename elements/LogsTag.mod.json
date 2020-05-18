@@ -1,0 +1,40 @@
+{
+  "_fv": 6,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:PineLog"
+      },
+      {
+        "value": "CUSTOM:MapleLog"
+      },
+      {
+        "value": "CUSTOM:MapleLogWild"
+      },
+      {
+        "value": "CUSTOM:BlossieLog"
+      },
+      {
+        "value": "CUSTOM:BlossieLogWild"
+      },
+      {
+        "value": "CUSTOM:PalmLog"
+      },
+      {
+        "value": "CUSTOM:MarshWoodLog"
+      },
+      {
+        "value": "CUSTOM:BirchLogWild"
+      },
+      {
+        "value": "CUSTOM:LogWillow"
+      }
+    ],
+    "functions": [],
+    "name": "logs",
+    "namespace": "minecraft"
+  }
+}

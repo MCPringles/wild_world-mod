@@ -5,6 +5,7 @@
     "recipeType": "Crafting",
     "xpReward": 0.0,
     "recipeRetstackSize": 1,
+    "group": "treetapiron",
     "recipeShapeless": false,
     "recipeSlots": [
       {
@@ -17,16 +18,16 @@
         "value": ""
       },
       {
-        "value": "OREDICT:ingotIron"
+        "value": "Items.IRON_INGOT"
       },
       {
-        "value": "OREDICT:ingotIron"
+        "value": "Items.IRON_INGOT"
       },
       {
-        "value": "OREDICT:ingotIron"
+        "value": "Items.IRON_INGOT"
       },
       {
-        "value": "OREDICT:nuggetIron"
+        "value": "Items.IRON_NUGGET"
       },
       {
         "value": ""

@@ -17,7 +17,7 @@ import net.mcreator.wild_world.WildWorldElements;
 @WildWorldElements.ModElement.Tag
 public class CornProgressProcedure extends WildWorldElements.ModElement {
 	public CornProgressProcedure(WildWorldElements instance) {
-		super(instance, 310);
+		super(instance, 356);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

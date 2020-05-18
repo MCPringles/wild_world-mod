@@ -5,6 +5,7 @@ import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.SwordItem;
+import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
@@ -16,7 +17,7 @@ public class SwordTopazItem extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:swordtopaz")
 	public static final Item block = null;
 	public SwordTopazItem(WildWorldElements instance) {
-		super(instance, 139);
+		super(instance, 191);
 	}
 
 	@Override
@@ -31,7 +32,7 @@ public class SwordTopazItem extends WildWorldElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 4f;
+				return 5f;
 			}
 
 			public int getHarvestLevel() {
@@ -43,7 +44,7 @@ public class SwordTopazItem extends WildWorldElements.ModElement {
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.EMPTY;
+				return Ingredient.fromStacks(new ItemStack(TopazItemItem.block, (int) (1)));
 			}
 		}, 3, -2.4f, new Item.Properties().group(ItemGroup.COMBAT)) {
 		}.setRegistryName("swordtopaz"));

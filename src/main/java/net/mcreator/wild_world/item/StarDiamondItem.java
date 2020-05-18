@@ -23,7 +23,7 @@ public class StarDiamondItem extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:stardiamond")
 	public static final Item block = null;
 	public StarDiamondItem(WildWorldElements instance) {
-		super(instance, 103);
+		super(instance, 154);
 	}
 
 	@Override

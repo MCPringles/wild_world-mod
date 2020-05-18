@@ -1,0 +1,21 @@
+{
+  "_fv": 6,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "cooked_morel",
+    "customModelName": "Normal",
+    "name": "Cooked Morel",
+    "creativeTab": {
+      "value": "FOOD"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 7,
+    "saturation": 6.9,
+    "eatingSpeed": 32,
+    "forDogs": true,
+    "isAlwaysEdible": false,
+    "animation": "eat",
+    "hasGlow": false
+  }
+}

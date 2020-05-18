@@ -1,0 +1,15 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "wild_world:block/birchlogwild"
+    },
+    "axis=z": {
+      "model": "wild_world:block/birchlogwild",
+      "x": 90
+    },
+    "axis=x": {
+      "model": "wild_world:block/birchlogwild",
+      "z": 90
+    }
+  }
+}

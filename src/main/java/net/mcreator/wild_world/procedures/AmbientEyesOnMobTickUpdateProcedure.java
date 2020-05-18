@@ -9,7 +9,7 @@ import net.mcreator.wild_world.WildWorldElements;
 @WildWorldElements.ModElement.Tag
 public class AmbientEyesOnMobTickUpdateProcedure extends WildWorldElements.ModElement {
 	public AmbientEyesOnMobTickUpdateProcedure(WildWorldElements instance) {
-		super(instance, 200);
+		super(instance, 249);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {
@@ -42,6 +42,9 @@ public class AmbientEyesOnMobTickUpdateProcedure extends WildWorldElements.ModEl
 			entity.remove();
 		}
 		if ((world.canBlockSeeSky(new BlockPos((int) x, (int) y, (int) z)))) {
+			entity.remove();
+		}
+		if ((!(world.isAirBlock(new BlockPos((int) x, (int) y, (int) z))))) {
 			entity.remove();
 		}
 	}

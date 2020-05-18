@@ -32,7 +32,7 @@ public class DryGrasslandBiome extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:drygrassland")
 	public static final CustomBiome biome = null;
 	public DryGrasslandBiome(WildWorldElements instance) {
-		super(instance, 150);
+		super(instance, 200);
 	}
 
 	@Override

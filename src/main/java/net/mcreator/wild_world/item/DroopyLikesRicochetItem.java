@@ -16,7 +16,7 @@ public class DroopyLikesRicochetItem extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:droopylikesricochet")
 	public static final Item block = null;
 	public DroopyLikesRicochetItem(WildWorldElements instance) {
-		super(instance, 72);
+		super(instance, 117);
 	}
 
 	@Override

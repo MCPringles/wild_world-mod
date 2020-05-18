@@ -51,7 +51,7 @@ public class FrigidTopsoilBlock extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:frigidtopsoil")
 	public static final Block block = null;
 	public FrigidTopsoilBlock(WildWorldElements instance) {
-		super(instance, 8);
+		super(instance, 9);
 	}
 
 	@Override

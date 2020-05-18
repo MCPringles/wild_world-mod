@@ -45,7 +45,7 @@ public class AmethystOreBlock extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:amethystore")
 	public static final Block block = null;
 	public AmethystOreBlock(WildWorldElements instance) {
-		super(instance, 45);
+		super(instance, 74);
 	}
 
 	@Override

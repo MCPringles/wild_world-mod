@@ -50,7 +50,7 @@ public class PalmTreeSpawnerBlock extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:palmtreespawner")
 	public static final Block block = null;
 	public PalmTreeSpawnerBlock(WildWorldElements instance) {
-		super(instance, 329);
+		super(instance, 374);
 	}
 
 	@Override

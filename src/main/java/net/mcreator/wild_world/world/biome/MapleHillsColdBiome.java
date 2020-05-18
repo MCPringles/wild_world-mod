@@ -47,7 +47,7 @@ public class MapleHillsColdBiome extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:maplehillscold")
 	public static final CustomBiome biome = null;
 	public MapleHillsColdBiome(WildWorldElements instance) {
-		super(instance, 166);
+		super(instance, 216);
 	}
 
 	@Override

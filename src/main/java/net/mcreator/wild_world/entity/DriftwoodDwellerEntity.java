@@ -43,7 +43,7 @@ import net.mcreator.wild_world.WildWorldElements;
 public class DriftwoodDwellerEntity extends WildWorldElements.ModElement {
 	public static EntityType entity = null;
 	public DriftwoodDwellerEntity(WildWorldElements instance) {
-		super(instance, 95);
+		super(instance, 142);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

@@ -15,7 +15,7 @@ public class BluestoneItemItem extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:bluestoneitem")
 	public static final Item block = null;
 	public BluestoneItemItem(WildWorldElements instance) {
-		super(instance, 101);
+		super(instance, 148);
 	}
 
 	@Override

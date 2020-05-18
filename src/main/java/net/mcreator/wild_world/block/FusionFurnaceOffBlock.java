@@ -50,7 +50,7 @@ public class FusionFurnaceOffBlock extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:fusionfurnaceoff")
 	public static final TileEntityType<CustomTileEntity> tileEntityType = null;
 	public FusionFurnaceOffBlock(WildWorldElements instance) {
-		super(instance, 112);
+		super(instance, 161);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

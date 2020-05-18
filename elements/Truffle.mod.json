@@ -1,0 +1,43 @@
+{
+  "_fv": 6,
+  "_type": "plant",
+  "definition": {
+    "renderType": 12,
+    "texture": "mushroom_truffle",
+    "customModelName": "Cross model",
+    "plantType": "normal",
+    "growapableSpawnType": "Cave",
+    "growapableMaxHeight": 3,
+    "name": "Morel",
+    "creativeTab": {
+      "value": "DECORATIONS"
+    },
+    "hardness": 0.0,
+    "resistance": 0.0,
+    "luminance": 0.0,
+    "unbreakable": false,
+    "soundOnStep": {
+      "value": "NETHER_WART"
+    },
+    "customDrop": {
+      "value": ""
+    },
+    "dropAmount": 1,
+    "isReplaceable": false,
+    "colorOnMap": "BLACK",
+    "creativePickItem": {
+      "value": ""
+    },
+    "flammability": 1,
+    "fireSpreadSpeed": 0,
+    "frequencyOnChunks": 1,
+    "spawnWorldTypes": [
+      "CUSTOM:Sky"
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:SkyJungle"
+      }
+    ]
+  }
+}

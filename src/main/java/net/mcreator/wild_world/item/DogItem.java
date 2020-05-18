@@ -16,7 +16,7 @@ public class DogItem extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:dog")
 	public static final Item block = null;
 	public DogItem(WildWorldElements instance) {
-		super(instance, 71);
+		super(instance, 116);
 	}
 
 	@Override

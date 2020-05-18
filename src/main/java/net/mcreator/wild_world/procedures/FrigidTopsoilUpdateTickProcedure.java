@@ -10,7 +10,7 @@ import net.mcreator.wild_world.WildWorldElements;
 @WildWorldElements.ModElement.Tag
 public class FrigidTopsoilUpdateTickProcedure extends WildWorldElements.ModElement {
 	public FrigidTopsoilUpdateTickProcedure(WildWorldElements instance) {
-		super(instance, 324);
+		super(instance, 370);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

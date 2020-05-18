@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "": [
+      	{ "model": "wild_world:block/mossystone" },
+    	{ "model": "wild_world:block/mossystone", "y": 90 },
+        { "model": "wild_world:block/mossystone", "y": 180 },
+        { "model": "wild_world:block/mossystone", "y": 270 }
+    ]
+  }
+}

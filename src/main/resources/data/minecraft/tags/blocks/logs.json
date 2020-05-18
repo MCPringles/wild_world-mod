@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "wild_world:pinelog",
+    "wild_world:maplelog",
+    "wild_world:maplelogwild",
+    "wild_world:blossielog",
+    "wild_world:blossielogwild",
+    "wild_world:palmlog",
+    "wild_world:marshwoodlog",
+    "wild_world:birchlogwild",
+    "wild_world:logwillow"
+  ]
+}

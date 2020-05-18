@@ -15,7 +15,7 @@ import net.mcreator.wild_world.WildWorldElements;
 @WildWorldElements.ModElement.Tag
 public class StarBoxDestroyedProcedure extends WildWorldElements.ModElement {
 	public StarBoxDestroyedProcedure(WildWorldElements instance) {
-		super(instance, 214);
+		super(instance, 261);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

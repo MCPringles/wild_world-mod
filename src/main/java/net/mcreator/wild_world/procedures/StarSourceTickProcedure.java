@@ -12,7 +12,7 @@ import net.mcreator.wild_world.WildWorldElements;
 @WildWorldElements.ModElement.Tag
 public class StarSourceTickProcedure extends WildWorldElements.ModElement {
 	public StarSourceTickProcedure(WildWorldElements instance) {
-		super(instance, 321);
+		super(instance, 367);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

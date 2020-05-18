@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "wild_world:bigcateyes"
+    },
+    "title": {
+      "translate": "advancements.aerodusadvancement.title"
+    },
+    "description": {
+      "translate": "advancements.aerodusadvancement.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "aerodusadvancement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 0
+  },
+  "parent": "wild_world:skywildsadvancement"
+}

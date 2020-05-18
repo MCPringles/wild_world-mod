@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "wild_world:blocks/willow_sapling",
+    "particle": "wild_world:blocks/willow_sapling"
+  }
+}

@@ -5,6 +5,7 @@ import net.minecraftforge.registries.ObjectHolder;
 import net.minecraftforge.common.ToolType;
 
 import net.minecraft.world.storage.loot.LootContext;
+import net.minecraft.world.World;
 import net.minecraft.world.IBlockReader;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.Rotation;
@@ -54,6 +55,10 @@ public class MapleLogBlock extends WildWorldElements.ModElement {
 		@Override
 		protected void fillStateContainer(StateContainer.Builder<Block, BlockState> builder) {
 			builder.add(FACING);
+		}
+
+		public boolean canSustainLeaves(BlockState state, World world, BlockPos pos) {
+			return true;
 		}
 
 		@Override

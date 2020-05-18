@@ -12,7 +12,7 @@ import net.mcreator.wild_world.WildWorldElements;
 @WildWorldElements.ModElement.Tag
 public class ThawTopsoilProcedure extends WildWorldElements.ModElement {
 	public ThawTopsoilProcedure(WildWorldElements instance) {
-		super(instance, 177);
+		super(instance, 227);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

@@ -10,7 +10,7 @@ import net.mcreator.wild_world.WildWorldElements;
 @WildWorldElements.ModElement.Tag
 public class EyesEventEffectOnPotionActiveTickProcedure extends WildWorldElements.ModElement {
 	public EyesEventEffectOnPotionActiveTickProcedure(WildWorldElements instance) {
-		super(instance, 202);
+		super(instance, 251);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

@@ -38,7 +38,7 @@ import net.mcreator.wild_world.WildWorldElements;
 public class StarBossMobEntity extends WildWorldElements.ModElement {
 	public static EntityType entity = null;
 	public StarBossMobEntity(WildWorldElements instance) {
-		super(instance, 91);
+		super(instance, 138);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

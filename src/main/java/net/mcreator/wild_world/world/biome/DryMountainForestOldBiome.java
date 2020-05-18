@@ -13,6 +13,7 @@ import net.minecraft.world.gen.surfacebuilders.SurfaceBuilder;
 import net.minecraft.world.gen.placement.Placement;
 import net.minecraft.world.gen.placement.FrequencyConfig;
 import net.minecraft.world.gen.placement.AtSurfaceWithExtraConfig;
+import net.minecraft.world.gen.feature.NoFeatureConfig;
 import net.minecraft.world.gen.feature.MultipleRandomFeatureConfig;
 import net.minecraft.world.gen.feature.IFeatureConfig;
 import net.minecraft.world.gen.feature.GrassFeatureConfig;
@@ -26,6 +27,7 @@ import net.minecraft.block.Blocks;
 import net.mcreator.wild_world.block.BarrenTopsoilBlock;
 import net.mcreator.wild_world.block.BarrenDirtBlock;
 import net.mcreator.wild_world.WildWorldElements;
+import net.mcreator.customclass.PineTreeFeature;
 
 @WildWorldElements.ModElement.Tag
 public class DryMountainForestOldBiome extends WildWorldElements.ModElement {
@@ -49,7 +51,7 @@ public class DryMountainForestOldBiome extends WildWorldElements.ModElement {
 	}
 	static class CustomBiome extends Biome {
 		public CustomBiome() {
-			super(new Biome.Builder().downfall(0.3f).depth(0.45f).scale(0.4f).temperature(1f).precipitation(Biome.RainType.RAIN)
+			super(new Biome.Builder().downfall(0.3f).depth(0.26f).scale(0.16f).temperature(1f).precipitation(Biome.RainType.RAIN)
 					.category(Biome.Category.NONE).waterColor(-14329397).waterFogColor(-14329397).parent("wild_world:drymountainforestmiddle")
 					.surfaceBuilder(SurfaceBuilder.DEFAULT, new SurfaceBuilderConfig(BarrenTopsoilBlock.block.getDefaultState(),
 							BarrenDirtBlock.block.getDefaultState(), BarrenDirtBlock.block.getDefaultState())));
@@ -65,7 +67,7 @@ public class DryMountainForestOldBiome extends WildWorldElements.ModElement {
 					new GrassFeatureConfig(Blocks.GRASS.getDefaultState()), Placement.COUNT_HEIGHTMAP_DOUBLE, new FrequencyConfig(20)));
 			addFeature(GenerationStage.Decoration.VEGETAL_DECORATION,
 					Biome.createDecoratedFeature(Feature.RANDOM_SELECTOR,
-							new MultipleRandomFeatureConfig(new Feature[]{Feature.BIRCH_TREE, Feature.FANCY_TREE},
+							new MultipleRandomFeatureConfig(new Feature[]{Feature.BIRCH_TREE, new PineTreeFeature(NoFeatureConfig::deserialize)},
 									new IFeatureConfig[]{IFeatureConfig.NO_FEATURE_CONFIG, IFeatureConfig.NO_FEATURE_CONFIG}, new float[]{0.2F, 0.1F},
 									Feature.NORMAL_TREE, IFeatureConfig.NO_FEATURE_CONFIG),
 							Placement.COUNT_EXTRA_HEIGHTMAP, new AtSurfaceWithExtraConfig(14, 0.1F, 1)));

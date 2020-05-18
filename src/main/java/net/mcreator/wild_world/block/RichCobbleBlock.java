@@ -27,7 +27,7 @@ public class RichCobbleBlock extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:richcobble")
 	public static final Block block = null;
 	public RichCobbleBlock(WildWorldElements instance) {
-		super(instance, 10);
+		super(instance, 12);
 	}
 
 	@Override

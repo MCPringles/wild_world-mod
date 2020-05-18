@@ -15,7 +15,6 @@
     "rewardLoot": [],
     "rewardRecipes": [
       "PineconeToSapling",
-      "PineRecipe",
       "PineTeaRecipe"
     ],
     "rewardFunction": "No function",

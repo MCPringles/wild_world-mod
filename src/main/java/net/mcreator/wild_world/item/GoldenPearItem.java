@@ -19,7 +19,7 @@ public class GoldenPearItem extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:goldenpear")
 	public static final Item block = null;
 	public GoldenPearItem(WildWorldElements instance) {
-		super(instance, 127);
+		super(instance, 176);
 	}
 
 	@Override
@@ -29,7 +29,7 @@ public class GoldenPearItem extends WildWorldElements.ModElement {
 	public static class FoodItemCustom extends Item {
 		public FoodItemCustom() {
 			super(new Item.Properties().group(ItemGroup.FOOD).maxStackSize(64)
-					.food((new Food.Builder()).hunger(4).saturation(0.300000011920929f).setAlwaysEdible().build()));
+					.food((new Food.Builder()).hunger(4).saturation(9.6f).setAlwaysEdible().build()));
 			setRegistryName("goldenpear");
 		}
 

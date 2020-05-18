@@ -31,7 +31,7 @@ public class PineStairsBlock extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:pinestairs")
 	public static final Block block = null;
 	public PineStairsBlock(WildWorldElements instance) {
-		super(instance, 27);
+		super(instance, 51);
 	}
 
 	@Override

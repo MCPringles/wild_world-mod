@@ -17,7 +17,7 @@ public class PickaxeTopazItem extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:pickaxetopaz")
 	public static final Item block = null;
 	public PickaxeTopazItem(WildWorldElements instance) {
-		super(instance, 131);
+		super(instance, 182);
 	}
 
 	@Override
@@ -32,7 +32,7 @@ public class PickaxeTopazItem extends WildWorldElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 1.5f;
+				return 3f;
 			}
 
 			public int getHarvestLevel() {

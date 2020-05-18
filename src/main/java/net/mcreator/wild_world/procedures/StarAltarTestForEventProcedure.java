@@ -10,7 +10,7 @@ import net.mcreator.wild_world.WildWorldElements;
 @WildWorldElements.ModElement.Tag
 public class StarAltarTestForEventProcedure extends WildWorldElements.ModElement {
 	public StarAltarTestForEventProcedure(WildWorldElements instance) {
-		super(instance, 215);
+		super(instance, 262);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

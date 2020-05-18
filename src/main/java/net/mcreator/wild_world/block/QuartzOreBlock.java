@@ -45,7 +45,7 @@ public class QuartzOreBlock extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:quartzore")
 	public static final Block block = null;
 	public QuartzOreBlock(WildWorldElements instance) {
-		super(instance, 44);
+		super(instance, 73);
 	}
 
 	@Override

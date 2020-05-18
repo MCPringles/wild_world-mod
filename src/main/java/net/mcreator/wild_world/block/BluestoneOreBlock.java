@@ -42,7 +42,7 @@ public class BluestoneOreBlock extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:bluestoneore")
 	public static final Block block = null;
 	public BluestoneOreBlock(WildWorldElements instance) {
-		super(instance, 53);
+		super(instance, 82);
 	}
 
 	@Override

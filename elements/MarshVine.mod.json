@@ -58,7 +58,7 @@
     "soundOnStep": {
       "value": "GROUND"
     },
-    "luminance": 0.0,
+    "luminance": 0.5,
     "unbreakable": false,
     "breakHarvestLevel": -1,
     "spawnParticles": false,

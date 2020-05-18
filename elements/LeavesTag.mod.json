@@ -1,0 +1,52 @@
+{
+  "_fv": 6,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:PineLeaves"
+      },
+      {
+        "value": "CUSTOM:MapleLeaves"
+      },
+      {
+        "value": "CUSTOM:BlossieLeaves"
+      },
+      {
+        "value": "CUSTOM:PalmLeaves"
+      },
+      {
+        "value": "CUSTOM:MarshLeaves"
+      },
+      {
+        "value": "Blocks.LEAVES#0"
+      },
+      {
+        "value": "Blocks.LEAVES#1"
+      },
+      {
+        "value": "Blocks.LEAVES#2"
+      },
+      {
+        "value": "Blocks.LEAVES#3"
+      },
+      {
+        "value": "Blocks.LEAVES2#0"
+      },
+      {
+        "value": "Blocks.LEAVES2#1"
+      },
+      {
+        "value": "CUSTOM:WillowLeaves"
+      },
+      {
+        "value": "CUSTOM:Luminode"
+      }
+    ],
+    "functions": [],
+    "name": "leaves",
+    "namespace": "minecraft"
+  }
+}

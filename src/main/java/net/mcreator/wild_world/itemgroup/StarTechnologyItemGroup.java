@@ -13,7 +13,7 @@ import net.mcreator.wild_world.WildWorldElements;
 @WildWorldElements.ModElement.Tag
 public class StarTechnologyItemGroup extends WildWorldElements.ModElement {
 	public StarTechnologyItemGroup(WildWorldElements instance) {
-		super(instance, 230);
+		super(instance, 277);
 	}
 
 	@Override

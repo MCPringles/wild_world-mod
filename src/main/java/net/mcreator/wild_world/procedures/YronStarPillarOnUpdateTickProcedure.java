@@ -15,7 +15,7 @@ import net.mcreator.wild_world.WildWorldElements;
 @WildWorldElements.ModElement.Tag
 public class YronStarPillarOnUpdateTickProcedure extends WildWorldElements.ModElement {
 	public YronStarPillarOnUpdateTickProcedure(WildWorldElements instance) {
-		super(instance, 323);
+		super(instance, 369);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

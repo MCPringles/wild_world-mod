@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "wild_world:blocks/driftwoodplanks",
+    "top": "wild_world:blocks/driftwoodplanks",
+    "side": "wild_world:blocks/driftwoodplanks"
+  }
+}

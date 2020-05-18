@@ -7,7 +7,7 @@ import net.mcreator.wild_world.WildWorldElements;
 @WildWorldElements.ModElement.Tag
 public class DiamondCrystalSharpProcedure extends WildWorldElements.ModElement {
 	public DiamondCrystalSharpProcedure(WildWorldElements instance) {
-		super(instance, 366);
+		super(instance, 400);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {
@@ -16,6 +16,6 @@ public class DiamondCrystalSharpProcedure extends WildWorldElements.ModElement {
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
-		entity.fallDistance = (float) (-4);
+		entity.fallDistance = (float) (-5);
 	}
 }

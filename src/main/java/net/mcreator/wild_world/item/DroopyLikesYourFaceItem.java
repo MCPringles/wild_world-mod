@@ -16,7 +16,7 @@ public class DroopyLikesYourFaceItem extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:droopylikesyourface")
 	public static final Item block = null;
 	public DroopyLikesYourFaceItem(WildWorldElements instance) {
-		super(instance, 73);
+		super(instance, 118);
 	}
 
 	@Override

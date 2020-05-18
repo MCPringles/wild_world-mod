@@ -1,0 +1,48 @@
+{
+  "_fv": 6,
+  "_type": "potion",
+  "definition": {
+    "name": "Potion of Wounding",
+    "effectName": "Bleeding Wound",
+    "icon": "icon_wound.png",
+    "color": {
+      "value": -11921641,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": true,
+    "isBenefitical": false,
+    "registerPotionType": false,
+    "curativeItems": [
+      {
+        "value": "CUSTOM:GoldenPear"
+      },
+      {
+        "value": "CUSTOM:PringlePear"
+      },
+      {
+        "value": "Items.GOLDEN_APPLE#0"
+      },
+      {
+        "value": "Items.GOLDEN_APPLE#1"
+      },
+      {
+        "value": "Items.GOLDEN_CARROT"
+      },
+      {
+        "value": "CUSTOM:SyrupBottle"
+      },
+      {
+        "value": "CUSTOM:BirchSyrupBottle"
+      }
+    ],
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onActiveTick": {
+      "name": "WoundTick"
+    },
+    "onExpired": {
+      "name": "WoundEnd"
+    }
+  }
+}

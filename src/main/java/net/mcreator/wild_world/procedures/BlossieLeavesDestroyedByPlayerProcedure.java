@@ -7,16 +7,16 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.item.ItemEntity;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.Entity;
-import net.minecraft.block.Blocks;
 
 import net.mcreator.wild_world.item.BlossieFruitItem;
+import net.mcreator.wild_world.block.BlossieSaplingBlock;
 import net.mcreator.wild_world.block.BlossieLeavesBlock;
 import net.mcreator.wild_world.WildWorldElements;
 
 @WildWorldElements.ModElement.Tag
 public class BlossieLeavesDestroyedByPlayerProcedure extends WildWorldElements.ModElement {
 	public BlossieLeavesDestroyedByPlayerProcedure(WildWorldElements instance) {
-		super(instance, 205);
+		super(instance, 254);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {
@@ -57,7 +57,7 @@ public class BlossieLeavesDestroyedByPlayerProcedure extends WildWorldElements.M
 				}
 				if ((Math.random() <= 0.05)) {
 					if (!world.isRemote) {
-						ItemEntity entityToSpawn = new ItemEntity(world, x, y, z, new ItemStack(Blocks.BIRCH_SAPLING, (int) (1)));
+						ItemEntity entityToSpawn = new ItemEntity(world, x, y, z, new ItemStack(BlossieSaplingBlock.block, (int) (1)));
 						entityToSpawn.setPickupDelay(10);
 						world.addEntity(entityToSpawn);
 					}

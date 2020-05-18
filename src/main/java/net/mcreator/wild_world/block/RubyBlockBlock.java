@@ -28,7 +28,7 @@ public class RubyBlockBlock extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:rubyblock")
 	public static final Block block = null;
 	public RubyBlockBlock(WildWorldElements instance) {
-		super(instance, 37);
+		super(instance, 66);
 	}
 
 	@Override

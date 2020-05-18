@@ -33,7 +33,7 @@ import java.util.Random;
 @WildWorldElements.ModElement.Tag
 public class MapleHouseStructure extends WildWorldElements.ModElement {
 	public MapleHouseStructure(WildWorldElements instance) {
-		super(instance, 192);
+		super(instance, 241);
 	}
 
 	@Override

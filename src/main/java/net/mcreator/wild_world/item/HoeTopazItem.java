@@ -17,7 +17,7 @@ public class HoeTopazItem extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:hoetopaz")
 	public static final Item block = null;
 	public HoeTopazItem(WildWorldElements instance) {
-		super(instance, 134);
+		super(instance, 185);
 	}
 
 	@Override

@@ -1,0 +1,11 @@
+{
+  "group": "truffle",
+  "type": "minecraft:smelting",
+  "experience": 3,
+  "ingredient": {
+    "item": "wild_world:truffle"
+  },
+  "result": {
+    "item": "wild_world:trufflecooked"
+  }
+}

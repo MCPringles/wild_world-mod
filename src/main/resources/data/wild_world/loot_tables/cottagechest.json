@@ -1,0 +1,93 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 1,
+        "max": 2
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "wild_world:yroningot",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 1,
+        "max": 4
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "wild_world:clouditem",
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 1,
+        "max": 3
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "wild_world:blossiefruit",
+          "weight": 100
+        },
+        {
+          "type": "minecraft:item",
+          "name": "wild_world:goldenpear",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "wild_world:pringlepear",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 4,
+        "max": 6
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stick",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 0,
+        "max": 2
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_ingot",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 0,
+        "max": 5
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "wild_world:corn",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

@@ -36,7 +36,7 @@ public class SkyPortalBlock extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:skyportal")
 	public static final Block block = null;
 	public SkyPortalBlock(WildWorldElements instance) {
-		super(instance, 87);
+		super(instance, 134);
 	}
 
 	@Override

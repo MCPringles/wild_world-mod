@@ -30,7 +30,7 @@ public class StarPillarBlock extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:starpillar")
 	public static final Block block = null;
 	public StarPillarBlock(WildWorldElements instance) {
-		super(instance, 114);
+		super(instance, 163);
 	}
 
 	@Override

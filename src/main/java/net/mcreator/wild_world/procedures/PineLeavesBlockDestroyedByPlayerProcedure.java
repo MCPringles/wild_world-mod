@@ -16,7 +16,7 @@ import net.mcreator.wild_world.WildWorldElements;
 @WildWorldElements.ModElement.Tag
 public class PineLeavesBlockDestroyedByPlayerProcedure extends WildWorldElements.ModElement {
 	public PineLeavesBlockDestroyedByPlayerProcedure(WildWorldElements instance) {
-		super(instance, 144);
+		super(instance, 196);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

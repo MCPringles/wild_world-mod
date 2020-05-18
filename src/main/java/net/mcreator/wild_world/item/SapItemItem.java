@@ -15,7 +15,7 @@ public class SapItemItem extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:sapitem")
 	public static final Item block = null;
 	public SapItemItem(WildWorldElements instance) {
-		super(instance, 117);
+		super(instance, 166);
 	}
 
 	@Override

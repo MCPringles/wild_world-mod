@@ -50,7 +50,7 @@ public class WaterPlantBlock extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:waterplant")
 	public static final Block block = null;
 	public WaterPlantBlock(WildWorldElements instance) {
-		super(instance, 363);
+		super(instance, 105);
 	}
 
 	@Override

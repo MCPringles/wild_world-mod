@@ -46,7 +46,7 @@ public class RubyOreBlock extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:rubyore")
 	public static final Block block = null;
 	public RubyOreBlock(WildWorldElements instance) {
-		super(instance, 52);
+		super(instance, 81);
 	}
 
 	@Override

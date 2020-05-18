@@ -15,7 +15,7 @@ public class YronIngotItem extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:yroningot")
 	public static final Item block = null;
 	public YronIngotItem(WildWorldElements instance) {
-		super(instance, 76);
+		super(instance, 121);
 	}
 
 	@Override

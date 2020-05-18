@@ -45,7 +45,7 @@ public class SmokeyQuartzEndOreBlock extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:smokeyquartzendore")
 	public static final Block block = null;
 	public SmokeyQuartzEndOreBlock(WildWorldElements instance) {
-		super(instance, 47);
+		super(instance, 76);
 	}
 
 	@Override

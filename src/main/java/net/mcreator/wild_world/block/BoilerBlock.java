@@ -62,7 +62,7 @@ public class BoilerBlock extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:boiler")
 	public static final TileEntityType<CustomTileEntity> tileEntityType = null;
 	public BoilerBlock(WildWorldElements instance) {
-		super(instance, 69);
+		super(instance, 113);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

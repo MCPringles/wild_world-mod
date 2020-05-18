@@ -70,21 +70,16 @@
     "particleAmount": 4,
     "particleSpawningCondition": "ALWAYS",
     "hasInventory": false,
+    "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
     "inventoryOutSlotIDs": [],
-    "spawnWorldTypes": [
-      "CUSTOM:Sky"
-    ],
+    "spawnWorldTypes": [],
     "restrictionBiomes": [],
-    "blocksToReplace": [
-      {
-        "value": "Blocks.STONE"
-      }
-    ],
+    "blocksToReplace": [],
     "frequencyPerChunks": 4,
     "frequencyOnChunk": 3,
     "minGenerateHeight": 22,

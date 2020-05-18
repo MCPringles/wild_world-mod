@@ -51,7 +51,7 @@ import net.mcreator.wild_world.WildWorldElements;
 public class CrabEntity extends WildWorldElements.ModElement {
 	public static EntityType entity = null;
 	public CrabEntity(WildWorldElements instance) {
-		super(instance, 94);
+		super(instance, 141);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

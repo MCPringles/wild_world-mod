@@ -1,0 +1,42 @@
+{
+  "group": "diamond",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "wild_world:sharddiamond"
+    },
+    "1": {
+      "item": "wild_world:sharddiamond"
+    },
+    "2": {
+      "item": "wild_world:sharddiamond"
+    },
+    "3": {
+      "item": "wild_world:sharddiamond"
+    },
+    "4": {
+      "item": "wild_world:sharddiamond"
+    },
+    "5": {
+      "item": "wild_world:sharddiamond"
+    },
+    "6": {
+      "item": "wild_world:sharddiamond"
+    },
+    "7": {
+      "item": "wild_world:sharddiamond"
+    },
+    "8": {
+      "item": "wild_world:sharddiamond"
+    }
+  },
+  "result": {
+    "item": "minecraft:diamond",
+    "count": 1
+  }
+}

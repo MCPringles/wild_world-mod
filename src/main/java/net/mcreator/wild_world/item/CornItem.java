@@ -21,7 +21,7 @@ public class CornItem extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:corn")
 	public static final Item block = null;
 	public CornItem(WildWorldElements instance) {
-		super(instance, 129);
+		super(instance, 178);
 	}
 
 	@Override
@@ -30,8 +30,7 @@ public class CornItem extends WildWorldElements.ModElement {
 	}
 	public static class FoodItemCustom extends Item {
 		public FoodItemCustom() {
-			super(new Item.Properties().group(ItemGroup.FOOD).maxStackSize(64)
-					.food((new Food.Builder()).hunger(3).saturation(0.300000011920929f).build()));
+			super(new Item.Properties().group(ItemGroup.FOOD).maxStackSize(64).food((new Food.Builder()).hunger(3).saturation(3.6f).build()));
 			setRegistryName("corn");
 		}
 

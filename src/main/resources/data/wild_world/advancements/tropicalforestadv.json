@@ -23,11 +23,7 @@
     }
   },
   "rewards": {
-    "experience": 0,
-    "recipes": [
-      "wild_world:halvecoconut",
-      "wild_world:axethecoconut"
-    ]
+    "experience": 0
   },
   "parent": "wild_world:wildworldadvancements"
 }

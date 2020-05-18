@@ -21,7 +21,7 @@ import com.mojang.brigadier.arguments.StringArgumentType;
 @WildWorldElements.ModElement.Tag
 public class DebugModeCommand extends WildWorldElements.ModElement {
 	public DebugModeCommand(WildWorldElements instance) {
-		super(instance, 377);
+		super(instance, 403);
 	}
 
 	@Override

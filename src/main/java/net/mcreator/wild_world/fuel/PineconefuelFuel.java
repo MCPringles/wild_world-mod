@@ -13,7 +13,7 @@ import net.mcreator.wild_world.WildWorldElements;
 @WildWorldElements.ModElement.Tag
 public class PineconefuelFuel extends WildWorldElements.ModElement {
 	public PineconefuelFuel(WildWorldElements instance) {
-		super(instance, 149);
+		super(instance, 199);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 

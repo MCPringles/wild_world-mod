@@ -32,13 +32,13 @@ public class BambooTrapdoorBlock extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:bambootrapdoor")
 	public static final Block block = null;
 	public BambooTrapdoorBlock(WildWorldElements instance) {
-		super(instance, 54);
+		super(instance, 114);
 	}
 
 	@Override
 	public void initElements() {
 		elements.blocks.add(() -> new CustomBlock());
-		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(ItemGroup.DECORATIONS)).setRegistryName(block.getRegistryName()));
+		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(ItemGroup.REDSTONE)).setRegistryName(block.getRegistryName()));
 	}
 	public static class CustomBlock extends TrapDoorBlock {
 		public CustomBlock() {

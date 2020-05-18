@@ -3,13 +3,13 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "armortopaz_head",
+    "textureHelmet": "helmet_topaz",
     "enableBody": true,
-    "textureBody": "armortopaz_body",
+    "textureBody": "chestplate_topaz",
     "enableLeggings": true,
-    "textureLeggings": "armortopaz_leggings",
+    "textureLeggings": "leggings_topaz",
     "enableBoots": true,
-    "textureBoots": "armortopaz_boots",
+    "textureBoots": "boots_topaz",
     "creativeTab": {
       "value": "COMBAT"
     },
@@ -38,6 +38,14 @@
     "damageValueLeggings": 6,
     "damageValueBoots": 3,
     "enchantability": 10,
-    "toughness": 2.0
+    "toughness": 2.0,
+    "equipSound": {
+      "value": "item.armor.equip_diamond"
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:TopazItem"
+      }
+    ]
   }
 }

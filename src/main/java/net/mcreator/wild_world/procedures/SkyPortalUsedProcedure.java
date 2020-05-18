@@ -8,7 +8,7 @@ import net.mcreator.wild_world.WildWorldElements;
 @WildWorldElements.ModElement.Tag
 public class SkyPortalUsedProcedure extends WildWorldElements.ModElement {
 	public SkyPortalUsedProcedure(WildWorldElements instance) {
-		super(instance, 208);
+		super(instance, 256);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

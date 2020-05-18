@@ -55,7 +55,7 @@ public class StarBoxSourceBlock extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:starboxsource")
 	public static final TileEntityType<CustomTileEntity> tileEntityType = null;
 	public StarBoxSourceBlock(WildWorldElements instance) {
-		super(instance, 109);
+		super(instance, 158);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

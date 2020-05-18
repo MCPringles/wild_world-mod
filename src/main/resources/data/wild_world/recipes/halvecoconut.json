@@ -1,9 +1,9 @@
 {
-  "group": "wild_world",
+  "group": "halvecoconut",
   "type": "minecraft:stonecutting",
   "count": 2,
   "ingredient": {
-    "item": "wild_world:coconutitem"
+    "item": "wild_world:coconutblock"
   },
   "result": "wild_world:halvedcoconut"
 }

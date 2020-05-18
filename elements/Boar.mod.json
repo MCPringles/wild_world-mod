@@ -2,7 +2,7 @@
   "_fv": 6,
   "_type": "mob",
   "definition": {
-    "mobName": "Wild Hog",
+    "mobName": "Wild Boar",
     "mobLabel": "",
     "mobModelTexture": "wildboar.png",
     "mobModelName": "Pig",
@@ -12,7 +12,7 @@
     "armorBaseValue": 0.2,
     "hasSpawnEgg": true,
     "spawnEggBaseColor": {
-      "value": -2066055,
+      "value": -1073763,
       "falpha": 0.0
     },
     "spawnEggDotColor": {
@@ -47,9 +47,9 @@
     "mobCreatureType": "UNDEFINED",
     "attackStrength": 2,
     "movementSpeed": 0.30000000000000004,
-    "trackingRange": 16,
+    "trackingRange": 8,
     "health": 10,
-    "xpAmount": 6,
+    "xpAmount": 3,
     "waterMob": false,
     "flyingMob": false,
     "disableCollisions": false,
@@ -89,7 +89,7 @@
     },
     "hasAI": true,
     "aiBase": "(none)",
-    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"97\" y=\"-41\"><next><block type=\"follow_item_in_hands\"><field name=\"speed\">1</field><field name=\"scared\">FALSE</field><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">Items.CARROT</field></block></value><next><block type=\"follow_item_in_hands\"><field name=\"speed\">1</field><field name=\"scared\">FALSE</field><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">Items.POTATO</field></block></value><next><block type=\"follow_item_in_hands\"><field name=\"speed\">1</field><field name=\"scared\">FALSE</field><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">Items.BEETROOT</field></block></value><next><block type=\"attack_entity\"><field name=\"insight\">TRUE</field><field name=\"nearby\">FALSE</field><field name=\"entity\">EntityPlayer</field><next><block type=\"attack_entity\"><field name=\"insight\">TRUE</field><field name=\"nearby\">TRUE</field><field name=\"entity\">EntityPlayerMP</field><next><block type=\"attack_on_collide\"><field name=\"speed\">1.2</field><field name=\"longmemory\">TRUE</field><next><block type=\"attack_action\"><field name=\"callhelp\">TRUE</field><next><block type=\"avoid_entity\"><field name=\"radius\">7</field><field name=\"farspeed\">1</field><field name=\"nearspeed\">1</field><field name=\"entity\">CUSTOM:Boar</field><next><block type=\"avoid_entity\"><field name=\"radius\">8</field><field name=\"farspeed\">1.2</field><field name=\"nearspeed\">1</field><field name=\"entity\">EntityCreeper</field><next><block type=\"watch_closest_entity\"><field name=\"radius\">6</field><field name=\"entity\">EntityLiving</field><next><block type=\"wander\"><field name=\"speed\">1</field><next><block type=\"look_around\"><next><block type=\"swim_in_water\"/></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"97\" y=\"-41\"><next><block type=\"follow_item_in_hands\"><field name=\"speed\">1</field><field name=\"scared\">FALSE</field><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">Items.CARROT</field></block></value><next><block type=\"follow_item_in_hands\"><field name=\"speed\">1</field><field name=\"scared\">FALSE</field><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">Items.POTATO</field></block></value><next><block type=\"follow_item_in_hands\"><field name=\"speed\">1</field><field name=\"scared\">FALSE</field><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">Items.BEETROOT</field></block></value><next><block type=\"attack_action\"><field name=\"callhelp\">TRUE</field><next><block type=\"attack_entity\"><field name=\"insight\">TRUE</field><field name=\"nearby\">TRUE</field><field name=\"entity\">EntityPlayer</field><next><block type=\"attack_entity\"><field name=\"insight\">TRUE</field><field name=\"nearby\">TRUE</field><field name=\"entity\">EntityPlayerMP</field><next><block type=\"attack_on_collide\"><field name=\"speed\">1.2</field><field name=\"longmemory\">TRUE</field><next><block type=\"avoid_entity\"><field name=\"radius\">7</field><field name=\"farspeed\">1</field><field name=\"nearspeed\">1</field><field name=\"entity\">CUSTOM:Boar</field><next><block type=\"avoid_entity\"><field name=\"radius\">8</field><field name=\"farspeed\">1.2</field><field name=\"nearspeed\">1</field><field name=\"entity\">EntityCreeper</field><next><block type=\"avoid_entity\"><field name=\"radius\">8</field><field name=\"farspeed\">1.2</field><field name=\"nearspeed\">1</field><field name=\"entity\">CUSTOM:AerodusMob</field><next><block type=\"watch_closest_entity\"><field name=\"radius\">6</field><field name=\"entity\">EntityLiving</field><next><block type=\"wander\"><field name=\"speed\">1</field><next><block type=\"look_around\"><next><block type=\"swim_in_water\"/></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>",
     "breedable": true,
     "breedTriggerItems": [
       {

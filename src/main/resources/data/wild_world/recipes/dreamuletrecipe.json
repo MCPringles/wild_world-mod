@@ -1,0 +1,33 @@
+{
+  "group": "dreamulet",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "wild_world:yronnugget"
+    },
+    "1": {
+      "item": "wild_world:yronnugget"
+    },
+    "2": {
+      "item": "wild_world:yronnugget"
+    },
+    "3": {
+      "item": "wild_world:yronnugget"
+    },
+    "5": {
+      "item": "wild_world:yronnugget"
+    },
+    "7": {
+      "item": "wild_world:bluestoneitem"
+    }
+  },
+  "result": {
+    "item": "wild_world:dreamulet",
+    "count": 1
+  }
+}

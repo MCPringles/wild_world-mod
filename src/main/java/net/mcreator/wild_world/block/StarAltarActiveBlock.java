@@ -33,7 +33,7 @@ public class StarAltarActiveBlock extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:staraltaractive")
 	public static final Block block = null;
 	public StarAltarActiveBlock(WildWorldElements instance) {
-		super(instance, 211);
+		super(instance, 258);
 	}
 
 	@Override

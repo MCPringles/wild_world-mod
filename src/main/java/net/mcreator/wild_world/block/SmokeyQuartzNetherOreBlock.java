@@ -45,7 +45,7 @@ public class SmokeyQuartzNetherOreBlock extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:smokeyquartznetherore")
 	public static final Block block = null;
 	public SmokeyQuartzNetherOreBlock(WildWorldElements instance) {
-		super(instance, 48);
+		super(instance, 77);
 	}
 
 	@Override

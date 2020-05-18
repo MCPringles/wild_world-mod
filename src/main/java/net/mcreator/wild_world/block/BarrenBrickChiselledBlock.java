@@ -27,7 +27,7 @@ public class BarrenBrickChiselledBlock extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:barrenbrickchiselled")
 	public static final Block block = null;
 	public BarrenBrickChiselledBlock(WildWorldElements instance) {
-		super(instance, 25);
+		super(instance, 37);
 	}
 
 	@Override

@@ -41,7 +41,7 @@ public class FrigidStoneBlock extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:frigidstone")
 	public static final Block block = null;
 	public FrigidStoneBlock(WildWorldElements instance) {
-		super(instance, 5);
+		super(instance, 6);
 	}
 
 	@Override

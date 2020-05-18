@@ -15,7 +15,7 @@ public class YronNuggetItem extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:yronnugget")
 	public static final Item block = null;
 	public YronNuggetItem(WildWorldElements instance) {
-		super(instance, 77);
+		super(instance, 122);
 	}
 
 	@Override

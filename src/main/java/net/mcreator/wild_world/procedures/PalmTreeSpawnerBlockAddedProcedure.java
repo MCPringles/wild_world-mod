@@ -10,7 +10,7 @@ import net.mcreator.wild_world.WildWorldElements;
 @WildWorldElements.ModElement.Tag
 public class PalmTreeSpawnerBlockAddedProcedure extends WildWorldElements.ModElement {
 	public PalmTreeSpawnerBlockAddedProcedure(WildWorldElements instance) {
-		super(instance, 335);
+		super(instance, 380);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

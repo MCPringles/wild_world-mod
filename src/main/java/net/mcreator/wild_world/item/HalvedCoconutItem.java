@@ -16,7 +16,7 @@ public class HalvedCoconutItem extends WildWorldElements.ModElement {
 	@ObjectHolder("wild_world:halvedcoconut")
 	public static final Item block = null;
 	public HalvedCoconutItem(WildWorldElements instance) {
-		super(instance, 130);
+		super(instance, 179);
 	}
 
 	@Override

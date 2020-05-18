@@ -14,7 +14,7 @@ import net.mcreator.wild_world.WildWorldElements;
 @WildWorldElements.ModElement.Tag
 public class TopazOreBlockDestroyedByPlayerProcedure extends WildWorldElements.ModElement {
 	public TopazOreBlockDestroyedByPlayerProcedure(WildWorldElements instance) {
-		super(instance, 236);
+		super(instance, 283);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {
